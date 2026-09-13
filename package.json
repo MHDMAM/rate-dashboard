@@ -1,0 +1,16 @@
+{
+  "name": "price-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static dashboard tracking exchange rates and precious metal prices from multiple free sources.",
+  "type": "module",
+  "scripts": {
+    "fetch-data": "node scripts/fetch-data.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
