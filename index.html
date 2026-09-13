@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Metal &amp; FX Rate Dashboard</title>
+<link rel="stylesheet" href="assets/style.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <h1>Rate Dashboard</h1>
+    <div class="updated" id="updated-at">Loading&hellip;</div>
+  </div>
+</header>
+
+<main>
+
+  <section class="metals-grid" id="metals-grid" aria-label="Precious metal spot prices">
+    <!-- filled by app.js -->
+  </section>
+
+  <section class="panel" aria-labelledby="fx-heading">
+    <div class="panel-head">
+      <h2 id="fx-heading">Currency exchange rates</h2>
+      <p class="panel-sub">Malaysian money-changer cash rates compared against the interbank mid-market rate. Amounts are RM per 1 unit of foreign currency unless noted.</p>
+    </div>
+    <div class="table-wrap">
+      <table id="fx-table">
+        <thead>
+          <tr>
+            <th>Currency</th>
+            <th>Merchantrade<br /><span class="th-sub">Buy / Sell</span></th>
+            <th>My Money Master<br /><span class="th-sub">Buy / Sell</span></th>
+            <th>Mid-market<br /><span class="th-sub">open.er-api.com</span></th>
+          </tr>
+        </thead>
+        <tbody id="fx-tbody">
+          <tr><td colspan="4" class="muted">Loading&hellip;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="retail-heading">
+    <div class="panel-head">
+      <h2 id="retail-heading">Retail gold &amp; silver bars — Aston &amp; Sons (MY)</h2>
+      <p class="panel-sub">Listed retail prices vs. the implied spot value, so you can see the premium being charged.</p>
+    </div>
+    <div class="table-wrap">
+      <table id="retail-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Category</th>
+            <th>Price (RM)</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody id="retail-tbody">
+          <tr><td colspan="4" class="muted">Loading&hellip;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel" id="status-panel" aria-labelledby="status-heading">
+    <div class="panel-head">
+      <h2 id="status-heading">Sources</h2>
+    </div>
+    <ul id="source-status" class="source-status"></ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>
+    Data refreshes automatically every 30 minutes via a scheduled GitHub Action.
+    Sources: <a href="https://gold-api.com/" target="_blank" rel="noopener">gold-api.com</a>,
+    <a href="https://goldprice.org/" target="_blank" rel="noopener">goldprice.org</a>,
+    <a href="https://www.exchangerate-api.com/" target="_blank" rel="noopener">open.er-api.com</a>,
+    <a href="https://www.frankfurter.app/" target="_blank" rel="noopener">frankfurter.app</a>,
+    <a href="https://rateboard.mtradeasia.com/MY0100141" target="_blank" rel="noopener">Merchantrade Asia</a>,
+    <a href="http://www.mymoneymaster.com.my/Home/full_rate_board" target="_blank" rel="noopener">My Money Master</a>,
+    <a href="https://www.astonandsons.com.my/product-category/gold-bars/" target="_blank" rel="noopener">Aston &amp; Sons</a>.
+  </p>
+  <p class="disclaimer">Informational only — not investment advice. Rates are cached snapshots, not live quotes; verify with the dealer before transacting.</p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
