@@ -49,7 +49,7 @@ function renderMetals(latest, history) {
       <div class="metal-price">$${fmtMoney(usdOz)}<span class="unit">/oz</span></div>
       <div class="metal-sub">RM ${fmtMoney(myrGram)} / gram &middot; source: gold-api.com</div>
       ${compareVal != null ? `<div class="metal-compare">goldprice.org: $${fmtMoney(compareVal)}/oz</div>` : ""}
-      <canvas class="metal-sparkline" id="spark-${def.key}"></canvas>
+      <div class="metal-sparkline"><canvas id="spark-${def.key}"></canvas></div>
     `;
     grid.appendChild(card);
   });

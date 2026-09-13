@@ -152,8 +152,17 @@ main {
   margin-top: 2px;
 }
 .metal-sparkline {
+  position: relative;
+  width: 100%;
   height: 46px;
   margin-top: 10px;
+  overflow: hidden;
+}
+.metal-sparkline canvas {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .panel {
