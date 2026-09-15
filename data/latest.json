@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-15T10:18:03.266Z",
+  "updatedAt": "2026-09-15T15:11:00.264Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4272.299805,
-      "silver": 63.222,
-      "platinum": 1765,
-      "updatedAt": "2026-09-15T10:17:40Z"
+      "gold": 4283.600098,
+      "silver": 63.318001,
+      "platinum": 1768,
+      "updatedAt": "2026-09-15T15:10:40Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.6202,
-        "BRL": 5.9564,
-        "CAD": 1.6041,
-        "CHF": 0.9431,
-        "CNY": 7.7489,
-        "CZK": 24.294,
-        "DKK": 7.4753,
-        "GBP": 0.85598,
-        "HKD": 9.0599,
-        "HUF": 365.33,
-        "IDR": 20398.66,
-        "ILS": 3.527,
-        "INR": 110.3755,
-        "ISK": 139.8,
-        "JPY": 178.52,
-        "KRW": 1555.04,
-        "MXN": 19.72,
-        "MYR": 4.7082,
-        "NOK": 10.767,
-        "NZD": 2.0012,
-        "PHP": 72.619,
-        "PLN": 4.3418,
-        "RON": 5.2568,
-        "SEK": 11.281,
-        "SGD": 1.4676,
-        "THB": 38.407,
-        "TRY": 56.1636,
-        "USD": 1.1551,
-        "ZAR": 18.7695
+        "AUD": 1.6194,
+        "BRL": 5.944,
+        "CAD": 1.6062,
+        "CHF": 0.9441,
+        "CNY": 7.7444,
+        "CZK": 24.292,
+        "DKK": 7.4752,
+        "GBP": 0.8558,
+        "HKD": 9.0518,
+        "HUF": 366.03,
+        "IDR": 20420.4,
+        "ILS": 3.5093,
+        "INR": 110.7285,
+        "ISK": 140,
+        "JPY": 178.86,
+        "KRW": 1568.32,
+        "MXN": 19.7972,
+        "MYR": 4.716,
+        "NOK": 10.785,
+        "NZD": 2.0042,
+        "PHP": 72.467,
+        "PLN": 4.34,
+        "RON": 5.2627,
+        "SEK": 11.274,
+        "SGD": 1.4683,
+        "THB": 38.419,
+        "TRY": 56.1255,
+        "USD": 1.1539,
+        "ZAR": 18.7777
       },
-      "updatedAt": "2026-09-14"
+      "updatedAt": "2026-09-15"
     }
   },
   "myCashRates": {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-09-15T10:18:02.826Z"
+      "updatedAt": "2026-09-15T15:11:00.130Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.001
         }
       ],
-      "updatedAt": "2026-09-15T10:18:03.013Z"
+      "updatedAt": "2026-09-15T15:11:00.262Z"
     }
   },
   "astonAndSons": {
@@ -928,13 +928,13 @@
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/"
       }
     ],
-    "updatedAt": "2026-09-15T10:18:03.262Z"
+    "updatedAt": "2026-09-15T15:11:00.226Z"
   },
   "derived": {
     "usdMyrMid": 4.0762,
-    "goldMyrPerGram": 559.89,
-    "silverMyrPerGram": 8.29,
-    "platinumMyrPerGram": 231.31
+    "goldMyrPerGram": 561.37,
+    "silverMyrPerGram": 8.3,
+    "platinumMyrPerGram": 231.7
   },
   "sourceStatus": [
     {
