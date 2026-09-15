@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-14T21:58:04.797Z",
+  "updatedAt": "2026-09-15T00:25:34.804Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4300.200195,
-      "silver": 63.366001,
-      "platinum": 1769,
-      "updatedAt": "2026-09-14T21:57:39Z"
+      "gold": 4288.700195,
+      "silver": 63.153,
+      "platinum": 1755,
+      "updatedAt": "2026-09-15T00:25:09Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-09-14T21:58:04.611Z"
+      "updatedAt": "2026-09-15T00:25:34.762Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.00102
         }
       ],
-      "updatedAt": "2026-09-14T21:58:04.766Z"
+      "updatedAt": "2026-09-15T00:25:34.803Z"
     }
   },
   "astonAndSons": {
@@ -928,13 +928,13 @@
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/"
       }
     ],
-    "updatedAt": "2026-09-14T21:58:04.797Z"
+    "updatedAt": "2026-09-15T00:25:34.674Z"
   },
   "derived": {
     "usdMyrMid": 4.0702,
-    "goldMyrPerGram": 562.73,
-    "silverMyrPerGram": 8.29,
-    "platinumMyrPerGram": 231.49
+    "goldMyrPerGram": 561.23,
+    "silverMyrPerGram": 8.26,
+    "platinumMyrPerGram": 229.66
   },
   "sourceStatus": [
     {
