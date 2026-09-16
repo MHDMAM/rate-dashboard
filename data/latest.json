@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-16T15:21:39.228Z",
+  "updatedAt": "2026-09-16T19:00:20.099Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4351.899902,
-      "silver": 64.847,
-      "platinum": 1799,
-      "updatedAt": "2026-09-16T15:21:13Z"
+      "gold": 4262.200195,
+      "silver": 63.186001,
+      "platinum": 1757,
+      "updatedAt": "2026-09-16T19:00:13Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-09-16T15:21:39.151Z"
+      "updatedAt": "2026-09-16T19:00:19.368Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.001
         }
       ],
-      "updatedAt": "2026-09-16T15:21:39.207Z"
+      "updatedAt": "2026-09-16T19:00:19.090Z"
     }
   },
   "astonAndSons": {
@@ -804,42 +804,42 @@
       {
         "name": "The Royal Mint – Britannia 1 oz Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 18701,
+        "price": 18397,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-1-oz-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 20 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 12124,
+        "price": 11928,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-20-gram-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 10 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 6159,
+        "price": 6061,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-10-gram-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 5 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 3201,
+        "price": 3151,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-5-gram-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 1 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 750,
+        "price": 740,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-1-gram-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "PAMP Suisse Good Luck Phoenix 5 Gram Gold Bar (Limited Edition)",
         "category": "Gold Bars",
-        "price": 3547,
+        "price": 3498,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-good-luck-phoenix-5-gram-gold-bar-limited-edition/"
       },
@@ -856,6 +856,13 @@
         "price": 980,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-fifa-world-cup-26-1-gram-gold-bar-limited-edition/"
+      },
+      {
+        "name": "Diet Coke® 1 oz Silver Coloured Shaped Coin – Framed with Ice (Limited Edition) (Made by PAMP)",
+        "category": "Silver Bars",
+        "price": 750,
+        "currency": "MYR",
+        "url": "https://www.astonandsons.com.my/product/diet-coke-1-oz-silver-coloured-shaped-coin-framed-with-ice-limited-edition-made-by-pamp/"
       },
       {
         "name": "Coca-Cola® Americana – 1 oz Silver Colorized Round (TEP) (Limited Edition)",
@@ -923,18 +930,18 @@
       {
         "name": "PAMP Silver 1 Kilobar Cast Bar",
         "category": "Gold Bars",
-        "price": 10002,
+        "price": 9817,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/"
       }
     ],
-    "updatedAt": "2026-09-16T15:21:39.228Z"
+    "updatedAt": "2026-09-16T19:00:20.095Z"
   },
   "derived": {
     "usdMyrMid": 4.0844,
-    "goldMyrPerGram": 571.48,
-    "silverMyrPerGram": 8.52,
-    "platinumMyrPerGram": 236.24
+    "goldMyrPerGram": 559.7,
+    "silverMyrPerGram": 8.3,
+    "platinumMyrPerGram": 230.72
   },
   "sourceStatus": [
     {
