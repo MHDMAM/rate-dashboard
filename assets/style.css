@@ -223,7 +223,7 @@ main {
   display: flex;
   flex-direction: column;
 }
-.featured-card-image-wrap { position: relative; }
+.featured-card-image-wrap { position: relative; display: block; }
 .featured-card-image {
   width: 100%;
   aspect-ratio: 1;
