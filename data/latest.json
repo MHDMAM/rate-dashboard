@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-17T06:44:54.869Z",
+  "updatedAt": "2026-09-17T07:16:26.023Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4309.700195,
-      "silver": 63.946999,
-      "platinum": 1793,
-      "updatedAt": "2026-09-17T06:44:44Z"
+      "gold": 4327.299805,
+      "silver": 64.148003,
+      "platinum": 1802,
+      "updatedAt": "2026-09-17T07:16:14Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-09-17T06:44:53.980Z"
+      "updatedAt": "2026-09-17T07:16:18.904Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -576,8 +576,8 @@
         {
           "code": "HKD",
           "unit": "100 Units",
-          "buy": 51.95,
-          "sell": 52.28
+          "buy": 52.05,
+          "sell": 52.35
         },
         {
           "code": "INR",
@@ -661,7 +661,7 @@
           "code": "SGD",
           "unit": "1 Unit",
           "buy": 3.195,
-          "sell": 3.215
+          "sell": 3.21
         },
         {
           "code": "ZAR",
@@ -720,8 +720,8 @@
         {
           "code": "USD",
           "unit": "1 Unit",
-          "buy": 4.08,
-          "sell": 4.1
+          "buy": 4.082,
+          "sell": 4.102
         },
         {
           "code": "VND",
@@ -766,7 +766,7 @@
           "sell": 0.001
         }
       ],
-      "updatedAt": "2026-09-17T06:44:54.186Z"
+      "updatedAt": "2026-09-17T07:16:19.025Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -820,9 +820,11 @@
           "sell": 52.2613
         }
       ],
-      "updatedAt": "2026-09-17T06:44:54.869Z"
+      "updatedAt": "2026-09-17T07:16:21.675Z"
     }
   },
+  "spToday": null,
+  "spTodayGold": null,
   "astonAndSons": {
     "source": "Aston & Sons",
     "sourceUrl": "https://www.astonandsons.com.my/product-category/gold-bars/",
@@ -989,7 +991,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/"
       }
     ],
-    "updatedAt": "2026-09-17T06:44:53.888Z"
+    "updatedAt": "2026-09-17T07:16:26.023Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1252,9 +1254,9 @@
   },
   "derived": {
     "usdMyrMid": 4.0868,
-    "goldMyrPerGram": 566.27,
-    "silverMyrPerGram": 8.4,
-    "platinumMyrPerGram": 235.59
+    "goldMyrPerGram": 568.58,
+    "silverMyrPerGram": 8.43,
+    "platinumMyrPerGram": 236.77
   },
   "sourceStatus": [
     {
@@ -1285,6 +1287,16 @@
     {
       "name": "Bank Negara Malaysia",
       "ok": true
+    },
+    {
+      "name": "SP-Today",
+      "ok": false,
+      "error": "https://sp-today.com/en -> HTTP 403"
+    },
+    {
+      "name": "SP-Today Gold",
+      "ok": false,
+      "error": "https://sp-today.com/en/gold -> HTTP 403"
     },
     {
       "name": "Aston & Sons",
