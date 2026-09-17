@@ -245,10 +245,10 @@ function renderFeatured(latest) {
         : `<div class="featured-card-image placeholder">No image</div>`;
       return `
         <div class="featured-card">
-          <div class="featured-card-image-wrap">
+          <a class="featured-card-image-wrap" href="${p.url}" target="_blank" rel="noopener" aria-label="${p.name}">
             ${image}
             <span class="featured-stock ${p.inStock ? "in" : "out"}">${stockLabel}</span>
-          </div>
+          </a>
           <div class="featured-card-body">
             <div class="featured-card-name"><a href="${p.url}" target="_blank" rel="noopener">${p.name}</a></div>
             <div class="featured-card-meta">
