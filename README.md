@@ -2,14 +2,14 @@
 
 A static dashboard tracking gold/silver/platinum spot prices and Malaysian
 currency exchange rates from several free, keyless sources, refreshed
-automatically every 30 minutes.
+automatically every 5 minutes.
 
 ## How it works
 
 - `scripts/fetch-data.mjs` — a Node script that pulls data from each source
   below and writes `data/latest.json` + `data/history.json`.
 - `.github/workflows/update-data.yml` — a GitHub Actions cron job that runs
-  the script every 30 minutes and commits the updated JSON back to the repo.
+  the script every 5 minutes and commits the updated JSON back to the repo.
 - `index.html` / `assets/` — a plain static page (no build step) that fetches
   those JSON files and renders the dashboard. Deployable as-is to GitHub
   Pages, Netlify, Vercel, or Cloudflare Pages.
@@ -57,7 +57,7 @@ Then open `index.html` with any static file server (opening it directly via
    `data/latest.json` is fresh before anyone visits the site.
 5. Your dashboard will be live at
    `https://<your-username>.github.io/<repo-name>/` within a minute or two,
-   and will keep refreshing itself every 30 minutes via the scheduled
+   and will keep refreshing itself every 5 minutes via the scheduled
    workflow — no server, no hosting cost.
 
 ### Alternatives
@@ -76,22 +76,27 @@ The refresh cadence is set by the `cron` line in
 ```yaml
 on:
   schedule:
-    - cron: "*/30 0-15 * * *"
+    - cron: "*/5 0-15 * * *"
 ```
 
 GitHub Actions cron is five fields — `minute hour day month weekday` — and
-**always in UTC**, never your local time. The current schedule runs every 30
-minutes (`*/30`), only during UTC hours 0–15 (`0-15`), which is 08:00–23:59
+**always in UTC**, never your local time. The current schedule runs every 5
+minutes (`*/5`), only during UTC hours 0–15 (`0-15`), which is 08:00–23:59
 in Malaysia (UTC+8) — i.e. it's paused from 00:00 to 08:00 MYR time to skip
 the overnight hours when rates barely move.
 
 To change it:
-- Every 15 minutes instead of 30 → `*/15 0-15 * * *`
+- Every 15 minutes instead of 5 → `*/15 0-15 * * *`
 - Every hour → `0 0-15 * * *`
-- Resume the overnight pause (run all day again) → `*/30 * * * *`
+- Resume the overnight pause (run all day again) → `*/5 * * * *`
 - Shift the pause window → convert your desired MYR hours to UTC by
   subtracting 8 (e.g. pause 01:00–09:00 MYR = 17:00–00:59 UTC =
-  `*/30 1-16 * * *` for the hours it *should* run).
+  `*/5 1-16 * * *` for the hours it *should* run).
+
+Note: GitHub caps scheduled workflows at a 5-minute minimum interval, and
+during high load across GitHub's infrastructure a schedule can run later
+than requested (GitHub's own disclaimer) — so `*/5` is as fast as this gets
+and won't always land exactly on the minute.
 
 After editing, commit and push — no need to re-enable anything, GitHub picks
 up the new schedule from the file automatically. You can also trigger a run
