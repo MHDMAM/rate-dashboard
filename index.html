@@ -4,8 +4,9 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Metal &amp; FX Rate Dashboard</title>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
 <link rel="stylesheet" href="assets/style.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.1/chart.umd.min.js" defer></script>
 </head>
 <body>
 <header class="topbar">
@@ -21,10 +22,14 @@
     <!-- filled by app.js -->
   </section>
 
+  <section class="priority-strip" id="priority-strip" aria-label="Key currency rates">
+    <!-- filled by app.js -->
+  </section>
+
   <section class="panel" aria-labelledby="fx-heading">
     <div class="panel-head">
       <h2 id="fx-heading">Currency exchange rates</h2>
-      <p class="panel-sub">Malaysian money-changer cash rates compared against the interbank mid-market rate. Amounts are RM per 1 unit of foreign currency unless noted.</p>
+      <p class="panel-sub">Malaysian money-changer cash rates compared against BNM's official rate and the interbank mid-market rate. Amounts are RM per 1 unit of foreign currency unless noted.</p>
     </div>
     <div class="table-wrap">
       <table id="fx-table">
@@ -33,11 +38,12 @@
             <th>Currency</th>
             <th>Merchantrade<br /><span class="th-sub">Buy / Sell</span></th>
             <th>My Money Master<br /><span class="th-sub">Buy / Sell</span></th>
+            <th>BNM<br /><span class="th-sub">Buy / Sell</span></th>
             <th>Mid-market<br /><span class="th-sub">open.er-api.com</span></th>
           </tr>
         </thead>
         <tbody id="fx-tbody">
-          <tr><td colspan="4" class="muted">Loading&hellip;</td></tr>
+          <tr><td colspan="5" class="muted">Loading&hellip;</td></tr>
         </tbody>
       </table>
     </div>
@@ -83,11 +89,12 @@
     <a href="https://www.frankfurter.app/" target="_blank" rel="noopener">frankfurter.app</a>,
     <a href="https://rateboard.mtradeasia.com/MY0100141" target="_blank" rel="noopener">Merchantrade Asia</a>,
     <a href="http://www.mymoneymaster.com.my/Home/full_rate_board" target="_blank" rel="noopener">My Money Master</a>,
+    <a href="https://www.bnm.gov.my/exchange-rates" target="_blank" rel="noopener">Bank Negara Malaysia</a>,
     <a href="https://www.astonandsons.com.my/product-category/gold-bars/" target="_blank" rel="noopener">Aston &amp; Sons</a>.
   </p>
   <p class="disclaimer">Informational only — not investment advice. Rates are cached snapshots, not live quotes; verify with the dealer before transacting.</p>
 </footer>
 
-<script src="assets/app.js"></script>
+<script src="assets/app.js" defer></script>
 </body>
 </html>

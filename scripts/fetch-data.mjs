@@ -128,6 +128,119 @@ async function fetchMerchantrade() {
   };
 }
 
+// BNM publishes official spot rates at fixed daily sessions. We ask for the
+// current MYR-calendar month/day and walk sessions latest-first since earlier
+// sessions may not be published yet on a given day.
+const BNM_CURRENCY_CODES = [
+  "USD", "GBP", "EUR", "CHF", "AUD", "NZD", "CAD", "JPY", "SGD", "HKD",
+  "THB", "CNY", "IDR", "PHP", "VND", "KRW", "INR", "SAR", "AED", "BND",
+  "TWD", "PKR", "BDT", "MMK", "KWD", "QAR",
+];
+
+function myrNow() {
+  return new Date(Date.now() + 8 * 60 * 60 * 1000);
+}
+
+function parseDateParts(text) {
+  const s = text.trim();
+  let m = s.match(/^(\d{1,2})[/-](\d{1,2})[/-](\d{4})$/);
+  if (m) return { d: +m[1], mo: +m[2] - 1, y: +m[3] };
+  m = s.match(/^(\d{4})[/-](\d{1,2})[/-](\d{1,2})$/);
+  if (m) return { d: +m[3], mo: +m[2] - 1, y: +m[1] };
+  m = s.match(/^(\d{1,2})\s+([A-Za-z]{3,})\s+(\d{4})$/);
+  if (m) {
+    const months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
+    const mo = months.indexOf(m[2].slice(0, 3).toLowerCase());
+    if (mo !== -1) return { d: +m[1], mo, y: +m[3] };
+  }
+  return null;
+}
+
+function parseRateCell(text) {
+  const nums = (text.match(/\d+(?:\.\d+)?/g) || []).map(Number);
+  if (nums.length >= 2) return { buy: nums[0], sell: nums[1] };
+  if (nums.length === 1) return { buy: nums[0], sell: nums[0] };
+  return null;
+}
+
+async function fetchBnmSession(sessionTime, monthStart, yearStart) {
+  const params = new URLSearchParams({
+    p_p_id: "bnm_exchange_rate_display_portlet",
+    p_p_lifecycle: "0",
+    p_p_state: "normal",
+    p_p_mode: "view",
+    _bnm_exchange_rate_display_portlet_monthStart: String(monthStart),
+    _bnm_exchange_rate_display_portlet_yearStart: String(yearStart),
+    _bnm_exchange_rate_display_portlet_monthEnd: String(monthStart),
+    _bnm_exchange_rate_display_portlet_yearEnd: String(yearStart),
+    _bnm_exchange_rate_display_portlet_sessionTime: sessionTime,
+    _bnm_exchange_rate_display_portlet_rateType: "SR",
+    _bnm_exchange_rate_display_portlet_quotation: "rm",
+  });
+  const html = await fetchText(`https://www.bnm.gov.my/exchange-rates?${params.toString()}`);
+  const $ = cheerio.load(html);
+  const today = myrNow();
+  const todayParts = { d: today.getUTCDate(), mo: today.getUTCMonth(), y: today.getUTCFullYear() };
+
+  let rates = null;
+  $("table").each((_, table) => {
+    if (rates) return;
+    const $table = $(table);
+    const headerCells = $table.find("thead th, tr:first-child th, tr:first-child td").toArray();
+    const columnCodes = headerCells.map((cell) => {
+      const text = $(cell).text().trim().toUpperCase();
+      return BNM_CURRENCY_CODES.find((code) => text.includes(code)) || null;
+    });
+    if (!columnCodes.some(Boolean)) return;
+
+    $table.find("tbody tr").each((_, row) => {
+      if (rates) return;
+      const cells = $(row).find("td").toArray();
+      if (cells.length === 0) return;
+      const dateParts = parseDateParts($(cells[0]).text());
+      if (!dateParts) return;
+      if (dateParts.d !== todayParts.d || dateParts.mo !== todayParts.mo || dateParts.y !== todayParts.y) return;
+
+      const found = [];
+      cells.forEach((cell, idx) => {
+        const code = columnCodes[idx];
+        if (!code) return;
+        const parsed = parseRateCell($(cell).text());
+        if (parsed) found.push({ code, ...parsed });
+      });
+      if (found.length > 0) rates = found;
+    });
+  });
+
+  if (!rates) throw new Error(`no rows parsed for today at session ${sessionTime}`);
+  return rates;
+}
+
+async function fetchBnm() {
+  const today = myrNow();
+  const monthStart = today.getUTCMonth(); // BNM's own param is 0-indexed (Jan = 0)
+  const yearStart = today.getUTCFullYear();
+  const sessions = ["1700", "1200", "1130", "0900"];
+
+  let lastErr;
+  for (const session of sessions) {
+    try {
+      const rates = await fetchBnmSession(session, monthStart, yearStart);
+      return {
+        source: "Bank Negara Malaysia (BNM)",
+        sourceUrl: "https://www.bnm.gov.my/exchange-rates",
+        session,
+        rateType: "SR",
+        rates,
+        updatedAt: new Date().toISOString(),
+      };
+    } catch (err) {
+      lastErr = err;
+    }
+  }
+  throw lastErr || new Error("no BNM session had today's rates");
+}
+
 async function fetchMyMoneyMaster() {
   const html = await fetchText("http://www.mymoneymaster.com.my/Home/full_rate_board");
   const $ = cheerio.load(html);
@@ -200,13 +313,14 @@ async function loadJsonSafe(p, fallback) {
 async function main() {
   await mkdir(DATA_DIR, { recursive: true });
 
-  const [goldApi, goldPriceOrg, openER, frankfurter, merchantrade, myMoneyMaster, astonAndSons] = await Promise.all([
+  const [goldApi, goldPriceOrg, openER, frankfurter, merchantrade, myMoneyMaster, bnm, astonAndSons] = await Promise.all([
     safe("gold-api.com", fetchGoldApi),
     safe("goldprice.org", fetchGoldPriceOrg),
     safe("open.er-api.com", fetchOpenExchangeRates),
     safe("frankfurter.app", fetchFrankfurter),
     safe("Merchantrade Asia", fetchMerchantrade),
     safe("My Money Master", fetchMyMoneyMaster),
+    safe("Bank Negara Malaysia", fetchBnm),
     safe("Aston & Sons", fetchAstonAndSons),
   ]);
 
@@ -225,6 +339,7 @@ async function main() {
   const myCashRates = {
     merchantrade: merchantrade.ok ? merchantrade.data : previous?.myCashRates?.merchantrade ?? null,
     myMoneyMaster: myMoneyMaster.ok ? myMoneyMaster.data : previous?.myCashRates?.myMoneyMaster ?? null,
+    bnm: bnm.ok ? bnm.data : previous?.myCashRates?.bnm ?? null,
   };
   const astonAndSonsData = astonAndSons.ok ? astonAndSons.data : previous?.astonAndSons ?? null;
 
@@ -243,7 +358,7 @@ async function main() {
     myCashRates,
     astonAndSons: astonAndSonsData,
     derived,
-    sourceStatus: [goldApi, goldPriceOrg, openER, frankfurter, merchantrade, myMoneyMaster, astonAndSons].map((r) => ({
+    sourceStatus: [goldApi, goldPriceOrg, openER, frankfurter, merchantrade, myMoneyMaster, bnm, astonAndSons].map((r) => ({
       name: r.name,
       ok: r.ok,
       error: r.ok ? undefined : r.error,

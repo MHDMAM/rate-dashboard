@@ -165,6 +165,44 @@ main {
   height: 100% !important;
 }
 
+.priority-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+.priority-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.priority-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+.priority-head .flag { font-size: 16px; }
+.priority-rate {
+  font-size: 22px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.priority-sub {
+  color: var(--text-secondary);
+  font-size: 12px;
+  margin-top: 4px;
+}
+.priority-card.syp .syp-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+}
+
 .panel {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -181,7 +219,7 @@ main {
   margin: 0 0 14px;
 }
 
-.table-wrap { overflow-x: auto; }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 
 table {
   width: 100%;
@@ -245,3 +283,21 @@ footer {
 }
 footer a { color: var(--text-secondary); }
 .disclaimer { margin-top: 8px; }
+
+@media (max-width: 640px) {
+  .topbar-inner { padding: 14px 16px 12px; }
+  main { padding: 16px 12px 32px; gap: 20px; }
+  footer { padding: 0 16px 32px; }
+  .metals-grid, .priority-strip { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .metal-card { padding: 14px 14px 6px; }
+  .metal-price { font-size: 22px; }
+  .priority-card { padding: 12px 14px; }
+  .priority-rate { font-size: 19px; }
+  .panel { padding: 14px 14px 16px; }
+  table { font-size: 12px; }
+  th, td { padding: 6px 8px; }
+}
+
+@media (max-width: 380px) {
+  .metals-grid, .priority-strip { grid-template-columns: 1fr; }
+}

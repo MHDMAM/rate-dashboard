@@ -2,7 +2,9 @@ name: Update rate data
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Every 30 min, UTC hours 0-15 only = 08:00-23:59 MYR (UTC+8).
+    # Paused 00:00-08:00 MYR (UTC 16:00-23:59) — see README "Changing the refresh schedule".
+    - cron: "*/30 0-15 * * *"
   workflow_dispatch: {}
   push:
     branches: [main]

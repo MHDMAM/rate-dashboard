@@ -1,5 +1,16 @@
 const METAL_COLORS = { gold: "#c98500", silver: "#6e7681", platinum: "#4a3aa7" };
 
+const CURRENCY_FLAGS = {
+  USD: "🇺🇸", EUR: "🇪🇺", GBP: "🇬🇧", CHF: "🇨🇭", SGD: "🇸🇬", AUD: "🇦🇺",
+  NZD: "🇳🇿", CAD: "🇨🇦", JPY: "🇯🇵", CNY: "🇨🇳", HKD: "🇭🇰", THB: "🇹🇭",
+  IDR: "🇮🇩", PHP: "🇵🇭", VND: "🇻🇳", KRW: "🇰🇷", INR: "🇮🇳", SAR: "🇸🇦",
+  AED: "🇦🇪", BND: "🇧🇳", TWD: "🇹🇼", MYR: "🇲🇾", SYP: "🇸🇾",
+};
+
+function flag(code) {
+  return CURRENCY_FLAGS[code] || "🏳️";
+}
+
 function fmtMoney(n, dp = 2) {
   if (n === null || n === undefined || Number.isNaN(n)) return "—";
   return n.toLocaleString(undefined, { minimumFractionDigits: dp, maximumFractionDigits: dp });
@@ -99,28 +110,48 @@ function renderMetals(latest, history) {
   }
 }
 
-function renderFx(latest) {
-  const tbody = document.getElementById("fx-tbody");
+// open.er-api.com rates are "units of X per 1 USD". Convert to "RM per 1 unit of X"
+// by dividing MYR-per-USD by X-per-USD, then scale to match the per-100/per-1000/etc
+// quoting convention the money-changer boards use for that currency.
+const UNIT_SCALE = { JPY: 100, KRW: 1000, IDR: 1e6, VND: 1e6 };
+
+function myrPerUnit(mid, code) {
+  const perUsd = mid[code];
+  const myrPerUsd = mid.MYR;
+  if (!perUsd || !myrPerUsd) return null;
+  return (myrPerUsd / perUsd) * (UNIT_SCALE[code] || 1);
+}
+
+function buildFxRows(latest) {
   const merch = latest.myCashRates?.merchantrade?.rates || [];
   const mmm = latest.myCashRates?.myMoneyMaster?.rates || [];
-  const mid = latest.fx?.openER?.rates || {};
+  const bnm = latest.myCashRates?.bnm?.rates || [];
 
   // Join on a normalized currency code (strip BIG/SMALL/MEDIUM qualifiers).
   const baseCode = (code) => code.replace(/\s+(BIG|SMALL|MEDIUM)$/i, "").trim();
 
   const rows = new Map();
+  const ensure = (code) => {
+    if (!rows.has(code)) rows.set(code, { code, merchant: null, mmm: null, bnm: null });
+    return rows.get(code);
+  };
   merch.forEach((r) => {
-    const code = baseCode(r.code);
-    if (!rows.has(code)) rows.set(code, { code, label: r.code, merchant: null, mmm: null });
-    const row = rows.get(code);
-    if (!row.merchant || r.code === code) row.merchant = { buy: r.buy, sell: r.sell };
+    ensure(baseCode(r.code)).merchant = { buy: r.buy, sell: r.sell };
   });
   mmm.forEach((r) => {
-    const code = baseCode(r.code);
-    if (!rows.has(code)) rows.set(code, { code, label: r.code, merchant: null, mmm: null });
-    const row = rows.get(code);
-    row.mmm = { buy: r.buy, sell: r.sell };
+    ensure(baseCode(r.code)).mmm = { buy: r.buy, sell: r.sell };
   });
+  bnm.forEach((r) => {
+    ensure(baseCode(r.code)).bnm = { buy: r.buy, sell: r.sell };
+  });
+
+  return rows;
+}
+
+function renderFx(latest) {
+  const tbody = document.getElementById("fx-tbody");
+  const rows = buildFxRows(latest);
+  const mid = latest.fx?.openER?.rates || {};
 
   const priority = ["USD", "SGD", "EUR", "GBP", "AUD", "JPY", "CNY", "THB", "HKD", "IDR"];
   const sorted = [...rows.values()].sort((a, b) => {
@@ -131,31 +162,72 @@ function renderFx(latest) {
   });
 
   if (sorted.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="4" class="muted">No data available.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="5" class="muted">No data available.</td></tr>`;
     return;
   }
 
-  // open.er-api.com rates are "units of X per 1 USD". Convert to "RM per 1 unit of X"
-  // by dividing MYR-per-USD by X-per-USD, then scale to match the per-100/per-1000/etc
-  // quoting convention the money-changer boards use for that currency.
-  const unitScale = { JPY: 100, KRW: 1000, IDR: 1e6, VND: 1e6 };
   tbody.innerHTML = sorted
     .map((row) => {
-      const perUsd = mid[row.code];
-      const myrPerUsd = mid.MYR;
-      const scale = unitScale[row.code] || 1;
-      const myrPerUnit = perUsd && myrPerUsd ? (myrPerUsd / perUsd) * scale : null;
-      const midCell = myrPerUnit != null ? `RM ${fmtMoney(myrPerUnit, 4)}${scale > 1 ? ` /${scale}` : ""}` : "—";
+      const scale = UNIT_SCALE[row.code] || 1;
+      const myrUnit = myrPerUnit(mid, row.code);
+      const midCell = myrUnit != null ? `RM ${fmtMoney(myrUnit, 4)}${scale > 1 ? ` /${scale}` : ""}` : "—";
       return `
         <tr>
-          <td>${row.code}</td>
+          <td>${flag(row.code)} ${row.code}</td>
           <td>${row.merchant ? `${fmtMoney(row.merchant.buy, 4)} / ${fmtMoney(row.merchant.sell, 4)}` : "—"}</td>
           <td>${row.mmm ? `${fmtMoney(row.mmm.buy, 4)} / ${fmtMoney(row.mmm.sell, 4)}` : "—"}</td>
+          <td>${row.bnm ? `${fmtMoney(row.bnm.buy, 4)} / ${fmtMoney(row.bnm.sell, 4)}` : "—"}</td>
           <td>${midCell}</td>
         </tr>
       `;
     })
     .join("");
+}
+
+function renderPriority(latest) {
+  const strip = document.getElementById("priority-strip");
+  const rows = buildFxRows(latest);
+  const mid = latest.fx?.openER?.rates || {};
+
+  const cards = ["USD", "EUR", "CHF"].map((code) => {
+    const row = rows.get(code);
+    const myrUnit = myrPerUnit(mid, code);
+    const rateCell = myrUnit != null ? `RM ${fmtMoney(myrUnit, 4)}` : "—";
+    const cashSub = row?.merchant
+      ? `Cash: ${fmtMoney(row.merchant.buy, 4)} / ${fmtMoney(row.merchant.sell, 4)}`
+      : "";
+    return `
+      <div class="priority-card">
+        <div class="priority-head"><span class="flag">${flag(code)}</span><span class="curr-name">${code}</span></div>
+        <div class="priority-rate">${rateCell}</div>
+        ${cashSub ? `<div class="priority-sub">${cashSub}</div>` : ""}
+      </div>
+    `;
+  });
+
+  // SYP has no Malaysian dealer quotes - show it as "how many SYP per 1 unit of..."
+  // against the currencies people actually transact in, using mid-market crosses.
+  const sypPerUsd = mid.SYP;
+  if (sypPerUsd != null) {
+    const sypRows = [
+      { code: "USD", per: sypPerUsd },
+      { code: "EUR", per: mid.EUR ? sypPerUsd / mid.EUR : null },
+      { code: "CHF", per: mid.CHF ? sypPerUsd / mid.CHF : null },
+      { code: "MYR", per: mid.MYR ? sypPerUsd / mid.MYR : null },
+    ];
+    cards.push(`
+      <div class="priority-card syp">
+        <div class="priority-head"><span class="flag">${flag("SYP")}</span><span class="curr-name">SYP</span></div>
+        <div class="syp-rows">
+          ${sypRows
+            .map((r) => `<div>1 ${flag(r.code)} ${r.code} = ${r.per != null ? fmtMoney(r.per, 0) : "—"} SYP</div>`)
+            .join("")}
+        </div>
+      </div>
+    `);
+  }
+
+  strip.innerHTML = cards.join("");
 }
 
 function renderRetail(latest) {
@@ -199,6 +271,7 @@ async function init() {
 
     updatedEl.textContent = `Updated ${timeAgo(latest.updatedAt)}`;
     renderMetals(latest, history);
+    renderPriority(latest);
     renderFx(latest);
     renderRetail(latest);
     renderStatus(latest);
