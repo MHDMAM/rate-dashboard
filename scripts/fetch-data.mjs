@@ -296,6 +296,115 @@ async function fetchAstonAndSons() {
   };
 }
 
+// --- Curated featured bars: individual product pages, refreshed hourly ---
+// (not every 5-min cron tick - 23 product pages every 5 min would be an
+// impolite load on a small retailer's site for data that barely moves.)
+
+const FEATURED_PRODUCT_URLS = [
+  "https://www.astonandsons.com.my/product/heraeus-1-kg-kilogram-gold-cast-bar-999-9-fine-gold/",
+  "https://www.astonandsons.com.my/product/pamp-1-2-kilobar-gold-cast-bar/",
+  "https://www.astonandsons.com.my/product/pamp-fortuna-100-grams-gold-bar/",
+  "https://www.astonandsons.com.my/product/pamp-100-grams-gold-cast-bar/",
+  "https://www.astonandsons.com.my/product/heraeus-100-gram-gold-cast-bar-999-9-fine-gold/",
+  "https://www.astonandsons.com.my/product/pamp-fortuna-50-grams-gold-bar/",
+  "https://www.astonandsons.com.my/product/pamp-rosa-50-grams-gold-bar/",
+  "https://www.astonandsons.com.my/product/pamp-rosa-100-grams-gold-bar/",
+  "https://www.astonandsons.com.my/product/pamp-50-grams-gold-cast-bar/",
+  "https://www.astonandsons.com.my/product/heraeus-50-gram-gold-cast-bar-999-9-fine-gold/",
+  "https://www.astonandsons.com.my/product/2024-pamp-lunar-calendar-dragon-1-oz-goldd/",
+  "https://www.astonandsons.com.my/product/2023-pamp-suisse-999-9-pure-1oz-gold-bar/",
+  "https://www.astonandsons.com.my/product/pamp-rosa-20-grams-gold-bar/",
+  "https://www.astonandsons.com.my/product/pamp-fortuna-20-grams-gold-bar/",
+  "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/",
+  "https://www.astonandsons.com.my/product/pamp-fortuna-10-grams-gold-bar/",
+  "https://www.astonandsons.com.my/product/pamp-rosa-10-grams-gold-bar/",
+  "https://www.astonandsons.com.my/product/al-etihad-mecca-10-grams-gold-bar-999-9/",
+  "https://www.astonandsons.com.my/product/al-etihad-sunflower-5-grams-gold-hanger-999-9/",
+  "https://www.astonandsons.com.my/product/al-etihad-mecca-5-grams-gold-pendant-999-9/",
+  "https://www.astonandsons.com.my/product/al-etihad-daffodils-5-grams-gold-pendant-999-9/",
+  "https://www.astonandsons.com.my/product/al-etihad-lily-5-grams-gold-pendant-999-9/",
+  "https://www.astonandsons.com.my/product/al-etihad-lady-flower-5-grams-gold-pendant-999-9/",
+];
+
+const FEATURED_REFRESH_MS = 60 * 60 * 1000; // re-scrape at most once an hour
+
+function parseWeight(slug) {
+  const s = slug.toLowerCase();
+  if (s.includes("1-2-kilobar")) return { grams: 500, label: "500g" };
+  let m = s.match(/(\d+(?:\.\d+)?)-?kg\b/);
+  if (m) return { grams: parseFloat(m[1]) * 1000, label: `${m[1]}kg` };
+  m = s.match(/(\d+(?:\.\d+)?)-?kilobar\b/);
+  if (m) return { grams: parseFloat(m[1]) * 1000, label: `${m[1]}kg` };
+  m = s.match(/(\d+(?:\.\d+)?)-?oz\b/);
+  if (m) return { grams: parseFloat(m[1]) * TROY_OZ_IN_GRAMS, label: `${m[1]}oz` };
+  m = s.match(/(\d+(?:\.\d+)?)-?gram/);
+  if (m) return { grams: parseFloat(m[1]), label: `${m[1]}g` };
+  return { grams: null, label: null };
+}
+
+async function fetchFeaturedProduct(url) {
+  const html = await fetchText(url);
+  const $ = cheerio.load(html);
+  const slug = url.replace(/\/$/, "").split("/").pop();
+
+  const name =
+    $(".product_title").first().text().trim() ||
+    $("title").first().text().split("|")[0].trim();
+
+  const priceText =
+    $(".summary .price .woocommerce-Price-amount bdi").last().text() ||
+    $(".summary .price .woocommerce-Price-amount").last().text() ||
+    $(".woocommerce-Price-amount").first().text();
+  const price = parseFloat(priceText.replace(/[^\d.]/g, ""));
+
+  const $galleryImg = $(".as-sp-gallery img").first();
+  let image = $galleryImg.attr("src") || $galleryImg.attr("data-src") || $galleryImg.attr("data-large_image") || null;
+  if (!image) {
+    const srcset = $galleryImg.attr("srcset");
+    if (srcset) image = srcset.split(",")[0].trim().split(" ")[0];
+  }
+
+  const $stock = $(".stock").first();
+  const stockText = $stock.text().trim();
+  const inStock = $stock.length ? !$stock.hasClass("out-of-stock") : true;
+  const countMatch = stockText.match(/(\d+)\s*in stock/i);
+  const stockCount = countMatch ? parseInt(countMatch[1], 10) : null;
+
+  const { grams: weightGrams, label: weightLabel } = parseWeight(slug);
+
+  if (!name || !Number.isFinite(price)) throw new Error(`could not parse product page: ${url}`);
+
+  return {
+    name,
+    url,
+    image,
+    price,
+    inStock,
+    stockCount,
+    weightGrams,
+    weightLabel,
+    metal: slug.includes("silver") ? "silver" : "gold",
+  };
+}
+
+async function fetchFeaturedProducts() {
+  const products = [];
+  for (const url of FEATURED_PRODUCT_URLS) {
+    try {
+      products.push(await fetchFeaturedProduct(url));
+    } catch (err) {
+      console.error(`[warn] featured product failed (${url}):`, err.message);
+    }
+  }
+  if (products.length === 0) throw new Error("no featured products parsed");
+  products.sort((a, b) => (b.weightGrams ?? 0) - (a.weightGrams ?? 0) || b.price - a.price);
+  return {
+    source: "Aston & Sons (featured)",
+    products,
+    updatedAt: new Date().toISOString(),
+  };
+}
+
 function round(n, dp = 2) {
   if (!Number.isFinite(n)) return null;
   const f = 10 ** dp;
@@ -313,18 +422,23 @@ async function loadJsonSafe(p, fallback) {
 async function main() {
   await mkdir(DATA_DIR, { recursive: true });
 
-  const [goldApi, goldPriceOrg, openER, frankfurter, merchantrade, myMoneyMaster, bnm, astonAndSons] = await Promise.all([
-    safe("gold-api.com", fetchGoldApi),
-    safe("goldprice.org", fetchGoldPriceOrg),
-    safe("open.er-api.com", fetchOpenExchangeRates),
-    safe("frankfurter.app", fetchFrankfurter),
-    safe("Merchantrade Asia", fetchMerchantrade),
-    safe("My Money Master", fetchMyMoneyMaster),
-    safe("Bank Negara Malaysia", fetchBnm),
-    safe("Aston & Sons", fetchAstonAndSons),
-  ]);
-
   const previous = await loadJsonSafe(LATEST_PATH, null);
+  const prevFeatured = previous?.featuredProducts ?? null;
+  const featuredIsFresh =
+    prevFeatured?.updatedAt && Date.now() - new Date(prevFeatured.updatedAt).getTime() < FEATURED_REFRESH_MS;
+
+  const [goldApi, goldPriceOrg, openER, frankfurter, merchantrade, myMoneyMaster, bnm, astonAndSons, featured] =
+    await Promise.all([
+      safe("gold-api.com", fetchGoldApi),
+      safe("goldprice.org", fetchGoldPriceOrg),
+      safe("open.er-api.com", fetchOpenExchangeRates),
+      safe("frankfurter.app", fetchFrankfurter),
+      safe("Merchantrade Asia", fetchMerchantrade),
+      safe("My Money Master", fetchMyMoneyMaster),
+      safe("Bank Negara Malaysia", fetchBnm),
+      safe("Aston & Sons", fetchAstonAndSons),
+      featuredIsFresh ? safe("Aston & Sons (featured)", async () => prevFeatured) : safe("Aston & Sons (featured)", fetchFeaturedProducts),
+    ]);
 
   // Prefer live data; fall back to the last good snapshot per-source so a single
   // flaky fetch doesn't blank out that whole card on the dashboard.
@@ -342,6 +456,7 @@ async function main() {
     bnm: bnm.ok ? bnm.data : previous?.myCashRates?.bnm ?? null,
   };
   const astonAndSonsData = astonAndSons.ok ? astonAndSons.data : previous?.astonAndSons ?? null;
+  const featuredProducts = featured.ok ? featured.data : prevFeatured ?? null;
 
   const usdMyrMid = fx.openER?.rates?.MYR ?? null;
   const derived = {
@@ -357,8 +472,9 @@ async function main() {
     fx,
     myCashRates,
     astonAndSons: astonAndSonsData,
+    featuredProducts,
     derived,
-    sourceStatus: [goldApi, goldPriceOrg, openER, frankfurter, merchantrade, myMoneyMaster, bnm, astonAndSons].map((r) => ({
+    sourceStatus: [goldApi, goldPriceOrg, openER, frankfurter, merchantrade, myMoneyMaster, bnm, astonAndSons, featured].map((r) => ({
       name: r.name,
       ok: r.ok,
       error: r.ok ? undefined : r.error,

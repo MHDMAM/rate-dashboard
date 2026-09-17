@@ -230,6 +230,38 @@ function renderPriority(latest) {
   strip.innerHTML = cards.join("");
 }
 
+function renderFeatured(latest) {
+  const grid = document.getElementById("featured-grid");
+  const products = latest.featuredProducts?.products || [];
+  if (products.length === 0) {
+    grid.innerHTML = `<p class="muted">No data available.</p>`;
+    return;
+  }
+  grid.innerHTML = products
+    .map((p) => {
+      const stockLabel = p.inStock ? `In stock${p.stockCount ? ` (${p.stockCount})` : ""}` : "Out of stock";
+      const image = p.image
+        ? `<img class="featured-card-image" src="${p.image}" alt="${p.name}" loading="lazy" />`
+        : `<div class="featured-card-image placeholder">No image</div>`;
+      return `
+        <div class="featured-card">
+          <div class="featured-card-image-wrap">
+            ${image}
+            <span class="featured-stock ${p.inStock ? "in" : "out"}">${stockLabel}</span>
+          </div>
+          <div class="featured-card-body">
+            <div class="featured-card-name"><a href="${p.url}" target="_blank" rel="noopener">${p.name}</a></div>
+            <div class="featured-card-meta">
+              <span class="featured-weight">${p.weightLabel || "—"}</span>
+              <span class="featured-price">RM ${fmtMoney(p.price)}</span>
+            </div>
+          </div>
+        </div>
+      `;
+    })
+    .join("");
+}
+
 function renderRetail(latest) {
   const tbody = document.getElementById("retail-tbody");
   const products = latest.astonAndSons?.products || [];
@@ -272,6 +304,7 @@ async function init() {
     updatedEl.textContent = `Updated ${timeAgo(latest.updatedAt)}`;
     renderMetals(latest, history);
     renderPriority(latest);
+    renderFeatured(latest);
     renderFx(latest);
     renderRetail(latest);
     renderStatus(latest);

@@ -30,9 +30,25 @@ server to keep running.
 | Malaysian money-changer cash rates | [My Money Master](http://www.mymoneymaster.com.my/Home/full_rate_board) | HTML table scrape |
 | Official MYR exchange rates | [Bank Negara Malaysia](https://www.bnm.gov.my/exchange-rates) | HTML scrape of today's spot rate (`SR`), tried at sessions 1700 → 1200 → 1130 → 0900 (latest published session wins) |
 | Retail gold/silver bar prices (MY) | [Aston & Sons](https://www.astonandsons.com.my/product-category/gold-bars/) | HTML scrape of product listings |
+| Featured gold/silver bars (curated, with photo + stock) | [Aston & Sons](https://www.astonandsons.com.my/) | 23 hand-picked product pages, scraped individually — see below for the refresh cadence |
 
 `xe.com` was left out: it has no free public API and actively blocks
 scraping, so nothing there is reliably automatable without a paid plan.
+
+### Featured bars refresh separately
+
+The "Featured gold & silver bars" grid scrapes 23 individual product pages
+rather than a category listing. Hitting 23 pages every 5 minutes (288
+times/day per page) would be an inconsiderate load on a small retailer's
+site for data — a specific bar's price and stock count — that doesn't
+change minute to minute. So `fetchFeaturedProducts()` in
+`scripts/fetch-data.mjs` is gated behind `FEATURED_REFRESH_MS` (1 hour): the
+cron still runs every 5 minutes for FX/metals, but it only re-fetches the
+featured product pages when the cached copy is over an hour old, reusing
+`data/latest.json`'s last snapshot otherwise. To add/remove products, edit
+the `FEATURED_PRODUCT_URLS` array; weight is parsed from the URL slug
+(grams/kg/kilobar/oz all handled), and the grid sorts by weight then price,
+both descending.
 
 ## Local development
 
