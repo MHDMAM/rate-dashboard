@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-17T07:16:26.023Z",
+  "updatedAt": "2026-09-17T07:23:14.570Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4327.299805,
-      "silver": 64.148003,
-      "platinum": 1802,
-      "updatedAt": "2026-09-17T07:16:14Z"
+      "gold": 4321.100098,
+      "silver": 64.099998,
+      "platinum": 1800,
+      "updatedAt": "2026-09-17T07:22:44Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-09-17T07:16:18.904Z"
+      "updatedAt": "2026-09-17T07:23:12.468Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -529,7 +529,7 @@
           "code": "AUD",
           "unit": "1 Unit",
           "buy": 2.885,
-          "sell": 2.915
+          "sell": 2.9144
         },
         {
           "code": "BHD",
@@ -766,7 +766,7 @@
           "sell": 0.001
         }
       ],
-      "updatedAt": "2026-09-17T07:16:19.025Z"
+      "updatedAt": "2026-09-17T07:23:12.671Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -820,7 +820,7 @@
           "sell": 52.2613
         }
       ],
-      "updatedAt": "2026-09-17T07:16:21.675Z"
+      "updatedAt": "2026-09-17T07:23:14.570Z"
     }
   },
   "spToday": null,
@@ -991,7 +991,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/"
       }
     ],
-    "updatedAt": "2026-09-17T07:16:26.023Z"
+    "updatedAt": "2026-09-17T07:23:12.466Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1254,9 +1254,9 @@
   },
   "derived": {
     "usdMyrMid": 4.0868,
-    "goldMyrPerGram": 568.58,
-    "silverMyrPerGram": 8.43,
-    "platinumMyrPerGram": 236.77
+    "goldMyrPerGram": 567.77,
+    "silverMyrPerGram": 8.42,
+    "platinumMyrPerGram": 236.51
   },
   "sourceStatus": [
     {
@@ -1291,12 +1291,12 @@
     {
       "name": "SP-Today",
       "ok": false,
-      "error": "https://sp-today.com/en -> HTTP 403"
+      "error": "https://r.jina.ai/https://sp-today.com/en -> HTTP 403"
     },
     {
       "name": "SP-Today Gold",
       "ok": false,
-      "error": "https://sp-today.com/en/gold -> HTTP 403"
+      "error": "https://r.jina.ai/https://sp-today.com/en/gold -> HTTP 403"
     },
     {
       "name": "Aston & Sons",
