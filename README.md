@@ -28,6 +28,7 @@ server to keep running.
 | General FX mid-market rates (ECB) | [frankfurter.app](https://www.frankfurter.app/) | Free, no key |
 | Malaysian money-changer cash rates | [Merchantrade Asia rateboard](https://rateboard.mtradeasia.com/MY0100141) | Public JSON endpoint used by their own display board |
 | Malaysian money-changer cash rates | [My Money Master](http://www.mymoneymaster.com.my/Home/full_rate_board) | HTML table scrape |
+| Official MYR exchange rates | [Bank Negara Malaysia](https://www.bnm.gov.my/exchange-rates) | HTML scrape of today's spot rate (`SR`), tried at sessions 1700 → 1200 → 1130 → 0900 (latest published session wins) |
 | Retail gold/silver bar prices (MY) | [Aston & Sons](https://www.astonandsons.com.my/product-category/gold-bars/) | HTML scrape of product listings |
 
 `xe.com` was left out: it has no free public API and actively blocks
@@ -66,6 +67,36 @@ to **Netlify** or **Vercel** (drag-and-drop or connect the repo) if you'd
 rather use those instead of GitHub Pages — you'd just keep using the GitHub
 Actions workflow to refresh `data/*.json`, since both platforms build from
 the same git repo.
+
+## Changing the refresh schedule
+
+The refresh cadence is set by the `cron` line in
+`.github/workflows/update-data.yml`:
+
+```yaml
+on:
+  schedule:
+    - cron: "*/30 0-15 * * *"
+```
+
+GitHub Actions cron is five fields — `minute hour day month weekday` — and
+**always in UTC**, never your local time. The current schedule runs every 30
+minutes (`*/30`), only during UTC hours 0–15 (`0-15`), which is 08:00–23:59
+in Malaysia (UTC+8) — i.e. it's paused from 00:00 to 08:00 MYR time to skip
+the overnight hours when rates barely move.
+
+To change it:
+- Every 15 minutes instead of 30 → `*/15 0-15 * * *`
+- Every hour → `0 0-15 * * *`
+- Resume the overnight pause (run all day again) → `*/30 * * * *`
+- Shift the pause window → convert your desired MYR hours to UTC by
+  subtracting 8 (e.g. pause 01:00–09:00 MYR = 17:00–00:59 UTC =
+  `*/30 1-16 * * *` for the hours it *should* run).
+
+After editing, commit and push — no need to re-enable anything, GitHub picks
+up the new schedule from the file automatically. You can also trigger a run
+manually any time from the **Actions** tab → **Update rate data** → **Run
+workflow**.
 
 ## Notes / limitations
 
