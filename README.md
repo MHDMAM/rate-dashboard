@@ -31,6 +31,8 @@ server to keep running.
 | Official MYR exchange rates | [Bank Negara Malaysia](https://www.bnm.gov.my/exchange-rates) | HTML scrape of today's spot rate (`SR`), tried at sessions 1700 → 1200 → 1130 → 0900 (latest published session wins) |
 | Retail gold/silver bar prices (MY) | [Aston & Sons](https://www.astonandsons.com.my/product-category/gold-bars/) | HTML scrape of product listings |
 | Featured gold/silver bars (curated, with photo + stock) | [Aston & Sons](https://www.astonandsons.com.my/) | 23 hand-picked product pages, scraped individually — see below for the refresh cadence |
+| Syrian pound parallel-market rate | [SP-Today](https://sp-today.com/en) | HTML scrape, generic pattern match — see caveat below |
+| Local gold prices in Syria (SYP) | [SP-Today](https://sp-today.com/en/gold) | HTML scrape of the "Local Prices (SYP)" section |
 
 `xe.com` was left out: it has no free public API and actively blocks
 scraping, so nothing there is reliably automatable without a paid plan.
@@ -49,6 +51,25 @@ featured product pages when the cached copy is over an hour old, reusing
 the `FEATURED_PRODUCT_URLS` array; weight is parsed from the URL slug
 (grams/kg/kilobar/oz all handled), and the grid sorts by weight then price,
 both descending.
+
+### Why SYP has its own source
+
+The "Mid-market" open.er-api.com feed technically includes a SYP rate, but
+for a currency this volatile and thinly traded, general FX aggregators
+report an official/reference rate that lags what people actually pay on
+Syria's parallel market — the dashboard originally showed ~122 SYP/USD
+from that feed on a day the real rate was 136/137. `fetchSpToday()` scrapes
+[sp-today.com](https://sp-today.com/en) instead, and the priority strip's
+SYP card now anchors on that real rate when available, only falling back to
+the mid-market figure (labeled as such) if SP-Today is unreachable.
+
+Both `fetchSpToday()` and `fetchSpTodayGold()` use a generic pattern match
+(currency/karat label followed by nearby numbers) rather than fixed CSS
+selectors, since the exact page markup wasn't inspectable from this
+project's dev environment — check `sourceStatus` in `data/latest.json`
+(or the Sources panel on the page) after a run to confirm they're parsing
+correctly, and adjust the regex in `scripts/fetch-data.mjs` if the site's
+layout doesn't match.
 
 ## Local development
 

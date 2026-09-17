@@ -264,6 +264,85 @@ async function fetchMyMoneyMaster() {
   };
 }
 
+// --- Syrian pound parallel-market rate (general FX feeds only carry an
+// official/reference SYP rate that lags the real street rate people use) ---
+
+const SP_TODAY_CURRENCY_CODES = ["USD", "EUR", "TRY", "GBP", "SAR", "AED", "JOD"];
+
+async function fetchSpToday() {
+  const html = await fetchText("https://sp-today.com/en");
+  const rates = [];
+  SP_TODAY_CURRENCY_CODES.forEach((code) => {
+    // Generic pattern: currency code followed within a short span by two
+    // numbers (buy/sell). Works whether the value is in rendered text or a
+    // JSON blob embedded in a <script> tag, since we scan the raw HTML.
+    const re = new RegExp(`${code}[^0-9]{0,25}(\\d{2,6}(?:\\.\\d+)?)[^0-9]{1,15}(\\d{2,6}(?:\\.\\d+)?)`, "i");
+    const m = html.match(re);
+    if (!m) return;
+    const buy = parseFloat(m[1]);
+    const sell = parseFloat(m[2]);
+    if (buy > 5 && sell > 5) rates.push({ code, buy, sell });
+  });
+  if (rates.length === 0) throw new Error("no rates parsed - page may be JS-rendered or structure changed");
+  return {
+    source: "SP-Today",
+    sourceUrl: "https://sp-today.com/en",
+    rates,
+    updatedAt: new Date().toISOString(),
+  };
+}
+
+async function fetchSpTodayGold() {
+  const html = await fetchText("https://sp-today.com/en/gold");
+  const $ = cheerio.load(html);
+
+  // Anchor on the "Local Prices (SYP)" heading specifically - the page also
+  // shows a USD-priced international section we don't want mixed in.
+  let heading = null;
+  $("h1, h2, h3, h4, div, span").each((_, el) => {
+    if (heading) return;
+    const text = $(el).text().trim();
+    if (/local prices/i.test(text) && text.length < 60) heading = $(el);
+  });
+
+  const items = [];
+  if (heading) {
+    let table = heading.nextAll("table").first();
+    if (table.length === 0) table = heading.closest("section, div").find("table").first();
+    table.find("tr").each((_, row) => {
+      const cells = $(row)
+        .find("td, th")
+        .toArray()
+        .map((c) => $(c).text().trim());
+      if (cells.length < 2) return;
+      const label = cells[0];
+      const price = parseFloat(cells[cells.length - 1].replace(/[^\d.]/g, ""));
+      if (label && Number.isFinite(price) && price > 0) items.push({ label, price });
+    });
+  }
+
+  if (items.length === 0) {
+    // Fallback: scan for common karat labels near a price anywhere on the page.
+    const text = $("body").text().replace(/\s+/g, " ");
+    ["24", "22", "21", "18"].forEach((karat) => {
+      const re = new RegExp(`${karat}\\s*(?:k|karat)[^0-9]{0,20}(\\d{2,8}(?:\\.\\d+)?)`, "i");
+      const m = text.match(re);
+      if (m) {
+        const price = parseFloat(m[1]);
+        if (price > 100) items.push({ label: `${karat}K`, price });
+      }
+    });
+  }
+
+  if (items.length === 0) throw new Error("no local gold prices parsed - page structure may have changed");
+  return {
+    source: "SP-Today (gold)",
+    sourceUrl: "https://sp-today.com/en/gold",
+    items,
+    updatedAt: new Date().toISOString(),
+  };
+}
+
 // --- Local retail: physical gold/silver bar listings ---
 
 async function fetchAstonAndSons() {
@@ -427,18 +506,31 @@ async function main() {
   const featuredIsFresh =
     prevFeatured?.updatedAt && Date.now() - new Date(prevFeatured.updatedAt).getTime() < FEATURED_REFRESH_MS;
 
-  const [goldApi, goldPriceOrg, openER, frankfurter, merchantrade, myMoneyMaster, bnm, astonAndSons, featured] =
-    await Promise.all([
-      safe("gold-api.com", fetchGoldApi),
-      safe("goldprice.org", fetchGoldPriceOrg),
-      safe("open.er-api.com", fetchOpenExchangeRates),
-      safe("frankfurter.app", fetchFrankfurter),
-      safe("Merchantrade Asia", fetchMerchantrade),
-      safe("My Money Master", fetchMyMoneyMaster),
-      safe("Bank Negara Malaysia", fetchBnm),
-      safe("Aston & Sons", fetchAstonAndSons),
-      featuredIsFresh ? safe("Aston & Sons (featured)", async () => prevFeatured) : safe("Aston & Sons (featured)", fetchFeaturedProducts),
-    ]);
+  const [
+    goldApi,
+    goldPriceOrg,
+    openER,
+    frankfurter,
+    merchantrade,
+    myMoneyMaster,
+    bnm,
+    spToday,
+    spTodayGold,
+    astonAndSons,
+    featured,
+  ] = await Promise.all([
+    safe("gold-api.com", fetchGoldApi),
+    safe("goldprice.org", fetchGoldPriceOrg),
+    safe("open.er-api.com", fetchOpenExchangeRates),
+    safe("frankfurter.app", fetchFrankfurter),
+    safe("Merchantrade Asia", fetchMerchantrade),
+    safe("My Money Master", fetchMyMoneyMaster),
+    safe("Bank Negara Malaysia", fetchBnm),
+    safe("SP-Today", fetchSpToday),
+    safe("SP-Today Gold", fetchSpTodayGold),
+    safe("Aston & Sons", fetchAstonAndSons),
+    featuredIsFresh ? safe("Aston & Sons (featured)", async () => prevFeatured) : safe("Aston & Sons (featured)", fetchFeaturedProducts),
+  ]);
 
   // Prefer live data; fall back to the last good snapshot per-source so a single
   // flaky fetch doesn't blank out that whole card on the dashboard.
@@ -455,6 +547,8 @@ async function main() {
     myMoneyMaster: myMoneyMaster.ok ? myMoneyMaster.data : previous?.myCashRates?.myMoneyMaster ?? null,
     bnm: bnm.ok ? bnm.data : previous?.myCashRates?.bnm ?? null,
   };
+  const spTodayData = spToday.ok ? spToday.data : previous?.spToday ?? null;
+  const spTodayGoldData = spTodayGold.ok ? spTodayGold.data : previous?.spTodayGold ?? null;
   const astonAndSonsData = astonAndSons.ok ? astonAndSons.data : previous?.astonAndSons ?? null;
   const featuredProducts = featured.ok ? featured.data : prevFeatured ?? null;
 
@@ -471,10 +565,24 @@ async function main() {
     metals,
     fx,
     myCashRates,
+    spToday: spTodayData,
+    spTodayGold: spTodayGoldData,
     astonAndSons: astonAndSonsData,
     featuredProducts,
     derived,
-    sourceStatus: [goldApi, goldPriceOrg, openER, frankfurter, merchantrade, myMoneyMaster, bnm, astonAndSons, featured].map((r) => ({
+    sourceStatus: [
+      goldApi,
+      goldPriceOrg,
+      openER,
+      frankfurter,
+      merchantrade,
+      myMoneyMaster,
+      bnm,
+      spToday,
+      spTodayGold,
+      astonAndSons,
+      featured,
+    ].map((r) => ({
       name: r.name,
       ok: r.ok,
       error: r.ok ? undefined : r.error,

@@ -205,13 +205,19 @@ function renderPriority(latest) {
     `;
   });
 
-  // SYP has no Malaysian dealer quotes - show it as "how many SYP per 1 unit of..."
-  // against the currencies people actually transact in, using mid-market crosses.
-  const sypPerUsd = mid.SYP;
+  // SYP has no Malaysian dealer quotes. Anchor on SP-Today's real parallel-market
+  // USD rate when we have it (general FX feeds carry an official rate that lags
+  // Syria's street rate); only fall back to the mid-market feed's own SYP figure
+  // when SP-Today is unavailable, and say which one is showing.
+  const spUsd = latest.spToday?.rates?.find((r) => r.code === "USD");
+  const spEur = latest.spToday?.rates?.find((r) => r.code === "EUR");
+  const sypPerUsd = spUsd ? (spUsd.buy + spUsd.sell) / 2 : mid.SYP;
+  const isLive = Boolean(spUsd);
+
   if (sypPerUsd != null) {
     const sypRows = [
       { code: "USD", per: sypPerUsd },
-      { code: "EUR", per: mid.EUR ? sypPerUsd / mid.EUR : null },
+      { code: "EUR", per: spEur ? (spEur.buy + spEur.sell) / 2 : mid.EUR ? sypPerUsd / mid.EUR : null },
       { code: "CHF", per: mid.CHF ? sypPerUsd / mid.CHF : null },
       { code: "MYR", per: mid.MYR ? sypPerUsd / mid.MYR : null },
     ];
@@ -223,11 +229,24 @@ function renderPriority(latest) {
             .map((r) => `<div>1 ${flag(r.code)} ${r.code} = ${r.per != null ? fmtMoney(r.per, 0) : "—"} SYP</div>`)
             .join("")}
         </div>
+        <div class="priority-sub">${isLive ? "Source: SP-Today (parallel market)" : "Source: mid-market feed (may lag street rate)"}</div>
       </div>
     `);
   }
 
   strip.innerHTML = cards.join("");
+}
+
+function renderSypGold(latest) {
+  const tbody = document.getElementById("syp-gold-tbody");
+  const items = latest.spTodayGold?.items || [];
+  if (items.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="2" class="muted">No data available.</td></tr>`;
+    return;
+  }
+  tbody.innerHTML = items
+    .map((it) => `<tr><td>${it.label}</td><td>${fmtMoney(it.price, 0)} SYP</td></tr>`)
+    .join("");
 }
 
 function renderFeatured(latest) {
@@ -304,6 +323,7 @@ async function init() {
     updatedEl.textContent = `Updated ${timeAgo(latest.updatedAt)}`;
     renderMetals(latest, history);
     renderPriority(latest);
+    renderSypGold(latest);
     renderFeatured(latest);
     renderFx(latest);
     renderRetail(latest);
