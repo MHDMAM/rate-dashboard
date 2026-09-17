@@ -35,6 +35,14 @@ async function fetchText(url, opts = {}) {
   return res.text();
 }
 
+// Some sites (Cloudflare/WAF-protected) block GitHub Actions' datacenter IPs
+// with a flat 403 regardless of headers. Routing through Jina's free reader
+// proxy fetches from a different network and returns cleaned text/markdown,
+// which sidesteps both the IP block and most client-side rendering.
+async function fetchViaReader(url) {
+  return fetchText(`https://r.jina.ai/${url}`);
+}
+
 async function safe(name, fn) {
   try {
     return { ok: true, name, data: await fn() };
@@ -269,21 +277,34 @@ async function fetchMyMoneyMaster() {
 
 const SP_TODAY_CURRENCY_CODES = ["USD", "EUR", "TRY", "GBP", "SAR", "AED", "JOD"];
 
+// Grabs the text between a heading matching `pattern` and the next markdown
+// heading (or maxLen chars, whichever comes first) - scopes generic regex
+// matching to one section of the reader's output instead of the whole page.
+function extractSection(text, pattern, maxLen = 1200) {
+  const idx = text.search(pattern);
+  if (idx === -1) return null;
+  const rest = text.slice(idx);
+  const nextHeadingIdx = rest.slice(3).search(/\n#{1,4}\s/);
+  const end = nextHeadingIdx === -1 ? maxLen : Math.min(maxLen, nextHeadingIdx + 3);
+  return rest.slice(0, end);
+}
+
 async function fetchSpToday() {
-  const html = await fetchText("https://sp-today.com/en");
+  // sp-today.com 403s GitHub Actions' IP directly, so this goes through the
+  // reader proxy (see fetchViaReader) rather than a raw fetch.
+  const text = await fetchViaReader("https://sp-today.com/en");
   const rates = [];
   SP_TODAY_CURRENCY_CODES.forEach((code) => {
     // Generic pattern: currency code followed within a short span by two
-    // numbers (buy/sell). Works whether the value is in rendered text or a
-    // JSON blob embedded in a <script> tag, since we scan the raw HTML.
+    // numbers (buy/sell).
     const re = new RegExp(`${code}[^0-9]{0,25}(\\d{2,6}(?:\\.\\d+)?)[^0-9]{1,15}(\\d{2,6}(?:\\.\\d+)?)`, "i");
-    const m = html.match(re);
+    const m = text.match(re);
     if (!m) return;
     const buy = parseFloat(m[1]);
     const sell = parseFloat(m[2]);
     if (buy > 5 && sell > 5) rates.push({ code, buy, sell });
   });
-  if (rates.length === 0) throw new Error("no rates parsed - page may be JS-rendered or structure changed");
+  if (rates.length === 0) throw new Error("no rates parsed - page structure may have changed");
   return {
     source: "SP-Today",
     sourceUrl: "https://sp-today.com/en",
@@ -293,42 +314,31 @@ async function fetchSpToday() {
 }
 
 async function fetchSpTodayGold() {
-  const html = await fetchText("https://sp-today.com/en/gold");
-  const $ = cheerio.load(html);
+  const text = await fetchViaReader("https://sp-today.com/en/gold");
 
   // Anchor on the "Local Prices (SYP)" heading specifically - the page also
   // shows a USD-priced international section we don't want mixed in.
-  let heading = null;
-  $("h1, h2, h3, h4, div, span").each((_, el) => {
-    if (heading) return;
-    const text = $(el).text().trim();
-    if (/local prices/i.test(text) && text.length < 60) heading = $(el);
-  });
+  const section = extractSection(text, /local prices/i) || text;
 
   const items = [];
-  if (heading) {
-    let table = heading.nextAll("table").first();
-    if (table.length === 0) table = heading.closest("section, div").find("table").first();
-    table.find("tr").each((_, row) => {
-      const cells = $(row)
-        .find("td, th")
-        .toArray()
-        .map((c) => $(c).text().trim());
-      if (cells.length < 2) return;
-      const label = cells[0];
-      const price = parseFloat(cells[cells.length - 1].replace(/[^\d.]/g, ""));
-      if (label && Number.isFinite(price) && price > 0) items.push({ label, price });
-    });
+  // Reader output renders HTML tables as markdown pipe rows: "| 24K | 615,000 |".
+  const rowRe = /\|\s*([^|\n]{2,40}?)\s*\|\s*([\d,]{2,10}(?:\.\d+)?)\s*\|/g;
+  let m;
+  while ((m = rowRe.exec(section))) {
+    const label = m[1].trim();
+    const price = parseFloat(m[2].replace(/,/g, ""));
+    if (label && !/^[-\s]+$/.test(label) && Number.isFinite(price) && price > 100) {
+      items.push({ label, price });
+    }
   }
 
   if (items.length === 0) {
-    // Fallback: scan for common karat labels near a price anywhere on the page.
-    const text = $("body").text().replace(/\s+/g, " ");
+    // Fallback: scan for common karat labels near a price within the section.
     ["24", "22", "21", "18"].forEach((karat) => {
-      const re = new RegExp(`${karat}\\s*(?:k|karat)[^0-9]{0,20}(\\d{2,8}(?:\\.\\d+)?)`, "i");
-      const m = text.match(re);
-      if (m) {
-        const price = parseFloat(m[1]);
+      const re = new RegExp(`${karat}\\s*(?:k|karat)[^0-9]{0,20}([\\d,]{2,10}(?:\\.\\d+)?)`, "i");
+      const found = section.match(re);
+      if (found) {
+        const price = parseFloat(found[1].replace(/,/g, ""));
         if (price > 100) items.push({ label: `${karat}K`, price });
       }
     });
@@ -405,7 +415,7 @@ const FEATURED_PRODUCT_URLS = [
   "https://www.astonandsons.com.my/product/al-etihad-lady-flower-5-grams-gold-pendant-999-9/",
 ];
 
-const FEATURED_REFRESH_MS = 60 * 60 * 1000; // re-scrape at most once an hour
+const HOURLY_REFRESH_MS = 60 * 60 * 1000; // re-scrape at most once an hour
 
 function parseWeight(slug) {
   const s = slug.toLowerCase();
@@ -504,7 +514,17 @@ async function main() {
   const previous = await loadJsonSafe(LATEST_PATH, null);
   const prevFeatured = previous?.featuredProducts ?? null;
   const featuredIsFresh =
-    prevFeatured?.updatedAt && Date.now() - new Date(prevFeatured.updatedAt).getTime() < FEATURED_REFRESH_MS;
+    prevFeatured?.updatedAt && Date.now() - new Date(prevFeatured.updatedAt).getTime() < HOURLY_REFRESH_MS;
+
+  // SP-Today goes through a shared free reader proxy - be as sparing with it
+  // as with the featured-bar scrape, for the same reason (courtesy + the rate
+  // doesn't move minute to minute anyway).
+  const prevSpToday = previous?.spToday ?? null;
+  const spTodayIsFresh =
+    prevSpToday?.updatedAt && Date.now() - new Date(prevSpToday.updatedAt).getTime() < HOURLY_REFRESH_MS;
+  const prevSpTodayGold = previous?.spTodayGold ?? null;
+  const spTodayGoldIsFresh =
+    prevSpTodayGold?.updatedAt && Date.now() - new Date(prevSpTodayGold.updatedAt).getTime() < HOURLY_REFRESH_MS;
 
   const [
     goldApi,
@@ -526,8 +546,8 @@ async function main() {
     safe("Merchantrade Asia", fetchMerchantrade),
     safe("My Money Master", fetchMyMoneyMaster),
     safe("Bank Negara Malaysia", fetchBnm),
-    safe("SP-Today", fetchSpToday),
-    safe("SP-Today Gold", fetchSpTodayGold),
+    spTodayIsFresh ? safe("SP-Today", async () => prevSpToday) : safe("SP-Today", fetchSpToday),
+    spTodayGoldIsFresh ? safe("SP-Today Gold", async () => prevSpTodayGold) : safe("SP-Today Gold", fetchSpTodayGold),
     safe("Aston & Sons", fetchAstonAndSons),
     featuredIsFresh ? safe("Aston & Sons (featured)", async () => prevFeatured) : safe("Aston & Sons (featured)", fetchFeaturedProducts),
   ]);
@@ -547,8 +567,8 @@ async function main() {
     myMoneyMaster: myMoneyMaster.ok ? myMoneyMaster.data : previous?.myCashRates?.myMoneyMaster ?? null,
     bnm: bnm.ok ? bnm.data : previous?.myCashRates?.bnm ?? null,
   };
-  const spTodayData = spToday.ok ? spToday.data : previous?.spToday ?? null;
-  const spTodayGoldData = spTodayGold.ok ? spTodayGold.data : previous?.spTodayGold ?? null;
+  const spTodayData = spToday.ok ? spToday.data : prevSpToday ?? null;
+  const spTodayGoldData = spTodayGold.ok ? spTodayGold.data : prevSpTodayGold ?? null;
   const astonAndSonsData = astonAndSons.ok ? astonAndSons.data : previous?.astonAndSons ?? null;
   const featuredProducts = featured.ok ? featured.data : prevFeatured ?? null;
 

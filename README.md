@@ -63,13 +63,22 @@ from that feed on a day the real rate was 136/137. `fetchSpToday()` scrapes
 SYP card now anchors on that real rate when available, only falling back to
 the mid-market figure (labeled as such) if SP-Today is unreachable.
 
-Both `fetchSpToday()` and `fetchSpTodayGold()` use a generic pattern match
-(currency/karat label followed by nearby numbers) rather than fixed CSS
-selectors, since the exact page markup wasn't inspectable from this
-project's dev environment — check `sourceStatus` in `data/latest.json`
-(or the Sources panel on the page) after a run to confirm they're parsing
-correctly, and adjust the regex in `scripts/fetch-data.mjs` if the site's
-layout doesn't match.
+sp-today.com blocks requests from GitHub Actions' datacenter IPs with a flat
+`403` (a common WAF/Cloudflare behavior against automated traffic), so both
+`fetchSpToday()` and `fetchSpTodayGold()` go through
+[r.jina.ai](https://r.jina.ai/), a free reader proxy that fetches from a
+different network and returns cleaned text — the same regex-based parsing
+then runs against that text instead of raw HTML. They're also gated behind
+the same `HOURLY_REFRESH_MS` cache as the featured bars, both to be
+considerate of that shared free proxy and because SP-Today's rate doesn't
+move minute to minute.
+
+Both functions use a generic pattern match (currency/karat label followed by
+nearby numbers) rather than fixed CSS selectors, since the exact page markup
+wasn't inspectable from this project's dev environment — check
+`sourceStatus` in `data/latest.json` (or the Sources panel on the page)
+after a run to confirm they're parsing correctly, and adjust the regex in
+`scripts/fetch-data.mjs` if the site's layout doesn't match.
 
 ## Local development
 
