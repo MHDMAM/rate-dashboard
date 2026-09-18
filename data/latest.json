@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-18T01:59:53.300Z",
+  "updatedAt": "2026-09-18T07:08:34.037Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4350.799805,
-      "silver": 65.931999,
-      "platinum": 1791,
-      "updatedAt": "2026-09-18T01:59:20Z"
+      "gold": 4394.200195,
+      "silver": 66.920998,
+      "platinum": 1816,
+      "updatedAt": "2026-09-18T07:08:08Z"
     },
     "goldPriceOrg": null
   },
@@ -235,175 +235,175 @@
           "code": "USD BIG",
           "name": "USD BIG (100,50)",
           "unit": "1",
-          "buy": 4.0829,
-          "sell": 4.105
+          "buy": 4.073,
+          "sell": 4.098
         },
         {
           "code": "USD MEDIUM",
           "name": "USD MEDIUM (10,20)",
           "unit": "1",
-          "buy": 4.0329,
-          "sell": 4.102
+          "buy": 4.023,
+          "sell": 4.08
         },
         {
           "code": "USD SMALL",
           "name": "USD SMALL (1,2,5)",
           "unit": "1",
-          "buy": 4.0329,
-          "sell": 4.102
+          "buy": 4.023,
+          "sell": 4.08
         },
         {
           "code": "SGD BIG",
           "name": "SINGAPORE BIG (1000,500,100,50)",
           "unit": "1",
-          "buy": 3.1959,
-          "sell": 3.225
+          "buy": 3.198,
+          "sell": 3.218
         },
         {
           "code": "SGD SMALL",
           "name": "SINGAPORE SMALL (20,10,5,2)",
           "unit": "1",
-          "buy": 3.1459,
-          "sell": 3.215
+          "buy": 3.148,
+          "sell": 3.205
         },
         {
           "code": "BND",
           "name": "BRUNEI DOLLAR",
           "unit": "1",
-          "buy": 3.1459,
-          "sell": 3.215
+          "buy": 3.148,
+          "sell": 3.205
         },
         {
           "code": "AUD",
           "name": "AUSTRALIAN DOLLAR",
           "unit": "1",
-          "buy": 2.8859,
-          "sell": 2.941
+          "buy": 2.895,
+          "sell": 2.938
         },
         {
           "code": "GBP",
           "name": "GREAT BRITAIN POUND",
           "unit": "1",
-          "buy": 5.4809,
-          "sell": 5.53
+          "buy": 5.465,
+          "sell": 5.525
         },
         {
           "code": "EUR",
           "name": "EURO",
           "unit": "1",
-          "buy": 4.6959,
+          "buy": 4.685,
           "sell": 4.741
         },
         {
           "code": "CHF",
           "name": "SWISS FRANC",
           "unit": "1",
-          "buy": 4.9579,
+          "buy": 4.96,
           "sell": 5.04
         },
         {
           "code": "CAD",
           "name": "CANADIAN DOLLAR",
           "unit": "1",
-          "buy": 2.9059,
-          "sell": 2.945
+          "buy": 2.92,
+          "sell": 2.968
         },
         {
           "code": "NZD",
           "name": "NEW ZEALAND DOLLAR",
           "unit": "1",
-          "buy": 2.3389,
+          "buy": 2.34,
           "sell": 2.412
         },
         {
           "code": "JPY",
           "name": "JAPANESE YEN",
           "unit": "100",
-          "buy": 2.6209,
-          "sell": 2.665
+          "buy": 2.6015,
+          "sell": 2.664
         },
         {
           "code": "HKD",
           "name": "HONG KONG DOLLAR",
           "unit": "100",
-          "buy": 52.208,
-          "sell": 52.55
+          "buy": 51.95,
+          "sell": 52.35
         },
         {
           "code": "CNY",
           "name": "CHINESE RENMINBI",
           "unit": "100",
-          "buy": 61.2509,
-          "sell": 61.55
+          "buy": 61.15,
+          "sell": 61.45
         },
         {
           "code": "THB",
           "name": "THAI BAHT",
           "unit": "100",
-          "buy": 12.2509,
-          "sell": 12.441
+          "buy": 12.275,
+          "sell": 12.434
         },
         {
           "code": "TWD",
           "name": "NEW TAIWAN DOLLAR",
           "unit": "100",
-          "buy": 12.5209,
-          "sell": 12.711
+          "buy": 12.538,
+          "sell": 12.71
         },
         {
           "code": "IDR",
           "name": "INDONESIA RUPIAH",
           "unit": "1M",
-          "buy": 230.9,
+          "buy": 230.5,
           "sell": 234.1
         },
         {
           "code": "INR",
           "name": "INDIAN RUPEE",
           "unit": "100",
-          "buy": 4.2019,
+          "buy": 4.21,
           "sell": 4.288
         },
         {
           "code": "KRW",
           "name": "SOUTH KOREAN WON",
           "unit": "1000",
-          "buy": 2.9789,
-          "sell": 3.052
+          "buy": 2.965,
+          "sell": 3.051
         },
         {
           "code": "PHP",
           "name": "PHILIPPINE PESO",
           "unit": "100",
-          "buy": 6.4589,
+          "buy": 6.505,
           "sell": 6.773
         },
         {
           "code": "VND",
           "name": "VIETNAMESE DONG",
           "unit": "1M",
-          "buy": 158.05,
-          "sell": 162.5
+          "buy": 158.5,
+          "sell": 161.5
         },
         {
           "code": "SAR BIG",
           "name": "SAUDI BIG (500,200)",
           "unit": "100",
-          "buy": 107.5019,
-          "sell": 109.5
+          "buy": 107.3509,
+          "sell": 110.5
         },
         {
           "code": "SAR SMALL",
           "name": "SAUDI SMALL(100, 50,10,5,1)",
           "unit": "100",
-          "buy": 108.5019,
+          "buy": 108.3509,
           "sell": 110.5
         },
         {
           "code": "AED",
           "name": "UAE DIRHAM",
           "unit": "100",
-          "buy": 110,
+          "buy": 109.8019,
           "sell": 112
         },
         {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-09-18T01:59:51.320Z"
+      "updatedAt": "2026-09-18T07:08:33.119Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -528,8 +528,8 @@
         {
           "code": "AUD",
           "unit": "1 Unit",
-          "buy": 2.885,
-          "sell": 2.915
+          "buy": 2.878,
+          "sell": 2.905
         },
         {
           "code": "BHD",
@@ -540,20 +540,20 @@
         {
           "code": "BND",
           "unit": "1 Unit",
-          "buy": 3.19,
-          "sell": 3.208
+          "buy": 3.185,
+          "sell": 3.203
         },
         {
           "code": "CAD",
           "unit": "1 Unit",
-          "buy": 2.915,
-          "sell": 2.945
+          "buy": 2.91,
+          "sell": 2.943
         },
         {
           "code": "CNY",
           "unit": "100 Units",
           "buy": 61,
-          "sell": 61.43
+          "sell": 61.34
         },
         {
           "code": "DKK",
@@ -565,19 +565,19 @@
           "code": "EGP",
           "unit": "100 Units",
           "buy": 8.9,
-          "sell": 9.32
+          "sell": 9.28
         },
         {
           "code": "EUR",
           "unit": "1 Unit",
-          "buy": 4.68,
-          "sell": 4.715
+          "buy": 4.678,
+          "sell": 4.708
         },
         {
           "code": "HKD",
           "unit": "100 Units",
-          "buy": 51.85,
-          "sell": 52.2
+          "buy": 51.9,
+          "sell": 52.25
         },
         {
           "code": "INR",
@@ -588,14 +588,14 @@
         {
           "code": "IDR",
           "unit": "1M Unit",
-          "buy": 231,
-          "sell": 233
+          "buy": 230,
+          "sell": 232.6
         },
         {
           "code": "JPY",
           "unit": "1000 Units",
-          "buy": 26.15,
-          "sell": 26.5
+          "buy": 25.85,
+          "sell": 26.3
         },
         {
           "code": "JOD",
@@ -606,8 +606,8 @@
         {
           "code": "KRW",
           "unit": "1000 Units",
-          "buy": 2.97,
-          "sell": 3.03
+          "buy": 2.95,
+          "sell": 3.014
         },
         {
           "code": "KWD",
@@ -624,8 +624,8 @@
         {
           "code": "NZD",
           "unit": "1 Unit",
-          "buy": 2.34,
-          "sell": 2.392
+          "buy": 2.33,
+          "sell": 2.3865
         },
         {
           "code": "NOK",
@@ -654,14 +654,14 @@
         {
           "code": "SAR",
           "unit": "100 Units",
-          "buy": 108.3,
-          "sell": 109.87
+          "buy": 108.2,
+          "sell": 109.55
         },
         {
           "code": "SGD",
           "unit": "1 Unit",
-          "buy": 3.195,
-          "sell": 3.212
+          "buy": 3.19,
+          "sell": 3.205
         },
         {
           "code": "ZAR",
@@ -672,8 +672,8 @@
         {
           "code": "LKR",
           "unit": "100 Units",
-          "buy": 1.23,
-          "sell": 1.29
+          "buy": 1.225,
+          "sell": 1.27
         },
         {
           "code": "SEK",
@@ -684,26 +684,26 @@
         {
           "code": "CHF",
           "unit": "1 Unit",
-          "buy": 4.955,
-          "sell": 5.013
+          "buy": 4.95,
+          "sell": 5.012
         },
         {
           "code": "TWD",
           "unit": "100 Units",
-          "buy": 12.55,
-          "sell": 12.68
+          "buy": 12.5,
+          "sell": 12.65
         },
         {
           "code": "THB",
           "unit": "100 Units",
-          "buy": 12.26,
-          "sell": 12.36
+          "buy": 12.25,
+          "sell": 12.338
         },
         {
           "code": "TUR",
           "unit": "1 Unit",
           "buy": 0.0855,
-          "sell": 0.0878
+          "sell": 0.0876
         },
         {
           "code": "AED",
@@ -714,32 +714,32 @@
         {
           "code": "GBP",
           "unit": "1 Unit",
-          "buy": 5.455,
-          "sell": 5.505
+          "buy": 5.465,
+          "sell": 5.498
         },
         {
           "code": "USD",
           "unit": "1 Unit",
-          "buy": 4.07,
-          "sell": 4.09
+          "buy": 4.068,
+          "sell": 4.08
         },
         {
           "code": "VND",
           "unit": "1M Unit",
           "buy": 159,
-          "sell": 162.5
+          "sell": 161.5
         },
         {
           "code": "PKR",
           "unit": "100 Units",
-          "buy": 1.39,
-          "sell": 1.57
+          "buy": 1.4,
+          "sell": 1.565
         },
         {
           "code": "BDT",
           "unit": "100 Units",
           "buy": 2.9,
-          "sell": 3.37
+          "sell": 3.36
         },
         {
           "code": "RUB",
@@ -766,61 +766,61 @@
           "sell": 0.001
         }
       ],
-      "updatedAt": "2026-09-18T01:59:50.995Z"
+      "updatedAt": "2026-09-18T07:08:33.210Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
       "sourceUrl": "https://www.bnm.gov.my/exchange-rates",
-      "session": "0900",
+      "session": "1200",
       "rateType": "SR",
       "rates": [
         {
           "code": "USD",
-          "buy": 4.093,
-          "sell": 4.093
+          "buy": 4.081,
+          "sell": 4.081
         },
         {
           "code": "GBP",
-          "buy": 5.4695,
-          "sell": 5.4695
+          "buy": 5.4587,
+          "sell": 5.4587
         },
         {
           "code": "EUR",
-          "buy": 4.6992,
-          "sell": 4.6992
+          "buy": 4.6887,
+          "sell": 4.6887
         },
         {
           "code": "JPY",
-          "buy": 2.6209,
-          "sell": 2.6209
+          "buy": 2.5987,
+          "sell": 2.5987
         },
         {
           "code": "CHF",
-          "buy": 4.9648,
-          "sell": 4.9648
+          "buy": 4.9569,
+          "sell": 4.9569
         },
         {
           "code": "AUD",
-          "buy": 2.9146,
-          "sell": 2.9146
+          "buy": 2.9118,
+          "sell": 2.9118
         },
         {
           "code": "CAD",
-          "buy": 2.9263,
-          "sell": 2.9263
+          "buy": 2.9196,
+          "sell": 2.9196
         },
         {
           "code": "SGD",
-          "buy": 3.2089,
-          "sell": 3.2089
+          "buy": 3.1998,
+          "sell": 3.1998
         },
         {
           "code": "HKD",
-          "buy": 52.1707,
-          "sell": 52.1707
+          "buy": 52.0217,
+          "sell": 52.0217
         }
       ],
-      "updatedAt": "2026-09-18T01:59:53.300Z"
+      "updatedAt": "2026-09-18T07:08:33.983Z"
     }
   },
   "spToday": null,
@@ -991,7 +991,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/"
       }
     ],
-    "updatedAt": "2026-09-18T01:59:51.094Z"
+    "updatedAt": "2026-09-18T07:08:33.098Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1250,13 +1250,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-09-18T01:59:52.927Z"
+    "updatedAt": "2026-09-18T07:08:34.037Z"
   },
   "derived": {
     "usdMyrMid": 4.0964,
-    "goldMyrPerGram": 573.02,
-    "silverMyrPerGram": 8.68,
-    "platinumMyrPerGram": 235.88
+    "goldMyrPerGram": 578.73,
+    "silverMyrPerGram": 8.81,
+    "platinumMyrPerGram": 239.17
   },
   "sourceStatus": [
     {
