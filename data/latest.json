@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T15:08:53.068Z",
+  "updatedAt": "2026-09-19T18:01:06.448Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 4379,
       "silver": 66.376999,
       "platinum": 1806,
-      "updatedAt": "2026-09-19T15:08:46Z"
+      "updatedAt": "2026-09-19T17:58:17Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-09-19T15:08:50.748Z"
+      "updatedAt": "2026-09-19T17:58:39.882Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.000995
         }
       ],
-      "updatedAt": "2026-09-19T15:08:50.888Z"
+      "updatedAt": "2026-09-19T17:58:39.835Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -1063,28 +1063,6 @@
         "metal": "gold"
       },
       {
-        "name": "Heraeus 100 Gram Gold Cast Bar – 999.9 Fine Gold",
-        "url": "https://www.astonandsons.com.my/product/heraeus-100-gram-gold-cast-bar-999-9-fine-gold/",
-        "image": "https://www.astonandsons.com.my/wp-content/uploads/2026/05/heraeus-100g-600x600.jpg",
-        "price": 58295,
-        "inStock": true,
-        "stockCount": null,
-        "weightGrams": 100,
-        "weightLabel": "100g",
-        "metal": "gold"
-      },
-      {
-        "name": "PAMP Fortuna 50 Grams Gold Bar",
-        "url": "https://www.astonandsons.com.my/product/pamp-fortuna-50-grams-gold-bar/",
-        "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/AU_50g_revCERTIPAMP.png",
-        "price": 29456,
-        "inStock": false,
-        "stockCount": null,
-        "weightGrams": 50,
-        "weightLabel": "50g",
-        "metal": "gold"
-      },
-      {
         "name": "PAMP Rosa 50 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-50-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/Rosa-50-Gram.png",
@@ -1184,17 +1162,6 @@
         "metal": "gold"
       },
       {
-        "name": "PAMP Rosa 10 Grams Gold Bar",
-        "url": "https://www.astonandsons.com.my/product/pamp-rosa-10-grams-gold-bar/",
-        "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/Rosa-10-Gram-1.png",
-        "price": 6124,
-        "inStock": false,
-        "stockCount": null,
-        "weightGrams": 10,
-        "weightLabel": "10g",
-        "metal": "gold"
-      },
-      {
         "name": "Al Etihad - Sunflower 5 Grams Gold Hanger 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-sunflower-5-grams-gold-hanger-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/sunflower-5g-pendant-1-e1749543534140-600x831.png",
@@ -1250,7 +1217,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-09-19T15:08:52.886Z"
+    "updatedAt": "2026-09-19T18:01:06.448Z"
   },
   "derived": {
     "usdMyrMid": 4.0811,
@@ -1301,7 +1268,8 @@
     },
     {
       "name": "Aston & Sons",
-      "ok": true
+      "ok": false,
+      "error": "fetch failed"
     },
     {
       "name": "Aston & Sons (featured)",
