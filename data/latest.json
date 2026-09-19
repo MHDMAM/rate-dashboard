@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T11:56:50.478Z",
+  "updatedAt": "2026-09-19T15:08:53.068Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 4379,
       "silver": 66.376999,
       "platinum": 1806,
-      "updatedAt": "2026-09-19T11:56:16Z"
+      "updatedAt": "2026-09-19T15:08:46Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-09-19T11:56:46.372Z"
+      "updatedAt": "2026-09-19T15:08:50.748Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.000995
         }
       ],
-      "updatedAt": "2026-09-19T11:56:46.567Z"
+      "updatedAt": "2026-09-19T15:08:50.888Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -991,7 +991,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/"
       }
     ],
-    "updatedAt": "2026-09-19T11:56:48.611Z"
+    "updatedAt": "2026-09-19T15:08:50.995Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1250,7 +1250,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-09-19T11:56:49.448Z"
+    "updatedAt": "2026-09-19T15:08:52.886Z"
   },
   "derived": {
     "usdMyrMid": 4.0811,
