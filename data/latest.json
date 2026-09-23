@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-23T13:01:42.476Z",
+  "updatedAt": "2026-09-23T17:47:39.855Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4307.799805,
-      "silver": 65.397003,
-      "platinum": 1774,
-      "updatedAt": "2026-09-23T13:01:11Z"
+      "gold": 4288.700195,
+      "silver": 64.672997,
+      "platinum": 1753,
+      "updatedAt": "2026-09-23T17:47:12Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.6122,
-        "BRL": 5.8726,
-        "CAD": 1.6099,
-        "CHF": 0.9393,
-        "CNY": 7.6803,
-        "CZK": 24.344,
+        "AUD": 1.6146,
+        "BRL": 5.8564,
+        "CAD": 1.6077,
+        "CHF": 0.939,
+        "CNY": 7.6538,
+        "CZK": 24.383,
         "DKK": 7.4756,
-        "GBP": 0.8578,
-        "HKD": 8.9909,
-        "HUF": 361.58,
-        "IDR": 20426.66,
-        "ILS": 3.4593,
-        "INR": 109.5805,
-        "ISK": 138.4,
-        "JPY": 180.17,
-        "KRW": 1554.55,
-        "MXN": 19.7727,
-        "MYR": 4.67,
-        "NOK": 10.801,
-        "NZD": 2.0003,
-        "PHP": 71.602,
-        "PLN": 4.348,
-        "RON": 5.266,
-        "SEK": 11.2463,
-        "SGD": 1.4612,
-        "THB": 37.988,
-        "TRY": 55.9492,
-        "USD": 1.1463,
-        "ZAR": 18.618
+        "GBP": 0.8595,
+        "HKD": 8.9506,
+        "HUF": 364.29,
+        "IDR": 20305.82,
+        "ILS": 3.4417,
+        "INR": 109.25,
+        "ISK": 138,
+        "JPY": 180.2,
+        "KRW": 1558,
+        "MXN": 19.8999,
+        "MYR": 4.6557,
+        "NOK": 10.799,
+        "NZD": 2.0049,
+        "PHP": 71.371,
+        "PLN": 4.3765,
+        "RON": 5.2785,
+        "SEK": 11.272,
+        "SGD": 1.4587,
+        "THB": 37.987,
+        "TRY": 55.7283,
+        "USD": 1.1411,
+        "ZAR": 18.6537
       },
-      "updatedAt": "2026-09-22"
+      "updatedAt": "2026-09-23"
     }
   },
   "myCashRates": {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-09-23T13:01:40.813Z"
+      "updatedAt": "2026-09-23T17:47:34.518Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.00105
         }
       ],
-      "updatedAt": "2026-09-23T13:01:40.934Z"
+      "updatedAt": "2026-09-23T17:47:33.209Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -991,7 +991,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/"
       }
     ],
-    "updatedAt": "2026-09-23T13:01:40.968Z"
+    "updatedAt": "2026-09-23T17:47:39.855Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1250,13 +1250,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-09-23T13:01:42.423Z"
+    "updatedAt": "2026-09-23T17:47:38.953Z"
   },
   "derived": {
     "usdMyrMid": 4.0743,
-    "goldMyrPerGram": 564.28,
-    "silverMyrPerGram": 8.57,
-    "platinumMyrPerGram": 232.38
+    "goldMyrPerGram": 561.78,
+    "silverMyrPerGram": 8.47,
+    "platinumMyrPerGram": 229.63
   },
   "sourceStatus": [
     {
@@ -1286,7 +1286,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
