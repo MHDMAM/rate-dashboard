@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-23T07:46:26.987Z",
+  "updatedAt": "2026-09-23T13:01:42.476Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4323.399902,
-      "silver": 65.654999,
-      "platinum": 1801,
-      "updatedAt": "2026-09-23T07:46:11Z"
+      "gold": 4307.799805,
+      "silver": 65.397003,
+      "platinum": 1774,
+      "updatedAt": "2026-09-23T13:01:11Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-09-23T07:46:24.674Z"
+      "updatedAt": "2026-09-23T13:01:40.813Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -528,8 +528,8 @@
         {
           "code": "AUD",
           "unit": "1 Unit",
-          "buy": 2.885,
-          "sell": 2.91
+          "buy": 2.88,
+          "sell": 2.9
         },
         {
           "code": "BHD",
@@ -552,8 +552,8 @@
         {
           "code": "CNY",
           "unit": "100 Units",
-          "buy": 60.85,
-          "sell": 61.22
+          "buy": 60.65,
+          "sell": 61.15
         },
         {
           "code": "DKK",
@@ -582,8 +582,8 @@
         {
           "code": "INR",
           "unit": "100 Units",
-          "buy": 4.18,
-          "sell": 4.226
+          "buy": 4.17,
+          "sell": 4.222
         },
         {
           "code": "IDR",
@@ -595,7 +595,7 @@
           "code": "JPY",
           "unit": "1000 Units",
           "buy": 25.7,
-          "sell": 26.1
+          "sell": 26.09
         },
         {
           "code": "JOD",
@@ -606,8 +606,8 @@
         {
           "code": "KRW",
           "unit": "1000 Units",
-          "buy": 2.98,
-          "sell": 3.015
+          "buy": 2.985,
+          "sell": 3.02
         },
         {
           "code": "KWD",
@@ -660,8 +660,8 @@
         {
           "code": "SGD",
           "unit": "1 Unit",
-          "buy": 3.182,
-          "sell": 3.192
+          "buy": 3.186,
+          "sell": 3.198
         },
         {
           "code": "ZAR",
@@ -720,7 +720,7 @@
         {
           "code": "USD",
           "unit": "1 Unit",
-          "buy": 4.068,
+          "buy": 4.065,
           "sell": 4.08
         },
         {
@@ -766,61 +766,61 @@
           "sell": 0.00105
         }
       ],
-      "updatedAt": "2026-09-23T07:46:24.891Z"
+      "updatedAt": "2026-09-23T13:01:40.934Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
       "sourceUrl": "https://www.bnm.gov.my/exchange-rates",
-      "session": "1200",
+      "session": "1700",
       "rateType": "SR",
       "rates": [
         {
           "code": "USD",
-          "buy": 4.078,
-          "sell": 4.078
+          "buy": 4.08,
+          "sell": 4.08
         },
         {
           "code": "GBP",
-          "buy": 5.4311,
-          "sell": 5.4311
+          "buy": 5.4288,
+          "sell": 5.4288
         },
         {
           "code": "EUR",
-          "buy": 4.6603,
-          "sell": 4.6603
+          "buy": 4.6598,
+          "sell": 4.6598
         },
         {
           "code": "JPY",
-          "buy": 2.5867,
-          "sell": 2.5867
+          "buy": 2.5844,
+          "sell": 2.5844
         },
         {
           "code": "CHF",
-          "buy": 4.9635,
-          "sell": 4.9635
+          "buy": 4.9623,
+          "sell": 4.9623
         },
         {
           "code": "AUD",
-          "buy": 2.8958,
-          "sell": 2.8958
+          "buy": 2.8923,
+          "sell": 2.8923
         },
         {
           "code": "CAD",
-          "buy": 2.8957,
-          "sell": 2.8957
+          "buy": 2.8977,
+          "sell": 2.8977
         },
         {
           "code": "SGD",
-          "buy": 3.1964,
-          "sell": 3.1964
+          "buy": 3.1945,
+          "sell": 3.1945
         },
         {
           "code": "HKD",
-          "buy": 51.9921,
-          "sell": 51.9921
+          "buy": 52.0189,
+          "sell": 52.0189
         }
       ],
-      "updatedAt": "2026-09-23T07:46:26.987Z"
+      "updatedAt": "2026-09-23T13:01:42.476Z"
     }
   },
   "spToday": null,
@@ -991,7 +991,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/"
       }
     ],
-    "updatedAt": "2026-09-23T07:46:25.694Z"
+    "updatedAt": "2026-09-23T13:01:40.968Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1250,13 +1250,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-09-23T07:46:26.379Z"
+    "updatedAt": "2026-09-23T13:01:42.423Z"
   },
   "derived": {
     "usdMyrMid": 4.0743,
-    "goldMyrPerGram": 566.32,
-    "silverMyrPerGram": 8.6,
-    "platinumMyrPerGram": 235.91
+    "goldMyrPerGram": 564.28,
+    "silverMyrPerGram": 8.57,
+    "platinumMyrPerGram": 232.38
   },
   "sourceStatus": [
     {
