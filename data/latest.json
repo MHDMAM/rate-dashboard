@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-09-28T08:50:10.281Z",
+  "updatedAt": "2026-09-28T17:03:21.051Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4150.600098,
-      "silver": 61.323002,
-      "platinum": 1732,
-      "updatedAt": "2026-09-28T08:48:05Z"
+      "gold": 4129.799805,
+      "silver": 61.310001,
+      "platinum": 1730,
+      "updatedAt": "2026-09-28T17:03:06Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.622,
-        "BRL": 5.9091,
-        "CAD": 1.6127,
-        "CHF": 0.9445,
-        "CNY": 7.6551,
-        "CZK": 24.345,
-        "DKK": 7.4755,
-        "GBP": 0.86045,
-        "HKD": 8.9445,
-        "HUF": 365.28,
-        "IDR": 20427.22,
-        "ILS": 3.4594,
-        "INR": 109.2605,
-        "ISK": 136.6,
-        "JPY": 179.7,
-        "KRW": 1545.16,
-        "MXN": 20.1816,
+        "AUD": 1.6199,
+        "BRL": 5.9186,
+        "CAD": 1.6118,
+        "CHF": 0.9464,
+        "CNY": 7.6352,
+        "CZK": 24.397,
+        "DKK": 7.4752,
+        "GBP": 0.85785,
+        "HKD": 8.9258,
+        "HUF": 367.1,
+        "IDR": 20453.78,
+        "ILS": 3.4854,
+        "INR": 109.2095,
+        "ISK": 137,
+        "JPY": 178.5,
+        "KRW": 1545.05,
+        "MXN": 20.2133,
         "MYR": 4.6456,
-        "NOK": 10.84,
-        "NZD": 2.0108,
-        "PHP": 71.244,
-        "PLN": 4.3718,
-        "RON": 5.2765,
-        "SEK": 11.29,
-        "SGD": 1.4563,
-        "THB": 38.023,
-        "TRY": 55.7975,
-        "USD": 1.1403,
-        "ZAR": 18.5798
+        "NOK": 10.817,
+        "NZD": 2.0071,
+        "PHP": 71.099,
+        "PLN": 4.373,
+        "RON": 5.2785,
+        "SEK": 11.3205,
+        "SGD": 1.4538,
+        "THB": 38.196,
+        "TRY": 55.7318,
+        "USD": 1.1378,
+        "ZAR": 18.651
       },
-      "updatedAt": "2026-09-25"
+      "updatedAt": "2026-09-28"
     }
   },
   "myCashRates": {
@@ -232,25 +232,39 @@
       "branchName": "THE GARDENS MALL",
       "rates": [
         {
-          "code": "USD BIG",
-          "name": "USD BIG (100,50)",
+          "code": "AUD",
+          "name": "AUSTRALIAN DOLLAR",
           "unit": "1",
-          "buy": 4.071,
-          "sell": 4.091
+          "buy": 2.87,
+          "sell": 2.915
         },
         {
-          "code": "USD MEDIUM",
-          "name": "USD MEDIUM (10,20)",
-          "unit": "1",
-          "buy": 4.021,
-          "sell": 4.091
+          "code": "SAR SMALL",
+          "name": "SAUDI SMALL(100, 50,10,5,1)",
+          "unit": "100",
+          "buy": 108.4019,
+          "sell": 110.8
         },
         {
-          "code": "USD SMALL",
-          "name": "USD SMALL (1,2,5)",
-          "unit": "1",
-          "buy": 4.021,
-          "sell": 4.091
+          "code": "TWD",
+          "name": "NEW TAIWAN DOLLAR",
+          "unit": "100",
+          "buy": 12.59,
+          "sell": 12.69
+        },
+        {
+          "code": "AED",
+          "name": "UAE DIRHAM",
+          "unit": "100",
+          "buy": 110.2019,
+          "sell": 112.8
+        },
+        {
+          "code": "SAR BIG",
+          "name": "SAUDI BIG (500,200)",
+          "unit": "100",
+          "buy": 107.4019,
+          "sell": 109.65
         },
         {
           "code": "SGD BIG",
@@ -274,11 +288,25 @@
           "sell": 3.21
         },
         {
-          "code": "AUD",
-          "name": "AUSTRALIAN DOLLAR",
+          "code": "EUR",
+          "name": "EURO",
           "unit": "1",
-          "buy": 2.87,
-          "sell": 2.915
+          "buy": 4.645,
+          "sell": 4.712
+        },
+        {
+          "code": "THB",
+          "name": "THAI BAHT",
+          "unit": "100",
+          "buy": 12.228,
+          "sell": 12.25
+        },
+        {
+          "code": "IDR",
+          "name": "INDONESIA RUPIAH",
+          "unit": "1M",
+          "buy": 228.9,
+          "sell": 231.3
         },
         {
           "code": "GBP",
@@ -288,18 +316,46 @@
           "sell": 5.51
         },
         {
-          "code": "EUR",
-          "name": "EURO",
-          "unit": "1",
-          "buy": 4.645,
-          "sell": 4.712
-        },
-        {
           "code": "CHF",
           "name": "SWISS FRANC",
           "unit": "1",
           "buy": 4.925,
           "sell": 5.01
+        },
+        {
+          "code": "KRW",
+          "name": "SOUTH KOREAN WON",
+          "unit": "1000",
+          "buy": 3,
+          "sell": 3.042
+        },
+        {
+          "code": "VND",
+          "name": "VIETNAMESE DONG",
+          "unit": "1M",
+          "buy": 157.95,
+          "sell": 160.4
+        },
+        {
+          "code": "PHP",
+          "name": "PHILIPPINE PESO",
+          "unit": "100",
+          "buy": 6.528,
+          "sell": 6.773
+        },
+        {
+          "code": "INR",
+          "name": "INDIAN RUPEE",
+          "unit": "100",
+          "buy": 4.16,
+          "sell": 4.284
+        },
+        {
+          "code": "USD SMALL",
+          "name": "USD SMALL (1,2,5)",
+          "unit": "1",
+          "buy": 4.021,
+          "sell": 4.091
         },
         {
           "code": "CAD",
@@ -309,11 +365,11 @@
           "sell": 2.965
         },
         {
-          "code": "NZD",
-          "name": "NEW ZEALAND DOLLAR",
-          "unit": "1",
-          "buy": 2.328,
-          "sell": 2.41
+          "code": "CNY",
+          "name": "CHINESE RENMINBI",
+          "unit": "100",
+          "buy": 60.9,
+          "sell": 61.16
         },
         {
           "code": "JPY",
@@ -330,81 +386,32 @@
           "sell": 52.15
         },
         {
-          "code": "CNY",
-          "name": "CHINESE RENMINBI",
-          "unit": "100",
-          "buy": 60.9,
-          "sell": 61.16
+          "code": "USD BIG",
+          "name": "USD BIG (100,50)",
+          "unit": "1",
+          "buy": 4.071,
+          "sell": 4.091
         },
         {
-          "code": "THB",
-          "name": "THAI BAHT",
-          "unit": "100",
-          "buy": 12.228,
-          "sell": 12.25
+          "code": "USD MEDIUM",
+          "name": "USD MEDIUM (10,20)",
+          "unit": "1",
+          "buy": 4.021,
+          "sell": 4.091
         },
         {
-          "code": "TWD",
-          "name": "NEW TAIWAN DOLLAR",
-          "unit": "100",
-          "buy": 12.59,
-          "sell": 12.69
+          "code": "NZD",
+          "name": "NEW ZEALAND DOLLAR",
+          "unit": "1",
+          "buy": 2.328,
+          "sell": 2.41
         },
         {
-          "code": "IDR",
-          "name": "INDONESIA RUPIAH",
-          "unit": "1M",
-          "buy": 228.9,
-          "sell": 231.3
-        },
-        {
-          "code": "INR",
-          "name": "INDIAN RUPEE",
-          "unit": "100",
-          "buy": 4.16,
-          "sell": 4.284
-        },
-        {
-          "code": "KRW",
-          "name": "SOUTH KOREAN WON",
-          "unit": "1000",
-          "buy": 3,
-          "sell": 3.042
-        },
-        {
-          "code": "PHP",
-          "name": "PHILIPPINE PESO",
-          "unit": "100",
-          "buy": 6.528,
-          "sell": 6.773
-        },
-        {
-          "code": "VND",
-          "name": "VIETNAMESE DONG",
-          "unit": "1M",
-          "buy": 157.95,
-          "sell": 160.4
-        },
-        {
-          "code": "SAR BIG",
-          "name": "SAUDI BIG (500,200)",
-          "unit": "100",
-          "buy": 107.4019,
-          "sell": 109.65
-        },
-        {
-          "code": "SAR SMALL",
-          "name": "SAUDI SMALL(100, 50,10,5,1)",
-          "unit": "100",
-          "buy": 108.4019,
-          "sell": 110.8
-        },
-        {
-          "code": "AED",
-          "name": "UAE DIRHAM",
-          "unit": "100",
-          "buy": 110.2019,
-          "sell": 112.8
+          "code": "TRY",
+          "name": "TURKEY LIRA",
+          "unit": "1",
+          "buy": 0.0815,
+          "sell": 0.0935
         },
         {
           "code": "OMR",
@@ -428,18 +435,18 @@
           "sell": 16.3
         },
         {
-          "code": "SEK",
-          "name": "SWEDISH KRONER",
-          "unit": "100",
-          "buy": 30.5,
-          "sell": 42.5
-        },
-        {
           "code": "DKK",
           "name": "DANISH KRONER",
           "unit": "100",
           "buy": 50,
           "sell": 64
+        },
+        {
+          "code": "SEK",
+          "name": "SWEDISH KRONER",
+          "unit": "100",
+          "buy": 30.5,
+          "sell": 42.5
         },
         {
           "code": "JOD",
@@ -449,18 +456,18 @@
           "sell": 7.9
         },
         {
-          "code": "EGP",
-          "name": "EGYPTIAN POUND",
-          "unit": "100",
-          "buy": 8.2,
-          "sell": 12.15
-        },
-        {
           "code": "MOP",
           "name": "MACAU PATACA",
           "unit": "100",
           "buy": 20,
           "sell": 59.5
+        },
+        {
+          "code": "EGP",
+          "name": "EGYPTIAN POUND",
+          "unit": "100",
+          "buy": 8.2,
+          "sell": 12.15
         },
         {
           "code": "LKR",
@@ -475,13 +482,6 @@
           "unit": "100",
           "buy": 20,
           "sell": 29.2
-        },
-        {
-          "code": "TRY",
-          "name": "TURKEY LIRA",
-          "unit": "1",
-          "buy": 0.0815,
-          "sell": 0.0935
         },
         {
           "code": "NOK",
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-09-28T08:48:11.571Z"
+      "updatedAt": "2026-09-28T17:03:12.980Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -588,7 +588,7 @@
         {
           "code": "IDR",
           "unit": "1M Unit",
-          "buy": 228.8,
+          "buy": 228,
           "sell": 231
         },
         {
@@ -766,7 +766,7 @@
           "sell": 0.001
         }
       ],
-      "updatedAt": "2026-09-28T08:48:10.914Z"
+      "updatedAt": "2026-09-28T17:03:13.144Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -832,7 +832,7 @@
       {
         "name": "PAMP Suisse Arabian Camel - 5 Gram Gold Bar with Pendant Frame (Limited Edition)",
         "category": "Gold Bars",
-        "price": 3638,
+        "price": 3599,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-arabian-camel-5-gram-gold-bar-with-pendant-frame-limited-edition/"
       },
@@ -867,49 +867,49 @@
       {
         "name": "Diet Coke® 1 Gram Gold Bar (Limited Edition) (Made by PAMP)",
         "category": "Gold Bars",
-        "price": 799,
+        "price": 749,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/diet-coke-1-gram-gold-bar-limited-edition-made-by-pamp/"
       },
       {
         "name": "PAMP Suisse Fender® 80th Anniversary 1 Gram Gold Bar (Limited Edition)",
         "category": "Gold Bars",
-        "price": 799,
+        "price": 749,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-fender-80th-anniversary-1-gram-gold-bar-limited-edition/"
       },
       {
         "name": "The Royal Mint – Britannia 1 oz Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 18371,
+        "price": 18038,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-1-oz-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 20 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 11911,
+        "price": 11697,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-20-gram-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 10 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 6053,
+        "price": 5945,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-10-gram-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 5 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 3147,
+        "price": 3092,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-5-gram-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 1 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 739,
+        "price": 728,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-1-gram-gold-minted-bar-9999-fine-gold/"
       },
@@ -998,11 +998,22 @@
         "url": "https://www.astonandsons.com.my/product/star-wars-c-3po-1-oz-silver-coin-2025-limited-edition/"
       }
     ],
-    "updatedAt": "2026-09-28T02:23:26.395Z"
+    "updatedAt": "2026-09-28T17:03:18.863Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
     "products": [
+      {
+        "name": "Heraeus 1 kg (Kilogram) Gold Cast Bar – 999.9 Fine Gold",
+        "url": "https://www.astonandsons.com.my/product/heraeus-1-kg-kilogram-gold-cast-bar-999-9-fine-gold/",
+        "image": "https://www.astonandsons.com.my/wp-content/uploads/2026/05/heraeus-1kg-gold-bar-600x600.jpg",
+        "price": 560001,
+        "inStock": true,
+        "stockCount": null,
+        "weightGrams": 1000,
+        "weightLabel": "1kg",
+        "metal": "gold"
+      },
       {
         "name": "PAMP Silver 1 Kilobar Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/",
@@ -1246,13 +1257,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-09-28T08:50:10.281Z"
+    "updatedAt": "2026-09-28T17:03:21.051Z"
   },
   "derived": {
     "usdMyrMid": 4.0744,
-    "goldMyrPerGram": 543.71,
+    "goldMyrPerGram": 540.98,
     "silverMyrPerGram": 8.03,
-    "platinumMyrPerGram": 226.88
+    "platinumMyrPerGram": 226.62
   },
   "sourceStatus": [
     {
@@ -1282,7 +1293,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
@@ -1296,8 +1308,7 @@
     },
     {
       "name": "Aston & Sons",
-      "ok": false,
-      "error": "https://www.astonandsons.com.my/product-category/gold-bars/ -> HTTP 503"
+      "ok": true
     },
     {
       "name": "Aston & Sons (featured)",
