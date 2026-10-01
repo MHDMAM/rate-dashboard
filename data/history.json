@@ -579,5 +579,12 @@
     "silverUsdOz": 60.448002,
     "platinumUsdOz": 1710,
     "usdMyr": 4.081
+  },
+  {
+    "t": "2026-10-01T02:55:26.726Z",
+    "goldUsdOz": 4160.700195,
+    "silverUsdOz": 61.050999,
+    "platinumUsdOz": 1715,
+    "usdMyr": 4.0785
   }
 ]
