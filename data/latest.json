@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T08:33:57.385Z",
+  "updatedAt": "2026-10-03T13:39:03.208Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 4141.799805,
       "silver": 60.523998,
       "platinum": 1701,
-      "updatedAt": "2026-10-03T08:33:30Z"
+      "updatedAt": "2026-10-03T13:38:32Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-03T08:33:54.262Z"
+      "updatedAt": "2026-10-03T13:39:00.654Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -529,7 +529,7 @@
           "code": "AUD",
           "unit": "1 Unit",
           "buy": 2.83,
-          "sell": 2.855
+          "sell": 2.85
         },
         {
           "code": "BHD",
@@ -553,7 +553,7 @@
           "code": "CNY",
           "unit": "100 Units",
           "buy": 60.8,
-          "sell": 61.08
+          "sell": 61.07
         },
         {
           "code": "DKK",
@@ -571,7 +571,7 @@
           "code": "EUR",
           "unit": "1 Unit",
           "buy": 4.605,
-          "sell": 4.63
+          "sell": 4.625
         },
         {
           "code": "HKD",
@@ -589,7 +589,7 @@
           "code": "IDR",
           "unit": "1M Unit",
           "buy": 228.25,
-          "sell": 229.8
+          "sell": 229
         },
         {
           "code": "JPY",
@@ -607,7 +607,7 @@
           "code": "KRW",
           "unit": "1000 Units",
           "buy": 3.03,
-          "sell": 3.06
+          "sell": 3.065
         },
         {
           "code": "KWD",
@@ -643,7 +643,7 @@
           "code": "PHP",
           "unit": "100 Units",
           "buy": 6.43,
-          "sell": 6.73
+          "sell": 6.7215
         },
         {
           "code": "QAR",
@@ -661,7 +661,7 @@
           "code": "SGD",
           "unit": "1 Unit",
           "buy": 3.185,
-          "sell": 3.2
+          "sell": 3.194
         },
         {
           "code": "ZAR",
@@ -691,13 +691,13 @@
           "code": "TWD",
           "unit": "100 Units",
           "buy": 12.5,
-          "sell": 12.645
+          "sell": 12.65
         },
         {
           "code": "THB",
           "unit": "100 Units",
           "buy": 12.175,
-          "sell": 12.265
+          "sell": 12.25
         },
         {
           "code": "TUR",
@@ -709,7 +709,7 @@
           "code": "AED",
           "unit": "100 Units",
           "buy": 110,
-          "sell": 111.75
+          "sell": 111.7
         },
         {
           "code": "GBP",
@@ -727,7 +727,7 @@
           "code": "VND",
           "unit": "1M Unit",
           "buy": 156.8,
-          "sell": 158.5
+          "sell": 158.36
         },
         {
           "code": "PKR",
@@ -766,7 +766,7 @@
           "sell": 0.00098
         }
       ],
-      "updatedAt": "2026-10-03T08:33:54.489Z"
+      "updatedAt": "2026-10-03T13:39:00.858Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -998,7 +998,7 @@
         "url": "https://www.astonandsons.com.my/product/disney-the-muppets-kermit-the-frog-1-oz-silver-coin-2025-by-agoro-limited-edition/"
       }
     ],
-    "updatedAt": "2026-10-03T08:33:54.228Z"
+    "updatedAt": "2026-10-03T13:39:00.906Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1257,7 +1257,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-03T08:33:55.110Z"
+    "updatedAt": "2026-10-03T13:39:02.498Z"
   },
   "derived": {
     "usdMyrMid": 4.0843,
