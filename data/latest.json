@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-08T10:49:21.467Z",
+  "updatedAt": "2026-10-08T17:36:30.956Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4116.700195,
-      "silver": 58.773998,
-      "platinum": 1647,
-      "updatedAt": "2026-10-08T10:45:37Z"
+      "gold": 4131.700195,
+      "silver": 59.201,
+      "platinum": 1645,
+      "updatedAt": "2026-10-08T17:36:08Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.6079,
-        "BRL": 5.5953,
-        "CAD": 1.5931,
-        "CHF": 0.9309,
-        "CNY": 7.4937,
-        "CZK": 24.427,
-        "DKK": 7.4745,
-        "GBP": 0.84645,
-        "HKD": 8.7722,
-        "HUF": 366.75,
-        "IDR": 19974.25,
-        "ILS": 3.429,
-        "INR": 108.1165,
+        "AUD": 1.611,
+        "BRL": 5.6118,
+        "CAD": 1.5953,
+        "CHF": 0.9326,
+        "CNY": 7.4972,
+        "CZK": 24.403,
+        "DKK": 7.4739,
+        "GBP": 0.84698,
+        "HKD": 8.7783,
+        "HUF": 366.25,
+        "IDR": 20045.31,
+        "ILS": 3.4423,
+        "INR": 108.2635,
         "ISK": 137,
-        "JPY": 176.85,
-        "KRW": 1496.25,
-        "MXN": 20.2236,
-        "MYR": 4.5692,
-        "NOK": 10.712,
-        "NZD": 1.9977,
-        "PHP": 70.203,
-        "PLN": 4.3825,
-        "RON": 5.3528,
-        "SEK": 11.224,
-        "SGD": 1.4311,
-        "THB": 37.661,
-        "TRY": 54.9822,
-        "USD": 1.1177,
-        "ZAR": 18.6539
+        "JPY": 177.05,
+        "KRW": 1502.79,
+        "MXN": 20.1486,
+        "MYR": 4.5768,
+        "NOK": 10.717,
+        "NZD": 2.0014,
+        "PHP": 70.475,
+        "PLN": 4.3753,
+        "RON": 5.3434,
+        "SEK": 11.194,
+        "SGD": 1.434,
+        "THB": 37.68,
+        "TRY": 55.0523,
+        "USD": 1.1186,
+        "ZAR": 18.6252
       },
-      "updatedAt": "2026-10-07"
+      "updatedAt": "2026-10-08"
     }
   },
   "myCashRates": {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-08T10:45:51.182Z"
+      "updatedAt": "2026-10-08T17:36:27.831Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.00099
         }
       ],
-      "updatedAt": "2026-10-08T10:45:51.330Z"
+      "updatedAt": "2026-10-08T17:36:27.873Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -998,7 +998,7 @@
         "url": "https://www.astonandsons.com.my/product/disney-the-muppets-kermit-the-frog-1-oz-silver-coin-2025-by-agoro-limited-edition/"
       }
     ],
-    "updatedAt": "2026-10-08T10:46:24.016Z"
+    "updatedAt": "2026-10-08T17:36:27.829Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1257,13 +1257,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-08T10:49:21.467Z"
+    "updatedAt": "2026-10-08T17:36:28.906Z"
   },
   "derived": {
     "usdMyrMid": 4.0876,
-    "goldMyrPerGram": 541.02,
-    "silverMyrPerGram": 7.72,
-    "platinumMyrPerGram": 216.45
+    "goldMyrPerGram": 542.99,
+    "silverMyrPerGram": 7.78,
+    "platinumMyrPerGram": 216.19
   },
   "sourceStatus": [
     {
@@ -1293,7 +1293,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
