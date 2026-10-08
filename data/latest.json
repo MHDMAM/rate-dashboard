@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-07T17:24:33.545Z",
+  "updatedAt": "2026-10-08T03:24:14.748Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4121.100098,
-      "silver": 60.192001,
-      "platinum": 1649,
-      "updatedAt": "2026-10-07T17:24:23Z"
+      "gold": 4135.799805,
+      "silver": 60.147999,
+      "platinum": 1667,
+      "updatedAt": "2026-10-08T03:23:24Z"
     },
     "goldPriceOrg": null
   },
@@ -20,172 +20,172 @@
       "rates": {
         "USD": 1,
         "AED": 3.6725,
-        "AFN": 64.6389,
-        "ALL": 81.732585,
-        "AMD": 363.107748,
+        "AFN": 64.701676,
+        "ALL": 81.963376,
+        "AMD": 361.882619,
         "ANG": 1.79,
-        "AOA": 926.61105,
-        "ARS": 1520.3002,
-        "AUD": 1.43284,
+        "AOA": 922.903492,
+        "ARS": 1520.7136,
+        "AUD": 1.436289,
         "AWG": 1.79,
-        "AZN": 1.698042,
-        "BAM": 1.738236,
+        "AZN": 1.699839,
+        "BAM": 1.746698,
         "BBD": 2,
-        "BDT": 122.834725,
-        "BGN": 1.738236,
+        "BDT": 123.012003,
+        "BGN": 1.746698,
         "BHD": 0.376,
-        "BIF": 3000.839101,
+        "BIF": 2997.807679,
         "BMD": 1,
-        "BND": 1.277772,
-        "BOB": 11.989057,
-        "BRL": 4.980405,
+        "BND": 1.279886,
+        "BOB": 11.996742,
+        "BRL": 5.002743,
         "BSD": 1,
-        "BTN": 96.466709,
-        "BWP": 14.246163,
-        "BYN": 3.070244,
+        "BTN": 96.833251,
+        "BWP": 13.984364,
+        "BYN": 3.0649,
         "BZD": 2,
-        "CAD": 1.422126,
-        "CDF": 2310.952504,
-        "CHF": 0.831851,
-        "CLF": 0.024596,
-        "CLP": 972.195333,
-        "CNH": 6.702566,
-        "CNY": 6.711932,
-        "COP": 3199.575723,
-        "CRC": 456.932315,
+        "CAD": 1.424318,
+        "CDF": 2307.771637,
+        "CHF": 0.833091,
+        "CLF": 0.024653,
+        "CLP": 974.431248,
+        "CNH": 6.703962,
+        "CNY": 6.712457,
+        "COP": 3236.841046,
+        "CRC": 456.650539,
         "CUP": 24,
-        "CVE": 97.997567,
-        "CZK": 21.681505,
+        "CVE": 98.474653,
+        "CZK": 21.810186,
         "DJF": 177.721,
-        "DKK": 6.641523,
-        "DOP": 59.959231,
-        "DZD": 134.395631,
-        "EGP": 52.305619,
+        "DKK": 6.682997,
+        "DOP": 60.282773,
+        "DZD": 134.565991,
+        "EGP": 52.384326,
         "ERN": 15,
-        "ETB": 161.306149,
-        "EUR": 0.888741,
-        "FJD": 2.230447,
-        "FKP": 0.753983,
-        "FOK": 6.64151,
-        "GBP": 0.753989,
-        "GEL": 2.600162,
-        "GGP": 0.753983,
-        "GHS": 11.622419,
-        "GIP": 0.753983,
-        "GMD": 74.41109,
-        "GNF": 8795.384184,
-        "GTQ": 7.624027,
-        "GYD": 209.199022,
-        "HKD": 7.848006,
-        "HNL": 26.784612,
-        "HRK": 6.696256,
-        "HTG": 130.865023,
-        "HUF": 324.740914,
-        "IDR": 17901.959777,
-        "ILS": 3.04477,
-        "IMP": 0.753983,
-        "INR": 96.46757,
-        "IQD": 1311.257157,
-        "IRR": 1719543.096782,
-        "ISK": 121.776702,
-        "JEP": 0.753983,
-        "JMD": 158.511549,
+        "ETB": 161.563195,
+        "EUR": 0.892949,
+        "FJD": 2.244368,
+        "FKP": 0.756698,
+        "FOK": 6.684464,
+        "GBP": 0.756549,
+        "GEL": 2.595838,
+        "GGP": 0.756698,
+        "GHS": 11.66232,
+        "GIP": 0.756698,
+        "GMD": 74.398378,
+        "GNF": 8788.748206,
+        "GTQ": 7.636419,
+        "GYD": 208.854057,
+        "HKD": 7.847591,
+        "HNL": 26.843481,
+        "HRK": 6.728856,
+        "HTG": 130.740283,
+        "HUF": 326.939645,
+        "IDR": 17875.712075,
+        "ILS": 3.067906,
+        "IMP": 0.756698,
+        "INR": 96.830256,
+        "IQD": 1308.407502,
+        "IRR": 1735448.437608,
+        "ISK": 122.491824,
+        "JEP": 0.756698,
+        "JMD": 158.858308,
         "JOD": 0.709,
-        "JPY": 158.145386,
-        "KES": 129.556657,
-        "KGS": 87.469994,
-        "KHR": 4054.616501,
-        "KID": 1.432888,
-        "KMF": 437.234323,
-        "KRW": 1338.924224,
-        "KWD": 0.309159,
+        "JPY": 158.100522,
+        "KES": 129.613606,
+        "KGS": 87.368439,
+        "KHR": 4046.610762,
+        "KID": 1.436579,
+        "KMF": 439.362928,
+        "KRW": 1339.092519,
+        "KWD": 0.309778,
         "KYD": 0.833333,
-        "KZT": 451.727739,
-        "LAK": 22253.961643,
+        "KZT": 447.212171,
+        "LAK": 22314.784757,
         "LBP": 89500,
-        "LKR": 330.774169,
-        "LRD": 170.519968,
-        "LSL": 16.53412,
-        "LYD": 6.42947,
-        "MAD": 9.963782,
-        "MDL": 17.86162,
-        "MGA": 4448.633171,
-        "MKD": 54.280014,
-        "MMK": 2094.983097,
-        "MNT": 3616.808305,
-        "MOP": 8.083461,
-        "MRU": 40.111108,
-        "MUR": 47.507349,
-        "MVR": 15.429903,
-        "MWK": 1745.634545,
-        "MXN": 17.978414,
-        "MYR": 4.085363,
-        "MZN": 63.826558,
-        "NAD": 16.53412,
-        "NGN": 1328.1192,
-        "NIO": 36.716332,
-        "NOK": 9.559685,
-        "NPR": 154.346734,
-        "NZD": 1.778822,
+        "LKR": 330.962637,
+        "LRD": 170.928239,
+        "LSL": 16.639466,
+        "LYD": 6.415562,
+        "MAD": 9.96962,
+        "MDL": 17.824256,
+        "MGA": 4456.522503,
+        "MKD": 54.573615,
+        "MMK": 2098.723491,
+        "MNT": 3610.770021,
+        "MOP": 8.083579,
+        "MRU": 39.941947,
+        "MUR": 47.312606,
+        "MVR": 15.446185,
+        "MWK": 1740.478187,
+        "MXN": 18.006641,
+        "MYR": 4.087618,
+        "MZN": 63.87197,
+        "NAD": 16.639466,
+        "NGN": 1330.207024,
+        "NIO": 36.767871,
+        "NOK": 9.5752,
+        "NPR": 154.933201,
+        "NZD": 1.785734,
         "OMR": 0.384497,
         "PAB": 1,
-        "PEN": 3.437169,
-        "PGK": 4.475318,
-        "PHP": 62.790787,
-        "PKR": 276.741533,
-        "PLN": 3.883966,
-        "PYG": 5825.063625,
+        "PEN": 3.443252,
+        "PGK": 4.503699,
+        "PHP": 62.808616,
+        "PKR": 277.084072,
+        "PLN": 3.910725,
+        "PYG": 5836.270982,
         "QAR": 3.64,
-        "RON": 4.750636,
-        "RSD": 104.365605,
-        "RUB": 84.948588,
-        "RWF": 1478.41889,
+        "RON": 4.78088,
+        "RSD": 104.850091,
+        "RUB": 85.44691,
+        "RWF": 1477.21643,
         "SAR": 3.75,
-        "SBD": 8.014736,
-        "SCR": 14.593718,
-        "SDG": 449.44214,
-        "SEK": 9.993947,
-        "SGD": 1.27776,
-        "SHP": 0.753983,
-        "SLE": 24.654462,
-        "SLL": 24654.462165,
-        "SOS": 571.702839,
-        "SRD": 37.734073,
-        "SSP": 5651.660944,
-        "STN": 21.774275,
-        "SYP": 121.537533,
-        "SZL": 16.53412,
-        "THB": 33.613874,
-        "TJS": 9.226184,
-        "TMT": 3.500031,
-        "TND": 2.975208,
-        "TOP": 2.387931,
-        "TRY": 49.192482,
-        "TTD": 6.756535,
-        "TVD": 1.432888,
-        "TWD": 31.800995,
-        "TZS": 2645.675989,
-        "UAH": 44.990111,
-        "UGX": 3920.309756,
-        "UYU": 40.313088,
-        "UZS": 11804.062926,
-        "VES": 873.867,
-        "VND": 25935.897512,
-        "VUV": 119.746109,
-        "WST": 2.747952,
-        "XAF": 582.979097,
+        "SBD": 7.966612,
+        "SCR": 14.508384,
+        "SDG": 542.902502,
+        "SEK": 10.011511,
+        "SGD": 1.279676,
+        "SHP": 0.756698,
+        "SLE": 24.587682,
+        "SLL": 24587.681848,
+        "SOS": 570.630801,
+        "SRD": 37.616729,
+        "SSP": 5686.290327,
+        "STN": 21.880279,
+        "SYP": 121.788134,
+        "SZL": 16.639466,
+        "THB": 33.659293,
+        "TJS": 9.213348,
+        "TMT": 3.495694,
+        "TND": 2.992945,
+        "TOP": 2.387319,
+        "TRY": 49.219055,
+        "TTD": 6.772675,
+        "TVD": 1.436579,
+        "TWD": 31.869038,
+        "TZS": 2638.667812,
+        "UAH": 44.917746,
+        "UGX": 3960.038801,
+        "UYU": 40.185729,
+        "UZS": 11789.791978,
+        "VES": 874.7321,
+        "VND": 25952.992012,
+        "VUV": 120.174371,
+        "WST": 2.744478,
+        "XAF": 585.817237,
         "XCD": 2.7,
         "XCG": 1.79,
-        "XDR": 0.737629,
-        "XOF": 582.979097,
-        "XPF": 106.055826,
-        "YER": 235.87403,
-        "ZAR": 16.534158,
-        "ZMW": 19.706552,
-        "ZWG": 26.7583,
-        "ZWL": 26.7583
+        "XDR": 0.741099,
+        "XOF": 585.817237,
+        "XPF": 106.572142,
+        "YER": 236.286605,
+        "ZAR": 16.639373,
+        "ZMW": 19.796504,
+        "ZWG": 26.7051,
+        "ZWL": 26.7051
       },
-      "updatedAt": "Wed, 07 Oct 2026 00:02:32 +0000"
+      "updatedAt": "Thu, 08 Oct 2026 00:02:31 +0000"
     },
     "frankfurter": {
       "source": "frankfurter.app (ECB)",
@@ -235,141 +235,141 @@
           "code": "USD BIG",
           "name": "USD BIG (100,50)",
           "unit": "1",
-          "buy": 4.0729,
-          "sell": 4.099
+          "buy": 4.08,
+          "sell": 4.09
         },
         {
           "code": "USD MEDIUM",
           "name": "USD MEDIUM (10,20)",
           "unit": "1",
-          "buy": 4.0329,
-          "sell": 4.0875
+          "buy": 4.04,
+          "sell": 4.085
         },
         {
           "code": "USD SMALL",
           "name": "USD SMALL (1,2,5)",
           "unit": "1",
-          "buy": 4.0329,
-          "sell": 4.0875
+          "buy": 4.04,
+          "sell": 4.085
         },
         {
           "code": "SGD BIG",
           "name": "SINGAPORE BIG (1000,500,100,50)",
           "unit": "1",
-          "buy": 3.1909,
-          "sell": 3.21
+          "buy": 3.19,
+          "sell": 3.201
         },
         {
           "code": "SGD SMALL",
           "name": "SINGAPORE SMALL (20,10,5,2)",
           "unit": "1",
-          "buy": 3.1509,
-          "sell": 3.205
+          "buy": 3.15,
+          "sell": 3.195
         },
         {
           "code": "BND",
           "name": "BRUNEI DOLLAR",
           "unit": "1",
-          "buy": 3.1509,
-          "sell": 3.205
+          "buy": 3.15,
+          "sell": 3.195
         },
         {
           "code": "AUD",
           "name": "AUSTRALIAN DOLLAR",
           "unit": "1",
-          "buy": 2.8409,
-          "sell": 2.873
+          "buy": 2.848,
+          "sell": 2.864
         },
         {
           "code": "GBP",
           "name": "GREAT BRITAIN POUND",
           "unit": "1",
-          "buy": 5.4059,
-          "sell": 5.458
+          "buy": 5.418,
+          "sell": 5.4481
         },
         {
           "code": "EUR",
           "name": "EURO",
           "unit": "1",
-          "buy": 4.5889,
-          "sell": 4.632
+          "buy": 4.593,
+          "sell": 4.622
         },
         {
           "code": "CHF",
           "name": "SWISS FRANC",
           "unit": "1",
-          "buy": 4.9019,
-          "sell": 4.988
+          "buy": 4.915,
+          "sell": 4.9775
         },
         {
           "code": "CAD",
           "name": "CANADIAN DOLLAR",
           "unit": "1",
-          "buy": 2.8609,
-          "sell": 2.961
+          "buy": 2.878,
+          "sell": 2.951
         },
         {
           "code": "NZD",
           "name": "NEW ZEALAND DOLLAR",
           "unit": "1",
-          "buy": 2.2909,
-          "sell": 2.363
+          "buy": 2.315,
+          "sell": 2.354
         },
         {
           "code": "JPY",
           "name": "JAPANESE YEN",
           "unit": "100",
-          "buy": 2.5759,
-          "sell": 2.6603
+          "buy": 2.585,
+          "sell": 2.66
         },
         {
           "code": "HKD",
           "name": "HONG KONG DOLLAR",
           "unit": "100",
-          "buy": 51.8599,
+          "buy": 51.975,
           "sell": 52.2
         },
         {
           "code": "CNY",
           "name": "CHINESE RENMINBI",
           "unit": "100",
-          "buy": 61.1159,
-          "sell": 61.33
+          "buy": 61.2,
+          "sell": 61.4
         },
         {
           "code": "THB",
           "name": "THAI BAHT",
           "unit": "100",
-          "buy": 12.1659,
-          "sell": 12.322
+          "buy": 12.185,
+          "sell": 12.311
         },
         {
           "code": "TWD",
           "name": "NEW TAIWAN DOLLAR",
           "unit": "100",
-          "buy": 12.5259,
-          "sell": 12.722
+          "buy": 12.595,
+          "sell": 12.72
         },
         {
           "code": "IDR",
           "name": "INDONESIA RUPIAH",
           "unit": "1M",
-          "buy": 228.73,
-          "sell": 230.85
+          "buy": 229,
+          "sell": 231
         },
         {
           "code": "INR",
           "name": "INDIAN RUPEE",
           "unit": "100",
-          "buy": 4.1159,
+          "buy": 4.115,
           "sell": 4.255
         },
         {
           "code": "KRW",
           "name": "SOUTH KOREAN WON",
           "unit": "1000",
-          "buy": 3.0569,
-          "sell": 3.094
+          "buy": 3.06,
+          "sell": 3.084
         },
         {
           "code": "PHP",
@@ -382,29 +382,29 @@
           "code": "VND",
           "name": "VIETNAMESE DONG",
           "unit": "1M",
-          "buy": 156.85,
-          "sell": 159.93
+          "buy": 157,
+          "sell": 158.93
         },
         {
           "code": "SAR SMALL",
           "name": "SAUDI SMALL(100, 50,10,5,1)",
           "unit": "100",
-          "buy": 108.65,
-          "sell": 111
+          "buy": 108.7,
+          "sell": 110
         },
         {
           "code": "SAR BIG",
           "name": "SAUDI BIG (500,200)",
           "unit": "100",
-          "buy": 107.65,
-          "sell": 109.75
+          "buy": 107.7,
+          "sell": 109.7
         },
         {
           "code": "AED",
           "name": "UAE DIRHAM",
           "unit": "100",
-          "buy": 109.65,
-          "sell": 112.2
+          "buy": 110.05,
+          "sell": 111.3
         },
         {
           "code": "OMR",
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-07T17:24:30.615Z"
+      "updatedAt": "2026-10-08T03:23:46.367Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -528,8 +528,8 @@
         {
           "code": "AUD",
           "unit": "1 Unit",
-          "buy": 2.84,
-          "sell": 2.855
+          "buy": 2.844,
+          "sell": 2.86
         },
         {
           "code": "BHD",
@@ -540,26 +540,26 @@
         {
           "code": "BND",
           "unit": "1 Unit",
-          "buy": 3.185,
-          "sell": 3.198
+          "buy": 3.182,
+          "sell": 3.196
         },
         {
           "code": "CAD",
           "unit": "1 Unit",
-          "buy": 2.86,
-          "sell": 2.885
+          "buy": 2.875,
+          "sell": 2.895
         },
         {
           "code": "CNY",
           "unit": "100 Units",
-          "buy": 61.1,
-          "sell": 61.35
+          "buy": 61.15,
+          "sell": 61.45
         },
         {
           "code": "DKK",
           "unit": "100 Units",
           "buy": 58,
-          "sell": 63.3
+          "sell": 63.2
         },
         {
           "code": "EGP",
@@ -570,14 +570,14 @@
         {
           "code": "EUR",
           "unit": "1 Unit",
-          "buy": 4.588,
-          "sell": 4.614
+          "buy": 4.58,
+          "sell": 4.605
         },
         {
           "code": "HKD",
           "unit": "100 Units",
-          "buy": 51.85,
-          "sell": 52.18
+          "buy": 51.95,
+          "sell": 52.25
         },
         {
           "code": "INR",
@@ -588,26 +588,26 @@
         {
           "code": "IDR",
           "unit": "1M Unit",
-          "buy": 228.7,
-          "sell": 230.2
+          "buy": 228.8,
+          "sell": 230
         },
         {
           "code": "JPY",
           "unit": "1000 Units",
-          "buy": 25.75,
-          "sell": 26.04
+          "buy": 25.8,
+          "sell": 26.05
         },
         {
           "code": "JOD",
           "unit": "1 Unit",
-          "buy": 5.7,
-          "sell": 6.5
+          "buy": 5.5,
+          "sell": 6.35
         },
         {
           "code": "KRW",
           "unit": "1000 Units",
-          "buy": 3.046,
-          "sell": 3.08
+          "buy": 3.055,
+          "sell": 3.095
         },
         {
           "code": "KWD",
@@ -624,14 +624,14 @@
         {
           "code": "NZD",
           "unit": "1 Unit",
-          "buy": 2.29,
-          "sell": 2.3355
+          "buy": 2.295,
+          "sell": 2.335
         },
         {
           "code": "NOK",
           "unit": "100 Units",
-          "buy": 38,
-          "sell": 43
+          "buy": 39,
+          "sell": 43.2
         },
         {
           "code": "OMR",
@@ -642,26 +642,26 @@
         {
           "code": "PHP",
           "unit": "100 Units",
-          "buy": 6.58,
-          "sell": 6.72
+          "buy": 6.55,
+          "sell": 6.715
         },
         {
           "code": "QAR",
           "unit": "100 Units",
           "buy": 107.5,
-          "sell": 114
+          "sell": 112.6
         },
         {
           "code": "SAR",
           "unit": "100 Units",
-          "buy": 108.65,
-          "sell": 109.75
+          "buy": 108.6,
+          "sell": 109.8
         },
         {
           "code": "SGD",
           "unit": "1 Unit",
-          "buy": 3.19,
-          "sell": 3.205
+          "buy": 3.189,
+          "sell": 3.2
         },
         {
           "code": "ZAR",
@@ -672,86 +672,86 @@
         {
           "code": "LKR",
           "unit": "100 Units",
-          "buy": 1.2,
+          "buy": 1.19,
           "sell": 1.255
         },
         {
           "code": "SEK",
           "unit": "100 Units",
-          "buy": 37.5,
-          "sell": 43.2
+          "buy": 37,
+          "sell": 42.85
         },
         {
           "code": "CHF",
           "unit": "1 Unit",
-          "buy": 4.9,
+          "buy": 4.905,
           "sell": 4
         },
         {
           "code": "TWD",
           "unit": "100 Units",
-          "buy": 12.525,
-          "sell": 12.665
+          "buy": 12.52,
+          "sell": 12.66
         },
         {
           "code": "THB",
           "unit": "100 Units",
-          "buy": 12.165,
-          "sell": 12.232
+          "buy": 12.15,
+          "sell": 12.235
         },
         {
           "code": "TUR",
           "unit": "1 Unit",
           "buy": 0.0845,
-          "sell": 0.08665
+          "sell": 0.0867
         },
         {
           "code": "AED",
           "unit": "100 Units",
-          "buy": 109.55,
-          "sell": 111.45
+          "buy": 110,
+          "sell": 111.65
         },
         {
           "code": "GBP",
           "unit": "1 Unit",
-          "buy": 5.405,
-          "sell": 5.433
+          "buy": 5.39,
+          "sell": 5.425
         },
         {
           "code": "USD",
           "unit": "1 Unit",
-          "buy": 4.0725,
-          "sell": 4.0875
+          "buy": 4.078,
+          "sell": 4.088
         },
         {
           "code": "VND",
           "unit": "1M Unit",
           "buy": 156.7,
-          "sell": 158.4
+          "sell": 158
         },
         {
           "code": "PKR",
           "unit": "100 Units",
-          "buy": 1.42,
-          "sell": 1.543
+          "buy": 1.43,
+          "sell": 1.55
         },
         {
           "code": "BDT",
           "unit": "100 Units",
           "buy": 2.95,
-          "sell": 3.36
+          "sell": 3.4
         },
         {
           "code": "RUB",
           "unit": "100 Units",
-          "buy": 4.65,
+          "buy": 4.6,
           "sell": 4.95
         },
         {
           "code": "NPR",
           "unit": "100 Units",
-          "buy": 2.77,
-          "sell": 2.885
+          "buy": 2.75,
+          "sell": 2.88
         },
         {
           "code": "CZK",
@@ -762,37 +762,37 @@
         {
           "code": "KHR",
           "unit": "1 Unit",
-          "buy": 0.00065,
+          "buy": 0.0006,
           "sell": 0.001
         }
       ],
-      "updatedAt": "2026-10-07T17:24:30.582Z"
+      "updatedAt": "2026-10-08T03:23:46.642Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
       "sourceUrl": "https://www.bnm.gov.my/exchange-rates",
-      "session": "1700",
+      "session": "0900",
       "rateType": "SR",
       "rates": [
         {
           "code": "USD",
-          "buy": 4.09,
-          "sell": 4.09
+          "buy": 4.089,
+          "sell": 4.089
         },
         {
           "code": "GBP",
-          "buy": 5.416,
-          "sell": 5.416
+          "buy": 5.4016,
+          "sell": 5.4016
         },
         {
           "code": "EUR",
-          "buy": 4.5804,
-          "sell": 4.5804
+          "buy": 4.5801,
+          "sell": 4.5801
         },
         {
           "code": "JPY",
-          "buy": 2.5858,
-          "sell": 2.5858
+          "buy": 2.5906,
+          "sell": 2.5906
         },
         {
           "code": "CHF",
@@ -801,26 +801,26 @@
         },
         {
           "code": "AUD",
-          "buy": 2.8524,
-          "sell": 2.8524
+          "buy": 2.8464,
+          "sell": 2.8464
         },
         {
           "code": "CAD",
-          "buy": 2.8762,
-          "sell": 2.8762
+          "buy": 2.8671,
+          "sell": 2.8671
         },
         {
           "code": "SGD",
-          "buy": 3.1973,
-          "sell": 3.1973
+          "buy": 3.1968,
+          "sell": 3.1968
         },
         {
           "code": "HKD",
-          "buy": 52.1178,
-          "sell": 52.1178
+          "buy": 52.1091,
+          "sell": 52.1091
         }
       ],
-      "updatedAt": "2026-10-07T10:09:35.582Z"
+      "updatedAt": "2026-10-08T03:23:49.786Z"
     }
   },
   "spToday": null,
@@ -888,28 +888,28 @@
       {
         "name": "The Royal Mint – Britannia 1 oz Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 17844,
+        "price": 17746,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-1-oz-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 20 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 11571,
+        "price": 11508,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-20-gram-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 10 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 5882,
+        "price": 5851,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-10-gram-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 5 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 3060,
+        "price": 3044,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-5-gram-gold-minted-bar-9999-fine-gold/"
       },
@@ -998,7 +998,7 @@
         "url": "https://www.astonandsons.com.my/product/disney-the-muppets-kermit-the-frog-1-oz-silver-coin-2025-by-agoro-limited-edition/"
       }
     ],
-    "updatedAt": "2026-10-07T17:24:30.296Z"
+    "updatedAt": "2026-10-08T03:23:48.902Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1007,7 +1007,7 @@
         "name": "Heraeus 1 kg (Kilogram) Gold Cast Bar – 999.9 Fine Gold",
         "url": "https://www.astonandsons.com.my/product/heraeus-1-kg-kilogram-gold-cast-bar-999-9-fine-gold/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2026/05/heraeus-1kg-gold-bar-600x600.jpg",
-        "price": 553905,
+        "price": 550845,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 1000,
@@ -1018,7 +1018,7 @@
         "name": "PAMP Silver 1 Kilobar Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/06/DSC02428-scaled-e1623139414704-600x389.jpg",
-        "price": 9201,
+        "price": 9040,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 1000,
@@ -1029,7 +1029,7 @@
         "name": "PAMP 1/2 Kilobar Gold Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-1-2-kilobar-gold-cast-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/05/500-grams-cast-black-background-600x338.jpg",
-        "price": 278121,
+        "price": 276585,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 500,
@@ -1040,7 +1040,7 @@
         "name": "PAMP Fortuna 100 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-100-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/front.png",
-        "price": 56243,
+        "price": 55933,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 100,
@@ -1051,7 +1051,7 @@
         "name": "PAMP Rosa 100 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-100-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/Rosa-100-Gram.png",
-        "price": 56243,
+        "price": 55933,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 100,
@@ -1062,7 +1062,7 @@
         "name": "PAMP 100 Grams Gold Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-100-grams-gold-cast-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/05/AU00RI008Q999_11.png",
-        "price": 56086,
+        "price": 55777,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 100,
@@ -1073,7 +1073,7 @@
         "name": "Heraeus 100 Gram Gold Cast Bar – 999.9 Fine Gold",
         "url": "https://www.astonandsons.com.my/product/heraeus-100-gram-gold-cast-bar-999-9-fine-gold/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2026/05/heraeus-100g-600x600.jpg",
-        "price": 55932,
+        "price": 55624,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 100,
@@ -1084,7 +1084,7 @@
         "name": "PAMP Fortuna 50 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-50-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/AU_50g_revCERTIPAMP.png",
-        "price": 28269,
+        "price": 28114,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 50,
@@ -1095,7 +1095,7 @@
         "name": "PAMP Rosa 50 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-50-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/Rosa-50-Gram.png",
-        "price": 28200,
+        "price": 28045,
         "inStock": true,
         "stockCount": 1,
         "weightGrams": 50,
@@ -1106,7 +1106,7 @@
         "name": "PAMP 50 Grams Gold Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-50-grams-gold-cast-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/05/AU00RI007Q999_11.png",
-        "price": 28137,
+        "price": 27982,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 50,
@@ -1117,7 +1117,7 @@
         "name": "Heraeus 50 Gram Gold Cast Bar – 999.9 Fine Gold",
         "url": "https://www.astonandsons.com.my/product/heraeus-50-gram-gold-cast-bar-999-9-fine-gold/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2026/05/50g-HLH-Au-Bar-Card-Front-600x600.webp",
-        "price": 28078,
+        "price": 27924,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 50,
@@ -1139,7 +1139,7 @@
         "name": "PAMP Suisse 999.9 Pure 1Oz Gold Bar",
         "url": "https://www.astonandsons.com.my/product/2023-pamp-suisse-999-9-pure-1oz-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2023/04/Front-600x600.jpg",
-        "price": 18699,
+        "price": 18597,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 31.1034768,
@@ -1150,7 +1150,7 @@
         "name": "PAMP Rosa 20 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-20-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/Rosa-20-Gram.png",
-        "price": 11571,
+        "price": 11508,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 20,
@@ -1161,7 +1161,7 @@
         "name": "PAMP Fortuna 20 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-20-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/AU_20g_revCERTIPAMP.png",
-        "price": 11571,
+        "price": 11508,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 20,
@@ -1172,7 +1172,7 @@
         "name": "Al Etihad - Mecca 10 Grams Gold Bar 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-mecca-10-grams-gold-bar-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/mecca-5g-bar-1-e1749544726543-600x785.png",
-        "price": 6085,
+        "price": 6052,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 10,
@@ -1183,7 +1183,7 @@
         "name": "PAMP Fortuna 10 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-10-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/03/Fortuna-10-Grams-Front.jpg",
-        "price": 5882,
+        "price": 5851,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 10,
@@ -1194,7 +1194,7 @@
         "name": "PAMP Rosa 10 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-10-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/Rosa-10-Gram-1.png",
-        "price": 5882,
+        "price": 5851,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 10,
@@ -1205,7 +1205,7 @@
         "name": "Al Etihad - Sunflower 5 Grams Gold Hanger 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-sunflower-5-grams-gold-hanger-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/sunflower-5g-pendant-1-e1749543534140-600x831.png",
-        "price": 3046,
+        "price": 3029,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1216,7 +1216,7 @@
         "name": "Al Etihad - Mecca 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-mecca-5-grams-gold-pendant-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/mecca-5g-pendant-1-e1749544674994-600x805.png",
-        "price": 3046,
+        "price": 3029,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1227,7 +1227,7 @@
         "name": "Al Etihad - Daffodils 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-daffodils-5-grams-gold-pendant-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/Daffodils-5g-pendant-1-e1749544404223-600x807.png",
-        "price": 3046,
+        "price": 3029,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1238,7 +1238,7 @@
         "name": "Al Etihad - Lily 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-lily-5-grams-gold-pendant-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/Lily-5g-pendant-1-e1749543720443-600x821.png",
-        "price": 3046,
+        "price": 3029,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1249,7 +1249,7 @@
         "name": "Al Etihad - Lady Flower 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-lady-flower-5-grams-gold-pendant-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/lady-flower-5g-pendant-1-e1749544250614-600x834.png",
-        "price": 3046,
+        "price": 3029,
         "inStock": true,
         "stockCount": 3,
         "weightGrams": 5,
@@ -1257,13 +1257,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-07T17:24:30.996Z"
+    "updatedAt": "2026-10-08T03:24:14.748Z"
   },
   "derived": {
-    "usdMyrMid": 4.0854,
-    "goldMyrPerGram": 541.3,
-    "silverMyrPerGram": 7.91,
-    "platinumMyrPerGram": 216.59
+    "usdMyrMid": 4.0876,
+    "goldMyrPerGram": 543.53,
+    "silverMyrPerGram": 7.9,
+    "platinumMyrPerGram": 219.08
   },
   "sourceStatus": [
     {
@@ -1293,8 +1293,7 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": false,
-      "error": "no rows parsed for today at session 0900"
+      "ok": true
     },
     {
       "name": "SP-Today",
