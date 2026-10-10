@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T09:44:40.408Z",
+  "updatedAt": "2026-10-10T15:34:30.531Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 4195.600098,
       "silver": 60.949001,
       "platinum": 1695,
-      "updatedAt": "2026-10-10T09:44:32Z"
+      "updatedAt": "2026-10-10T15:34:03Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-10T09:44:37.094Z"
+      "updatedAt": "2026-10-10T15:34:27.738Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.00099
         }
       ],
-      "updatedAt": "2026-10-10T09:44:37.256Z"
+      "updatedAt": "2026-10-10T15:34:27.322Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -998,7 +998,7 @@
         "url": "https://www.astonandsons.com.my/product/disney-the-muppets-kermit-the-frog-1-oz-silver-coin-2025-by-agoro-limited-edition/"
       }
     ],
-    "updatedAt": "2026-10-10T09:44:36.979Z"
+    "updatedAt": "2026-10-10T15:34:27.530Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1257,7 +1257,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-10T09:44:37.609Z"
+    "updatedAt": "2026-10-10T15:34:29.373Z"
   },
   "derived": {
     "usdMyrMid": 4.0875,
