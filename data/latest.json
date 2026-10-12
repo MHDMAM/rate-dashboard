@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-12T10:38:05.886Z",
+  "updatedAt": "2026-10-12T19:59:00.591Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4205,
-      "silver": 61.166,
-      "platinum": 1710,
-      "updatedAt": "2026-10-12T03:05:09Z"
+      "gold": 4170.200195,
+      "silver": 60.34,
+      "platinum": 1688,
+      "updatedAt": "2026-10-12T19:58:41Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.6052,
-        "BRL": 5.6086,
-        "CAD": 1.5942,
-        "CHF": 0.9313,
-        "CNY": 7.4992,
-        "CZK": 24.369,
-        "DKK": 7.4751,
-        "GBP": 0.84763,
-        "HKD": 8.794,
-        "HUF": 365.08,
-        "IDR": 20036.94,
-        "ILS": 3.426,
-        "INR": 108.3965,
-        "ISK": 136.8,
-        "JPY": 177.34,
-        "KRW": 1503.27,
-        "MXN": 20.395,
-        "MYR": 4.5777,
-        "NOK": 10.7155,
-        "NZD": 1.9961,
-        "PHP": 70.397,
-        "PLN": 4.3835,
-        "RON": 5.3406,
-        "SEK": 11.1675,
-        "SGD": 1.4348,
-        "THB": 37.574,
-        "TRY": 55.1033,
-        "USD": 1.1206,
-        "ZAR": 18.527
+        "AUD": 1.6032,
+        "BRL": 5.5819,
+        "CAD": 1.5946,
+        "CHF": 0.9312,
+        "CNY": 7.4832,
+        "CZK": 24.391,
+        "DKK": 7.4748,
+        "GBP": 0.84478,
+        "HKD": 8.7743,
+        "HUF": 365.13,
+        "IDR": 20036.18,
+        "ILS": 3.432,
+        "INR": 107.086,
+        "ISK": 136.4,
+        "JPY": 177.33,
+        "KRW": 1490.53,
+        "MXN": 20.5081,
+        "MYR": 4.5663,
+        "NOK": 10.6955,
+        "NZD": 1.9968,
+        "PHP": 70.169,
+        "PLN": 4.385,
+        "RON": 5.337,
+        "SEK": 11.1965,
+        "SGD": 1.4314,
+        "THB": 37.585,
+        "TRY": 55.1635,
+        "USD": 1.1181,
+        "ZAR": 18.4945
       },
-      "updatedAt": "2026-10-09"
+      "updatedAt": "2026-10-12"
     }
   },
   "myCashRates": {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-12T10:38:04.073Z"
+      "updatedAt": "2026-10-12T19:58:57.262Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -589,7 +589,7 @@
           "code": "IDR",
           "unit": "1M Unit",
           "buy": 228.7,
-          "sell": 230.5
+          "sell": 230.7
         },
         {
           "code": "JPY",
@@ -766,7 +766,7 @@
           "sell": 0.00099
         }
       ],
-      "updatedAt": "2026-10-12T10:38:04.226Z"
+      "updatedAt": "2026-10-12T19:58:57.349Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -823,7 +823,28 @@
       "updatedAt": "2026-10-12T10:38:05.263Z"
     }
   },
-  "spToday": null,
+  "spToday": {
+    "source": "SP-Today",
+    "sourceUrl": "https://sp-today.com/en",
+    "rates": [
+      {
+        "code": "USD",
+        "buy": 49,
+        "sell": 3301
+      },
+      {
+        "code": "EUR",
+        "buy": 4168,
+        "sell": 68
+      },
+      {
+        "code": "TRY",
+        "buy": 49,
+        "sell": 3301
+      }
+    ],
+    "updatedAt": "2026-10-12T19:59:00.591Z"
+  },
   "spTodayGold": null,
   "astonAndSons": {
     "source": "Aston & Sons",
@@ -998,7 +1019,7 @@
         "url": "https://www.astonandsons.com.my/product/disney-the-muppets-kermit-the-frog-1-oz-silver-coin-2025-by-agoro-limited-edition/"
       }
     ],
-    "updatedAt": "2026-10-12T10:38:04.320Z"
+    "updatedAt": "2026-10-12T19:58:57.989Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1257,19 +1278,18 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-12T10:38:05.886Z"
+    "updatedAt": "2026-10-12T19:58:57.741Z"
   },
   "derived": {
     "usdMyrMid": 4.085,
-    "goldMyrPerGram": 552.27,
-    "silverMyrPerGram": 8.03,
-    "platinumMyrPerGram": 224.59
+    "goldMyrPerGram": 547.7,
+    "silverMyrPerGram": 7.92,
+    "platinumMyrPerGram": 221.7
   },
   "sourceStatus": [
     {
       "name": "gold-api.com",
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true
     },
     {
       "name": "goldprice.org",
@@ -1294,17 +1314,17 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
-      "ok": false,
-      "error": "https://r.jina.ai/https://sp-today.com/en -> HTTP 403"
+      "ok": true
     },
     {
       "name": "SP-Today Gold",
       "ok": false,
-      "error": "https://r.jina.ai/https://sp-today.com/en/gold -> HTTP 403"
+      "error": "no local gold prices parsed - page structure may have changed"
     },
     {
       "name": "Aston & Sons",
