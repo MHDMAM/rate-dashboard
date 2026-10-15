@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-15T12:43:45.148Z",
+  "updatedAt": "2026-10-15T17:22:50.484Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4153.399902,
-      "silver": 56.875,
-      "platinum": 1627,
-      "updatedAt": "2026-10-15T12:43:15Z"
+      "gold": 4152.100098,
+      "silver": 57.162998,
+      "platinum": 1622,
+      "updatedAt": "2026-10-15T17:22:15Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.5971,
-        "BRL": 5.6246,
-        "CAD": 1.5918,
-        "CHF": 0.933,
-        "CNY": 7.4925,
-        "CZK": 24.357,
-        "DKK": 7.4754,
-        "GBP": 0.84385,
-        "HKD": 8.7859,
-        "HUF": 363.3,
-        "IDR": 20062.67,
-        "ILS": 3.4443,
-        "INR": 106.5283,
+        "AUD": 1.6218,
+        "BRL": 5.6679,
+        "CAD": 1.5923,
+        "CHF": 0.9305,
+        "CNY": 7.4993,
+        "CZK": 24.353,
+        "DKK": 7.475,
+        "GBP": 0.8461,
+        "HKD": 8.7953,
+        "HUF": 363.6,
+        "IDR": 20112.25,
+        "ILS": 3.4769,
+        "INR": 106.5408,
         "ISK": 136.4,
-        "JPY": 177.39,
-        "KRW": 1496.54,
-        "MXN": 20.56,
-        "MYR": 4.5704,
-        "NOK": 10.6035,
-        "NZD": 1.9941,
-        "PHP": 70.393,
-        "PLN": 4.3658,
-        "RON": 5.3442,
-        "SEK": 11.158,
-        "SGD": 1.4359,
-        "THB": 37.587,
-        "TRY": 55.2921,
-        "USD": 1.1195,
-        "ZAR": 18.4382
+        "JPY": 177.06,
+        "KRW": 1508.48,
+        "MXN": 20.7596,
+        "MYR": 4.5757,
+        "NOK": 10.652,
+        "NZD": 2.0012,
+        "PHP": 70.693,
+        "PLN": 4.37,
+        "RON": 5.3337,
+        "SEK": 11.1765,
+        "SGD": 1.4379,
+        "THB": 37.592,
+        "TRY": 55.3873,
+        "USD": 1.1208,
+        "ZAR": 18.5569
       },
-      "updatedAt": "2026-10-14"
+      "updatedAt": "2026-10-15"
     }
   },
   "myCashRates": {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-15T12:43:39.110Z"
+      "updatedAt": "2026-10-15T17:22:22.054Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.00105
         }
       ],
-      "updatedAt": "2026-10-15T12:43:39.301Z"
+      "updatedAt": "2026-10-15T17:22:22.182Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -829,13 +829,13 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 138.75,
-        "sell": 139.5
+        "buy": 139,
+        "sell": 139.75
       },
       {
         "code": "EUR",
-        "buy": 154.4,
-        "sell": 156.4
+        "buy": 154.5,
+        "sell": 156.6
       },
       {
         "code": "TRY",
@@ -844,16 +844,16 @@
       },
       {
         "code": "SAR",
-        "buy": 36.31,
-        "sell": 36.87
+        "buy": 36.37,
+        "sell": 36.94
       },
       {
         "code": "AED",
-        "buy": 37.4,
-        "sell": 37.99
+        "buy": 37.47,
+        "sell": 38.05
       }
     ],
-    "updatedAt": "2026-10-15T12:43:43.760Z"
+    "updatedAt": "2026-10-15T17:22:28.629Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-2026-year-of-the-horse-1-oz-silver-bar/"
       }
     ],
-    "updatedAt": "2026-10-15T12:43:39.959Z"
+    "updatedAt": "2026-10-15T17:22:23.329Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-15T12:43:40.587Z"
+    "updatedAt": "2026-10-15T17:22:50.484Z"
   },
   "derived": {
     "usdMyrMid": 4.0824,
-    "goldMyrPerGram": 545.14,
-    "silverMyrPerGram": 7.46,
-    "platinumMyrPerGram": 213.55
+    "goldMyrPerGram": 544.97,
+    "silverMyrPerGram": 7.5,
+    "platinumMyrPerGram": 212.89
   },
   "sourceStatus": [
     {
@@ -1324,7 +1324,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
