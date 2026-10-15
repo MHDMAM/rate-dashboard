@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-15T07:24:08.441Z",
+  "updatedAt": "2026-10-15T12:43:45.148Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4143.200195,
-      "silver": 56.507999,
-      "platinum": 1614,
-      "updatedAt": "2026-10-15T07:23:44Z"
+      "gold": 4153.399902,
+      "silver": 56.875,
+      "platinum": 1627,
+      "updatedAt": "2026-10-15T12:43:15Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-15T07:24:02.196Z"
+      "updatedAt": "2026-10-15T12:43:39.110Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,12 +766,12 @@
           "sell": 0.00105
         }
       ],
-      "updatedAt": "2026-10-15T07:24:02.431Z"
+      "updatedAt": "2026-10-15T12:43:39.301Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
       "sourceUrl": "https://www.bnm.gov.my/exchange-rates",
-      "session": "1200",
+      "session": "1700",
       "rateType": "SR",
       "rates": [
         {
@@ -781,46 +781,46 @@
         },
         {
           "code": "GBP",
-          "buy": 5.4116,
-          "sell": 5.4116
+          "buy": 5.4137,
+          "sell": 5.4137
         },
         {
           "code": "EUR",
-          "buy": 4.5852,
-          "sell": 4.5852
+          "buy": 4.5799,
+          "sell": 4.5799
         },
         {
           "code": "JPY",
-          "buy": 2.5896,
-          "sell": 2.5896
+          "buy": 2.587,
+          "sell": 2.587
         },
         {
           "code": "CHF",
-          "buy": 4.9294,
-          "sell": 4.9294
+          "buy": 4.9216,
+          "sell": 4.9216
         },
         {
           "code": "AUD",
-          "buy": 2.8393,
-          "sell": 2.8393
+          "buy": 2.8295,
+          "sell": 2.8295
         },
         {
           "code": "CAD",
-          "buy": 2.8758,
-          "sell": 2.8758
+          "buy": 2.8754,
+          "sell": 2.8754
         },
         {
           "code": "SGD",
-          "buy": 3.1869,
-          "sell": 3.1869
+          "buy": 3.1851,
+          "sell": 3.1851
         },
         {
           "code": "HKD",
-          "buy": 52.0306,
-          "sell": 52.0306
+          "buy": 52.0333,
+          "sell": 52.0333
         }
       ],
-      "updatedAt": "2026-10-15T07:24:04.501Z"
+      "updatedAt": "2026-10-15T12:43:40.722Z"
     }
   },
   "spToday": {
@@ -829,31 +829,31 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 138,
-        "sell": 139
+        "buy": 138.75,
+        "sell": 139.5
       },
       {
         "code": "EUR",
-        "buy": 153.5,
-        "sell": 155.9
+        "buy": 154.4,
+        "sell": 156.4
       },
       {
         "code": "TRY",
         "buy": 49,
-        "sell": 4178
+        "sell": 4173
       },
       {
         "code": "SAR",
-        "buy": 37.15,
-        "sell": 37.8
+        "buy": 36.31,
+        "sell": 36.87
       },
       {
         "code": "AED",
-        "buy": 37.2,
-        "sell": 37.85
+        "buy": 37.4,
+        "sell": 37.99
       }
     ],
-    "updatedAt": "2026-10-15T07:24:05.928Z"
+    "updatedAt": "2026-10-15T12:43:43.760Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-2026-year-of-the-horse-1-oz-silver-bar/"
       }
     ],
-    "updatedAt": "2026-10-15T07:24:02.156Z"
+    "updatedAt": "2026-10-15T12:43:39.959Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-15T07:24:02.959Z"
+    "updatedAt": "2026-10-15T12:43:40.587Z"
   },
   "derived": {
     "usdMyrMid": 4.0824,
-    "goldMyrPerGram": 543.8,
-    "silverMyrPerGram": 7.42,
-    "platinumMyrPerGram": 211.84
+    "goldMyrPerGram": 545.14,
+    "silverMyrPerGram": 7.46,
+    "platinumMyrPerGram": 213.55
   },
   "sourceStatus": [
     {
