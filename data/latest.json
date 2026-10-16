@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-16T12:14:08.562Z",
+  "updatedAt": "2026-10-16T16:40:10.073Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4176,
-      "silver": 57.903,
-      "platinum": 1645,
-      "updatedAt": "2026-10-16T12:13:37Z"
+      "gold": 4162.299805,
+      "silver": 57.379002,
+      "platinum": 1635,
+      "updatedAt": "2026-10-16T16:39:08Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.6218,
-        "BRL": 5.6679,
-        "CAD": 1.5923,
-        "CHF": 0.9305,
-        "CNY": 7.4993,
-        "CZK": 24.353,
-        "DKK": 7.475,
-        "GBP": 0.8461,
-        "HKD": 8.7953,
-        "HUF": 363.6,
-        "IDR": 20112.25,
-        "ILS": 3.4769,
-        "INR": 106.5408,
-        "ISK": 136.4,
-        "JPY": 177.06,
-        "KRW": 1508.48,
-        "MXN": 20.7596,
-        "MYR": 4.5757,
-        "NOK": 10.652,
-        "NZD": 2.0012,
-        "PHP": 70.693,
+        "AUD": 1.6171,
+        "BRL": 5.7197,
+        "CAD": 1.5935,
+        "CHF": 0.9272,
+        "CNY": 7.524,
+        "CZK": 24.323,
+        "DKK": 7.4748,
+        "GBP": 0.84385,
+        "HKD": 8.8316,
+        "HUF": 363.08,
+        "IDR": 20290.28,
+        "ILS": 3.4822,
+        "INR": 106.864,
+        "ISK": 136.2,
+        "JPY": 177.82,
+        "KRW": 1499.01,
+        "MXN": 20.6871,
+        "MYR": 4.5929,
+        "NOK": 10.624,
+        "NZD": 1.9868,
+        "PHP": 70.858,
         "PLN": 4.37,
-        "RON": 5.3337,
-        "SEK": 11.1765,
-        "SGD": 1.4379,
-        "THB": 37.592,
-        "TRY": 55.3873,
-        "USD": 1.1208,
-        "ZAR": 18.5569
+        "RON": 5.331,
+        "SEK": 11.145,
+        "SGD": 1.4395,
+        "THB": 37.602,
+        "TRY": 55.7328,
+        "USD": 1.1253,
+        "ZAR": 18.493
       },
-      "updatedAt": "2026-10-15"
+      "updatedAt": "2026-10-16"
     }
   },
   "myCashRates": {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-16T12:14:03.479Z"
+      "updatedAt": "2026-10-16T16:39:32.345Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.00108
         }
       ],
-      "updatedAt": "2026-10-16T12:14:03.523Z"
+      "updatedAt": "2026-10-16T16:39:32.139Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -853,13 +853,20 @@
         "sell": 38.05
       }
     ],
-    "updatedAt": "2026-10-16T12:14:07.656Z"
+    "updatedAt": "2026-10-16T16:39:37.573Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
     "source": "Aston & Sons",
     "sourceUrl": "https://www.astonandsons.com.my/product-category/gold-bars/",
     "products": [
+      {
+        "name": "Germania Mint Halloween 2026 – 1/100 oz Gold Minted Bar (Limited Edition)",
+        "category": "Gold Bars",
+        "price": 460,
+        "currency": "MYR",
+        "url": "https://www.astonandsons.com.my/product/germania-mint-halloween-2026-1-100-oz-gold-minted-bar-limited-edition/"
+      },
       {
         "name": "Sprite® Gold Bottle Cap – 1.2 Gram Gold Coin (with Box & COA) (Limited Edition)",
         "category": "Gold Bars",
@@ -926,23 +933,16 @@
       {
         "name": "The Royal Mint – Britannia 1 oz Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 18047,
+        "price": 17945,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-1-oz-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 20 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 11702,
+        "price": 11636,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-20-gram-gold-minted-bar-9999-fine-gold/"
-      },
-      {
-        "name": "The Royal Mint – Britannia 10 Gram Gold Minted Bar (.9999 Fine Gold)",
-        "category": "Gold Bars",
-        "price": 5948,
-        "currency": "MYR",
-        "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-10-gram-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "Coca-Cola® Happy Holidays 1 oz Silver Bottle Shaped Coin (Limited Edition) (Made by PAMP)",
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-2026-year-of-the-horse-1-oz-silver-bar/"
       }
     ],
-    "updatedAt": "2026-10-16T12:14:03.534Z"
+    "updatedAt": "2026-10-16T16:39:35.045Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1038,7 +1038,7 @@
         "name": "Heraeus 1 kg (Kilogram) Gold Cast Bar – 999.9 Fine Gold",
         "url": "https://www.astonandsons.com.my/product/heraeus-1-kg-kilogram-gold-cast-bar-999-9-fine-gold/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2026/05/heraeus-1kg-gold-bar-600x600.jpg",
-        "price": 560279,
+        "price": 557076,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 1000,
@@ -1049,7 +1049,7 @@
         "name": "PAMP Silver 1 Kilobar Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/06/DSC02428-scaled-e1623139414704-600x389.jpg",
-        "price": 9151,
+        "price": 8689,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 1000,
@@ -1060,7 +1060,7 @@
         "name": "PAMP 1/2 Kilobar Gold Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-1-2-kilobar-gold-cast-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/05/500-grams-cast-black-background-600x338.jpg",
-        "price": 281319,
+        "price": 279712,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 500,
@@ -1071,7 +1071,7 @@
         "name": "PAMP Fortuna 100 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-100-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/front.png",
-        "price": 56887,
+        "price": 56563,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 100,
@@ -1082,7 +1082,7 @@
         "name": "PAMP Rosa 100 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-100-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/Rosa-100-Gram.png",
-        "price": 56887,
+        "price": 56563,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 100,
@@ -1093,7 +1093,7 @@
         "name": "PAMP 100 Grams Gold Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-100-grams-gold-cast-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/05/AU00RI008Q999_11.png",
-        "price": 56731,
+        "price": 56407,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 100,
@@ -1104,7 +1104,7 @@
         "name": "Heraeus 100 Gram Gold Cast Bar – 999.9 Fine Gold",
         "url": "https://www.astonandsons.com.my/product/heraeus-100-gram-gold-cast-bar-999-9-fine-gold/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2026/05/heraeus-100g-600x600.jpg",
-        "price": 56313,
+        "price": 55992,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 100,
@@ -1115,7 +1115,7 @@
         "name": "PAMP Fortuna 50 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-50-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/AU_50g_revCERTIPAMP.png",
-        "price": 28592,
+        "price": 28430,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 50,
@@ -1126,7 +1126,7 @@
         "name": "PAMP Rosa 50 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-50-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/Rosa-50-Gram.png",
-        "price": 28522,
+        "price": 28360,
         "inStock": true,
         "stockCount": 1,
         "weightGrams": 50,
@@ -1137,7 +1137,7 @@
         "name": "PAMP 50 Grams Gold Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-50-grams-gold-cast-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/05/AU00RI007Q999_11.png",
-        "price": 28460,
+        "price": 28298,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 50,
@@ -1148,7 +1148,7 @@
         "name": "Heraeus 50 Gram Gold Cast Bar – 999.9 Fine Gold",
         "url": "https://www.astonandsons.com.my/product/heraeus-50-gram-gold-cast-bar-999-9-fine-gold/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2026/05/50g-HLH-Au-Bar-Card-Front-600x600.webp",
-        "price": 28199,
+        "price": 28039,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 50,
@@ -1170,7 +1170,7 @@
         "name": "PAMP Suisse 999.9 Pure 1Oz Gold Bar",
         "url": "https://www.astonandsons.com.my/product/2023-pamp-suisse-999-9-pure-1oz-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2023/04/Front-600x600.jpg",
-        "price": 18912,
+        "price": 18805,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 31.1034768,
@@ -1181,7 +1181,7 @@
         "name": "PAMP Rosa 20 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-20-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/Rosa-20-Gram.png",
-        "price": 11702,
+        "price": 11636,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 20,
@@ -1192,7 +1192,7 @@
         "name": "PAMP Fortuna 20 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-20-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/AU_20g_revCERTIPAMP.png",
-        "price": 11702,
+        "price": 11636,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 20,
@@ -1203,7 +1203,7 @@
         "name": "Al Etihad - Mecca 10 Grams Gold Bar 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-mecca-10-grams-gold-bar-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/mecca-5g-bar-1-e1749544726543-600x785.png",
-        "price": 6155,
+        "price": 6120,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 10,
@@ -1214,7 +1214,7 @@
         "name": "PAMP Fortuna 10 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-10-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/03/Fortuna-10-Grams-Front.jpg",
-        "price": 5948,
+        "price": 5915,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 10,
@@ -1225,7 +1225,7 @@
         "name": "PAMP Rosa 10 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-10-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/Rosa-10-Gram-1.png",
-        "price": 5948,
+        "price": 5915,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 10,
@@ -1236,7 +1236,7 @@
         "name": "Al Etihad - Sunflower 5 Grams Gold Hanger 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-sunflower-5-grams-gold-hanger-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/sunflower-5g-pendant-1-e1749543534140-600x831.png",
-        "price": 3080,
+        "price": 3063,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1247,7 +1247,7 @@
         "name": "Al Etihad - Mecca 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-mecca-5-grams-gold-pendant-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/mecca-5g-pendant-1-e1749544674994-600x805.png",
-        "price": 3080,
+        "price": 3063,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1258,7 +1258,7 @@
         "name": "Al Etihad - Daffodils 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-daffodils-5-grams-gold-pendant-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/Daffodils-5g-pendant-1-e1749544404223-600x807.png",
-        "price": 3080,
+        "price": 3063,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1269,7 +1269,7 @@
         "name": "Al Etihad - Lily 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-lily-5-grams-gold-pendant-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/Lily-5g-pendant-1-e1749543720443-600x821.png",
-        "price": 3080,
+        "price": 3063,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1280,7 +1280,7 @@
         "name": "Al Etihad - Lady Flower 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-lady-flower-5-grams-gold-pendant-999-9/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2025/05/lady-flower-5g-pendant-1-e1749544250614-600x834.png",
-        "price": 3080,
+        "price": 3063,
         "inStock": true,
         "stockCount": 3,
         "weightGrams": 5,
@@ -1288,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-16T12:14:05.569Z"
+    "updatedAt": "2026-10-16T16:40:10.073Z"
   },
   "derived": {
     "usdMyrMid": 4.0825,
-    "goldMyrPerGram": 548.12,
-    "silverMyrPerGram": 7.6,
-    "platinumMyrPerGram": 215.91
+    "goldMyrPerGram": 546.32,
+    "silverMyrPerGram": 7.53,
+    "platinumMyrPerGram": 214.6
   },
   "sourceStatus": [
     {
@@ -1324,7 +1324,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
