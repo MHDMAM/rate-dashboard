@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T11:07:03.045Z",
+  "updatedAt": "2026-10-17T14:09:10.695Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 4166.100098,
       "silver": 57.116001,
       "platinum": 1636,
-      "updatedAt": "2026-10-17T11:02:41Z"
+      "updatedAt": "2026-10-17T14:08:42Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-17T11:03:02.432Z"
+      "updatedAt": "2026-10-17T14:09:04.927Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.0011
         }
       ],
-      "updatedAt": "2026-10-17T11:03:02.525Z"
+      "updatedAt": "2026-10-17T14:09:05.104Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -829,13 +829,13 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 139.5,
-        "sell": 140.25
+        "buy": 139.75,
+        "sell": 140.5
       },
       {
         "code": "EUR",
-        "buy": 155.5,
-        "sell": 157.6
+        "buy": 155.8,
+        "sell": 157.9
       },
       {
         "code": "TRY",
@@ -844,16 +844,16 @@
       },
       {
         "code": "SAR",
-        "buy": 36.8,
-        "sell": 37.37
+        "buy": 36.87,
+        "sell": 37.44
       },
       {
         "code": "AED",
-        "buy": 37.61,
-        "sell": 38.19
+        "buy": 37.67,
+        "sell": 38.26
       }
     ],
-    "updatedAt": "2026-10-17T11:03:05.782Z"
+    "updatedAt": "2026-10-17T14:09:09.965Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-2026-year-of-the-horse-1-oz-silver-bar/"
       }
     ],
-    "updatedAt": "2026-10-17T06:29:39.857Z"
+    "updatedAt": "2026-10-17T14:09:05.270Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,7 +1288,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-17T06:29:41.464Z"
+    "updatedAt": "2026-10-17T14:09:08.372Z"
   },
   "derived": {
     "usdMyrMid": 4.0815,
@@ -1338,13 +1338,11 @@
     },
     {
       "name": "Aston & Sons",
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true
     },
     {
       "name": "Aston & Sons (featured)",
-      "ok": false,
-      "error": "no featured products parsed"
+      "ok": true
     }
   ]
 }
