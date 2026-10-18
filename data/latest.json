@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T14:51:39.121Z",
+  "updatedAt": "2026-10-18T17:35:29.842Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 4166.100098,
       "silver": 57.116001,
       "platinum": 1636,
-      "updatedAt": "2026-10-18T14:51:15Z"
+      "updatedAt": "2026-10-18T17:35:16Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-18T14:51:34.762Z"
+      "updatedAt": "2026-10-18T17:35:25.001Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.0011
         }
       ],
-      "updatedAt": "2026-10-18T14:51:34.842Z"
+      "updatedAt": "2026-10-18T17:35:25.093Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -829,16 +829,31 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 49,
-        "sell": 5138
+        "buy": 139.75,
+        "sell": 140.5
+      },
+      {
+        "code": "EUR",
+        "buy": 155.8,
+        "sell": 157.9
       },
       {
         "code": "TRY",
         "buy": 49,
         "sell": 5138
+      },
+      {
+        "code": "SAR",
+        "buy": 36.87,
+        "sell": 37.44
+      },
+      {
+        "code": "AED",
+        "buy": 37.67,
+        "sell": 38.26
       }
     ],
-    "updatedAt": "2026-10-18T14:51:38.394Z"
+    "updatedAt": "2026-10-18T17:35:29.569Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1014,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-2026-year-of-the-horse-1-oz-silver-bar/"
       }
     ],
-    "updatedAt": "2026-10-18T14:51:34.782Z"
+    "updatedAt": "2026-10-18T17:35:25.942Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1273,7 +1288,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-18T14:51:35.968Z"
+    "updatedAt": "2026-10-18T17:35:26.094Z"
   },
   "derived": {
     "usdMyrMid": 4.0816,
