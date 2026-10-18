@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T06:51:51.586Z",
+  "updatedAt": "2026-10-18T11:46:48.005Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 4166.100098,
       "silver": 57.116001,
       "platinum": 1636,
-      "updatedAt": "2026-10-18T06:51:44Z"
+      "updatedAt": "2026-10-18T11:46:15Z"
     },
     "goldPriceOrg": null
   },
@@ -334,7 +334,7 @@
           "name": "CHINESE RENMINBI",
           "unit": "100",
           "buy": 61.36,
-          "sell": 61.6
+          "sell": 61.65
         },
         {
           "code": "THB",
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-18T06:51:47.417Z"
+      "updatedAt": "2026-10-18T11:46:42.675Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -766,7 +766,7 @@
           "sell": 0.0011
         }
       ],
-      "updatedAt": "2026-10-18T06:51:47.541Z"
+      "updatedAt": "2026-10-18T11:46:42.750Z"
     },
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
@@ -829,31 +829,16 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 139.75,
-        "sell": 140.5
-      },
-      {
-        "code": "EUR",
-        "buy": 155.8,
-        "sell": 157.9
+        "buy": 49,
+        "sell": 5138
       },
       {
         "code": "TRY",
         "buy": 49,
         "sell": 5138
-      },
-      {
-        "code": "SAR",
-        "buy": 36.87,
-        "sell": 37.44
-      },
-      {
-        "code": "AED",
-        "buy": 37.67,
-        "sell": 38.26
       }
     ],
-    "updatedAt": "2026-10-18T06:51:51.071Z"
+    "updatedAt": "2026-10-18T11:46:46.250Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1014,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-2026-year-of-the-horse-1-oz-silver-bar/"
       }
     ],
-    "updatedAt": "2026-10-18T06:51:47.440Z"
+    "updatedAt": "2026-10-18T11:46:42.781Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,7 +1273,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-18T06:51:48.463Z"
+    "updatedAt": "2026-10-18T11:46:44.174Z"
   },
   "derived": {
     "usdMyrMid": 4.0816,
