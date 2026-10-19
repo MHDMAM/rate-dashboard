@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-19T15:00:15.513Z",
+  "updatedAt": "2026-10-19T20:25:30.202Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4147.200195,
-      "silver": 57.247002,
-      "platinum": 1647,
-      "updatedAt": "2026-10-19T14:59:30Z"
+      "gold": 4139.700195,
+      "silver": 57.171001,
+      "platinum": 1644,
+      "updatedAt": "2026-10-19T20:24:33Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-19T15:00:00.325Z"
+      "updatedAt": "2026-10-19T20:24:59.706Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -829,16 +829,31 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 49,
-        "sell": 5526
+        "buy": 141,
+        "sell": 141.75
+      },
+      {
+        "code": "EUR",
+        "buy": 156,
+        "sell": 80
       },
       {
         "code": "TRY",
         "buy": 49,
-        "sell": 5526
+        "sell": 5515
+      },
+      {
+        "code": "SAR",
+        "buy": 37,
+        "sell": 9
+      },
+      {
+        "code": "AED",
+        "buy": 38.01,
+        "sell": 38.6
       }
     ],
-    "updatedAt": "2026-10-19T15:00:08.968Z"
+    "updatedAt": "2026-10-19T20:25:03.767Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -918,14 +933,14 @@
       {
         "name": "The Royal Mint – Britannia 1 oz Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 17945,
+        "price": 17869,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-1-oz-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 20 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 11636,
+        "price": 11587,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-20-gram-gold-minted-bar-9999-fine-gold/"
       },
@@ -1014,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-2026-year-of-the-horse-1-oz-silver-bar/"
       }
     ],
-    "updatedAt": "2026-10-19T15:00:04.317Z"
+    "updatedAt": "2026-10-19T20:25:02.148Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1056,19 +1071,8 @@
         "name": "PAMP Fortuna 100 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-100-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/front.png",
-        "price": 56563,
+        "price": 56321,
         "inStock": false,
-        "stockCount": null,
-        "weightGrams": 100,
-        "weightLabel": "100g",
-        "metal": "gold"
-      },
-      {
-        "name": "PAMP 100 Grams Gold Cast Bar",
-        "url": "https://www.astonandsons.com.my/product/pamp-100-grams-gold-cast-bar/",
-        "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/05/AU00RI008Q999_11.png",
-        "price": 56407,
-        "inStock": true,
         "stockCount": null,
         "weightGrams": 100,
         "weightLabel": "100g",
@@ -1079,6 +1083,17 @@
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-100-grams-gold-bar/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/04/Rosa-100-Gram.png",
         "price": 56321,
+        "inStock": true,
+        "stockCount": null,
+        "weightGrams": 100,
+        "weightLabel": "100g",
+        "metal": "gold"
+      },
+      {
+        "name": "PAMP 100 Grams Gold Cast Bar",
+        "url": "https://www.astonandsons.com.my/product/pamp-100-grams-gold-cast-bar/",
+        "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/05/AU00RI008Q999_11.png",
+        "price": 56165,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 100,
@@ -1133,7 +1148,7 @@
         "name": "Heraeus 50 Gram Gold Cast Bar – 999.9 Fine Gold",
         "url": "https://www.astonandsons.com.my/product/heraeus-50-gram-gold-cast-bar-999-9-fine-gold/",
         "image": "https://www.astonandsons.com.my/wp-content/uploads/2026/05/50g-HLH-Au-Bar-Card-Front-600x600.webp",
-        "price": 28039,
+        "price": 27919,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 50,
@@ -1273,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-19T15:00:05.693Z"
+    "updatedAt": "2026-10-19T20:25:30.202Z"
   },
   "derived": {
     "usdMyrMid": 4.0816,
-    "goldMyrPerGram": 544.22,
-    "silverMyrPerGram": 7.51,
-    "platinumMyrPerGram": 216.13
+    "goldMyrPerGram": 543.23,
+    "silverMyrPerGram": 7.5,
+    "platinumMyrPerGram": 215.73
   },
   "sourceStatus": [
     {
@@ -1306,11 +1321,12 @@
     {
       "name": "My Money Master",
       "ok": false,
-      "error": "http://www.mymoneymaster.com.my/Home/full_rate_board -> HTTP 500"
+      "error": "http://www.mymoneymaster.com.my/Home/full_rate_board -> HTTP 403"
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
