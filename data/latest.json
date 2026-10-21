@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-21T07:49:29.657Z",
+  "updatedAt": "2026-10-21T13:15:40.925Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4122.100098,
-      "silver": 57.541,
-      "platinum": 1636,
-      "updatedAt": "2026-10-21T07:49:04Z"
+      "gold": 4137.399902,
+      "silver": 57.854,
+      "platinum": 1644,
+      "updatedAt": "2026-10-21T13:15:06Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-21T07:49:05.789Z"
+      "updatedAt": "2026-10-21T13:15:34.823Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -771,56 +771,56 @@
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
       "sourceUrl": "https://www.bnm.gov.my/exchange-rates",
-      "session": "1200",
+      "session": "1700",
       "rateType": "SR",
       "rates": [
         {
           "code": "USD",
-          "buy": 4.0835,
-          "sell": 4.0835
+          "buy": 4.082,
+          "sell": 4.082
         },
         {
           "code": "GBP",
-          "buy": 5.4629,
-          "sell": 5.4629
+          "buy": 5.4719,
+          "sell": 5.4719
         },
         {
           "code": "EUR",
-          "buy": 4.585,
-          "sell": 4.585
+          "buy": 4.5808,
+          "sell": 4.5808
         },
         {
           "code": "JPY",
-          "buy": 2.5827,
-          "sell": 2.5827
+          "buy": 2.5811,
+          "sell": 2.5811
         },
         {
           "code": "CHF",
-          "buy": 4.9473,
-          "sell": 4.9473
+          "buy": 4.9515,
+          "sell": 4.9515
         },
         {
           "code": "AUD",
-          "buy": 2.8654,
-          "sell": 2.8654
+          "buy": 2.8688,
+          "sell": 2.8688
         },
         {
           "code": "CAD",
-          "buy": 2.9041,
-          "sell": 2.9041
+          "buy": 2.9051,
+          "sell": 2.9051
         },
         {
           "code": "SGD",
-          "buy": 3.1957,
-          "sell": 3.1957
+          "buy": 3.1943,
+          "sell": 3.1943
         },
         {
           "code": "HKD",
-          "buy": 52.0337,
-          "sell": 52.0337
+          "buy": 52.0205,
+          "sell": 52.0205
         }
       ],
-      "updatedAt": "2026-10-21T07:49:07.923Z"
+      "updatedAt": "2026-10-21T13:15:35.990Z"
     }
   },
   "spToday": {
@@ -829,13 +829,13 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 140.75,
-        "sell": 141.5
+        "buy": 141,
+        "sell": 141.75
       },
       {
         "code": "EUR",
-        "buy": 156,
-        "sell": 70
+        "buy": 157,
+        "sell": 10
       },
       {
         "code": "TRY",
@@ -845,15 +845,15 @@
       {
         "code": "SAR",
         "buy": 37,
-        "sell": 15
+        "sell": 23
       },
       {
         "code": "AED",
-        "buy": 37.94,
-        "sell": 38.53
+        "buy": 38.01,
+        "sell": 38.6
       }
     ],
-    "updatedAt": "2026-10-21T07:49:12.344Z"
+    "updatedAt": "2026-10-21T13:15:40.230Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-2026-year-of-the-horse-1-oz-silver-bar/"
       }
     ],
-    "updatedAt": "2026-10-21T07:49:05.943Z"
+    "updatedAt": "2026-10-21T13:15:35.116Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-21T07:49:29.657Z"
+    "updatedAt": "2026-10-21T13:15:37.099Z"
   },
   "derived": {
     "usdMyrMid": 4.0829,
-    "goldMyrPerGram": 541.1,
-    "silverMyrPerGram": 7.55,
-    "platinumMyrPerGram": 214.76
+    "goldMyrPerGram": 543.11,
+    "silverMyrPerGram": 7.59,
+    "platinumMyrPerGram": 215.81
   },
   "sourceStatus": [
     {
