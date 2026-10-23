@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-23T12:52:11.131Z",
+  "updatedAt": "2026-10-23T17:30:49.861Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4030.199951,
-      "silver": 53.991001,
-      "platinum": 1563,
-      "updatedAt": "2026-10-23T12:51:44Z"
+      "gold": 3994.800049,
+      "silver": 54.044998,
+      "platinum": 1561,
+      "updatedAt": "2026-10-23T17:30:14Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.598,
-        "BRL": 5.6574,
-        "CAD": 1.5725,
-        "CHF": 0.9211,
-        "CNY": 7.4786,
-        "CZK": 24.26,
-        "DKK": 7.4747,
-        "GBP": 0.8377,
-        "HKD": 8.7845,
-        "HUF": 366.43,
-        "IDR": 20253.88,
-        "ILS": 3.4824,
-        "INR": 106.249,
+        "AUD": 1.5939,
+        "BRL": 5.6485,
+        "CAD": 1.5665,
+        "CHF": 0.9227,
+        "CNY": 7.466,
+        "CZK": 24.327,
+        "DKK": 7.4748,
+        "GBP": 0.83728,
+        "HKD": 8.7793,
+        "HUF": 366.73,
+        "IDR": 20268.06,
+        "ILS": 3.4939,
+        "INR": 106.272,
         "ISK": 136.2,
-        "JPY": 175.97,
-        "KRW": 1484.25,
-        "MXN": 21.0215,
-        "MYR": 4.5756,
-        "NOK": 10.488,
-        "NZD": 1.9724,
-        "PHP": 71.162,
-        "PLN": 4.3695,
-        "RON": 5.345,
-        "SEK": 11.112,
-        "SGD": 1.4315,
-        "THB": 37.811,
-        "TRY": 55.6079,
-        "USD": 1.1205,
-        "ZAR": 18.5058
+        "JPY": 175.51,
+        "KRW": 1482.46,
+        "MXN": 21.0226,
+        "MYR": 4.5729,
+        "NOK": 10.4665,
+        "NZD": 1.9682,
+        "PHP": 71.235,
+        "PLN": 4.3945,
+        "RON": 5.3492,
+        "SEK": 11.131,
+        "SGD": 1.431,
+        "THB": 37.771,
+        "TRY": 55.6715,
+        "USD": 1.1193,
+        "ZAR": 18.5777
       },
-      "updatedAt": "2026-10-22"
+      "updatedAt": "2026-10-23"
     }
   },
   "myCashRates": {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-23T12:52:05.211Z"
+      "updatedAt": "2026-10-23T17:30:41.609Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -853,7 +853,7 @@
         "sell": 38.53
       }
     ],
-    "updatedAt": "2026-10-23T12:52:11.131Z"
+    "updatedAt": "2026-10-23T17:30:45.558Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-2026-year-of-the-horse-1-oz-silver-bar/"
       }
     ],
-    "updatedAt": "2026-10-23T12:52:05.626Z"
+    "updatedAt": "2026-10-23T17:30:45.576Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-23T12:52:08.693Z"
+    "updatedAt": "2026-10-23T17:30:48.490Z"
   },
   "derived": {
     "usdMyrMid": 4.083,
-    "goldMyrPerGram": 529.06,
+    "goldMyrPerGram": 524.41,
     "silverMyrPerGram": 7.09,
-    "platinumMyrPerGram": 205.18
+    "platinumMyrPerGram": 204.92
   },
   "sourceStatus": [
     {
@@ -1325,7 +1325,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
