@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T12:06:28.934Z",
+  "updatedAt": "2026-10-24T15:50:59.080Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 3996.899902,
       "silver": 54.046001,
       "platinum": 1558,
-      "updatedAt": "2026-10-24T12:06:22Z"
+      "updatedAt": "2026-10-24T15:50:23Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-24T12:06:25.290Z"
+      "updatedAt": "2026-10-24T15:50:48.246Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -829,13 +829,13 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 142.25,
-        "sell": 143
+        "buy": 141.75,
+        "sell": 142.5
       },
       {
         "code": "EUR",
-        "buy": 158,
-        "sell": 10
+        "buy": 157,
+        "sell": 50
       },
       {
         "code": "TRY",
@@ -845,15 +845,15 @@
       {
         "code": "SAR",
         "buy": 37,
-        "sell": 52
+        "sell": 39
       },
       {
         "code": "AED",
-        "buy": 38.35,
-        "sell": 38.94
+        "buy": 38.21,
+        "sell": 38.8
       }
     ],
-    "updatedAt": "2026-10-24T12:06:28.934Z"
+    "updatedAt": "2026-10-24T15:50:59.080Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-2026-year-of-the-horse-1-oz-silver-bar/"
       }
     ],
-    "updatedAt": "2026-10-24T12:06:24.435Z"
+    "updatedAt": "2026-10-24T15:50:50.516Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,7 +1288,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-24T12:06:25.148Z"
+    "updatedAt": "2026-10-24T15:50:53.166Z"
   },
   "derived": {
     "usdMyrMid": 4.0847,
