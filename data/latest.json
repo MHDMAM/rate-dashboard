@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-26T07:44:29.437Z",
+  "updatedAt": "2026-10-26T14:34:48.782Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4009,
-      "silver": 54.139999,
-      "platinum": 1556,
-      "updatedAt": "2026-10-26T07:43:43Z"
+      "gold": 4013.699951,
+      "silver": 53.886002,
+      "platinum": 1530,
+      "updatedAt": "2026-10-26T14:34:14Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-26T07:43:47.199Z"
+      "updatedAt": "2026-10-26T14:34:17.655Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -771,56 +771,56 @@
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
       "sourceUrl": "https://www.bnm.gov.my/exchange-rates",
-      "session": "1200",
+      "session": "1700",
       "rateType": "SR",
       "rates": [
         {
           "code": "USD",
-          "buy": 4.086,
-          "sell": 4.086
+          "buy": 4.088,
+          "sell": 4.088
         },
         {
           "code": "GBP",
-          "buy": 5.4679,
-          "sell": 5.4679
+          "buy": 5.4567,
+          "sell": 5.4567
         },
         {
           "code": "EUR",
-          "buy": 4.5857,
-          "sell": 4.5857
+          "buy": 4.5818,
+          "sell": 4.5818
         },
         {
           "code": "JPY",
-          "buy": 2.605,
-          "sell": 2.605
+          "buy": 2.5997,
+          "sell": 2.5997
         },
         {
           "code": "CHF",
-          "buy": 4.9605,
-          "sell": 4.9605
+          "buy": 4.9498,
+          "sell": 4.9498
         },
         {
           "code": "AUD",
-          "buy": 2.8725,
-          "sell": 2.8725
+          "buy": 2.8747,
+          "sell": 2.8747
         },
         {
           "code": "CAD",
-          "buy": 2.9173,
-          "sell": 2.9173
+          "buy": 2.9167,
+          "sell": 2.9167
         },
         {
           "code": "SGD",
-          "buy": 3.1969,
-          "sell": 3.1969
+          "buy": 3.1945,
+          "sell": 3.1945
         },
         {
           "code": "HKD",
-          "buy": 52.0928,
-          "sell": 52.0928
+          "buy": 52.1136,
+          "sell": 52.1136
         }
       ],
-      "updatedAt": "2026-10-26T07:43:47.991Z"
+      "updatedAt": "2026-10-26T14:34:17.830Z"
     }
   },
   "spToday": {
@@ -829,31 +829,31 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 142.75,
-        "sell": 143.5
+        "buy": 143.25,
+        "sell": 144
       },
       {
         "code": "EUR",
         "buy": 158,
-        "sell": 70
+        "sell": 90
       },
       {
         "code": "TRY",
         "buy": 49,
-        "sell": 7626
+        "sell": 7625
       },
       {
         "code": "SAR",
         "buy": 37,
-        "sell": 74
+        "sell": 87
       },
       {
         "code": "AED",
-        "buy": 38.48,
-        "sell": 39.07
+        "buy": 38.62,
+        "sell": 39.21
       }
     ],
-    "updatedAt": "2026-10-26T07:43:50.442Z"
+    "updatedAt": "2026-10-26T14:34:17.630Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -933,14 +933,14 @@
       {
         "name": "The Royal Mint – Britannia 1 oz Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 17644,
+        "price": 17653,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-1-oz-gold-minted-bar-9999-fine-gold/"
       },
       {
         "name": "The Royal Mint – Britannia 20 Gram Gold Minted Bar (.9999 Fine Gold)",
         "category": "Gold Bars",
-        "price": 11443,
+        "price": 11448,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/the-royal-mint-britannia-20-gram-gold-minted-bar-9999-fine-gold/"
       },
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-2026-year-of-the-horse-1-oz-silver-bar/"
       }
     ],
-    "updatedAt": "2026-10-26T02:08:26.963Z"
+    "updatedAt": "2026-10-26T14:34:17.544Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1055,6 +1055,17 @@
         "weightGrams": 1000,
         "weightLabel": "1kg",
         "metal": "silver"
+      },
+      {
+        "name": "PAMP 1/2 Kilobar Gold Cast Bar",
+        "url": "https://www.astonandsons.com.my/product/pamp-1-2-kilobar-gold-cast-bar/",
+        "image": "https://www.astonandsons.com.my/wp-content/uploads/2021/05/500-grams-cast-black-background-600x338.jpg",
+        "price": 275115,
+        "inStock": false,
+        "stockCount": null,
+        "weightGrams": 500,
+        "weightLabel": "500g",
+        "metal": "gold"
       },
       {
         "name": "PAMP Fortuna 100 Grams Gold Bar",
@@ -1277,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-26T07:44:29.437Z"
+    "updatedAt": "2026-10-26T14:34:48.782Z"
   },
   "derived": {
     "usdMyrMid": 4.0853,
-    "goldMyrPerGram": 526.56,
-    "silverMyrPerGram": 7.11,
-    "platinumMyrPerGram": 204.37
+    "goldMyrPerGram": 527.18,
+    "silverMyrPerGram": 7.08,
+    "platinumMyrPerGram": 200.96
   },
   "sourceStatus": [
     {
@@ -1327,8 +1338,7 @@
     },
     {
       "name": "Aston & Sons",
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true
     },
     {
       "name": "Aston & Sons (featured)",
