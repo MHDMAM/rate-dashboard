@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-28T15:54:03.545Z",
+  "updatedAt": "2026-10-28T20:37:17.792Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4042.399902,
-      "silver": 53.705002,
-      "platinum": 1547,
-      "updatedAt": "2026-10-28T15:52:27Z"
+      "gold": 4063.100098,
+      "silver": 54.055,
+      "platinum": 1544,
+      "updatedAt": "2026-10-28T20:36:28Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-28T15:52:48.387Z"
+      "updatedAt": "2026-10-28T20:36:36.469Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -835,12 +835,12 @@
       {
         "code": "EUR",
         "buy": 157,
-        "sell": 40
+        "sell": 60
       },
       {
         "code": "TRY",
         "buy": 49,
-        "sell": 8376
+        "sell": 8396
       },
       {
         "code": "SAR",
@@ -853,7 +853,7 @@
         "sell": 39
       }
     ],
-    "updatedAt": "2026-10-28T15:52:54.298Z"
+    "updatedAt": "2026-10-28T20:36:39.950Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-cross-of-christianity-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-10-28T15:52:48.480Z"
+    "updatedAt": "2026-10-28T20:36:37.812Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-28T15:54:03.544Z"
+    "updatedAt": "2026-10-28T20:37:17.792Z"
   },
   "derived": {
     "usdMyrMid": 4.0889,
-    "goldMyrPerGram": 531.42,
-    "silverMyrPerGram": 7.06,
-    "platinumMyrPerGram": 203.37
+    "goldMyrPerGram": 534.14,
+    "silverMyrPerGram": 7.11,
+    "platinumMyrPerGram": 202.98
   },
   "sourceStatus": [
     {
@@ -1325,7 +1325,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
