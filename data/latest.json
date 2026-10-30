@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-30T10:13:51.709Z",
+  "updatedAt": "2026-10-30T16:41:52.159Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 3984.600098,
-      "silver": 50.703999,
-      "platinum": 1446,
-      "updatedAt": "2026-10-30T10:13:43Z"
+      "gold": 3898.699951,
+      "silver": 49.348999,
+      "platinum": 1445,
+      "updatedAt": "2026-10-30T16:41:43Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.5842,
-        "BRL": 5.9563,
-        "CAD": 1.5577,
-        "CHF": 0.9222,
-        "CNY": 7.4144,
-        "CZK": 24.336,
-        "DKK": 7.4736,
-        "GBP": 0.83578,
-        "HKD": 8.733,
-        "HUF": 365.95,
-        "IDR": 20193.16,
-        "ILS": 3.468,
-        "INR": 106.0345,
-        "ISK": 135.8,
-        "JPY": 175.92,
-        "KRW": 1488.4,
-        "MXN": 20.8661,
-        "MYR": 4.5182,
-        "NOK": 10.3315,
-        "NZD": 1.9817,
-        "PHP": 71.052,
-        "PLN": 4.3938,
-        "RON": 5.3441,
-        "SEK": 10.9995,
-        "SGD": 1.4265,
-        "THB": 37.569,
-        "TRY": 55.4691,
-        "USD": 1.113,
-        "ZAR": 18.5218
+        "AUD": 1.5904,
+        "BRL": 6.0692,
+        "CAD": 1.5606,
+        "CHF": 0.9194,
+        "CNY": 7.4326,
+        "CZK": 24.353,
+        "DKK": 7.4735,
+        "GBP": 0.8338,
+        "HKD": 8.7652,
+        "HUF": 366.33,
+        "IDR": 20275.17,
+        "ILS": 3.495,
+        "INR": 106.084,
+        "ISK": 136,
+        "JPY": 175.68,
+        "KRW": 1491.76,
+        "MXN": 21.1237,
+        "MYR": 4.5325,
+        "NOK": 10.312,
+        "NZD": 1.9823,
+        "PHP": 71.143,
+        "PLN": 4.4038,
+        "RON": 5.3447,
+        "SEK": 10.978,
+        "SGD": 1.4282,
+        "THB": 37.683,
+        "TRY": 55.8015,
+        "USD": 1.1172,
+        "ZAR": 18.6455
       },
-      "updatedAt": "2026-10-29"
+      "updatedAt": "2026-10-30"
     }
   },
   "myCashRates": {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-30T10:13:46.448Z"
+      "updatedAt": "2026-10-30T16:41:47.927Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -833,17 +833,12 @@
         "sell": 9023
       },
       {
-        "code": "EUR",
-        "buy": 3984,
-        "sell": 51
-      },
-      {
         "code": "TRY",
         "buy": 49,
         "sell": 9023
       }
     ],
-    "updatedAt": "2026-10-30T10:13:51.709Z"
+    "updatedAt": "2026-10-30T16:41:52.088Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1019,7 +1014,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-cross-of-christianity-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-10-30T10:13:46.658Z"
+    "updatedAt": "2026-10-30T16:41:47.987Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1278,13 +1273,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-30T10:13:48.594Z"
+    "updatedAt": "2026-10-30T16:41:49.193Z"
   },
   "derived": {
     "usdMyrMid": 4.0596,
-    "goldMyrPerGram": 520.06,
-    "silverMyrPerGram": 6.62,
-    "platinumMyrPerGram": 188.73
+    "goldMyrPerGram": 508.85,
+    "silverMyrPerGram": 6.44,
+    "platinumMyrPerGram": 188.6
   },
   "sourceStatus": [
     {
@@ -1315,7 +1310,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
