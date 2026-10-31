@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T09:30:27.410Z",
+  "updatedAt": "2026-10-31T15:27:59.028Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 3876.399902,
       "silver": 49.254002,
       "platinum": 1439,
-      "updatedAt": "2026-10-31T09:29:58Z"
+      "updatedAt": "2026-10-31T15:27:28Z"
     },
     "goldPriceOrg": null
   },
@@ -355,7 +355,7 @@
           "name": "INDONESIA RUPIAH",
           "unit": "1M",
           "buy": 224.25,
-          "sell": 229.4
+          "sell": 227.7
         },
         {
           "code": "INR",
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-31T09:30:11.679Z"
+      "updatedAt": "2026-10-31T15:27:54.186Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -829,16 +829,31 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 49,
-        "sell": 9338
+        "buy": 142.75,
+        "sell": 143.5
+      },
+      {
+        "code": "EUR",
+        "buy": 158,
+        "sell": 70
       },
       {
         "code": "TRY",
         "buy": 49,
         "sell": 9338
+      },
+      {
+        "code": "SAR",
+        "buy": 37,
+        "sell": 64
+      },
+      {
+        "code": "AED",
+        "buy": 38.48,
+        "sell": 39.07
       }
     ],
-    "updatedAt": "2026-10-31T09:30:17.910Z"
+    "updatedAt": "2026-10-31T15:27:57.754Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1014,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-cross-of-christianity-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-10-31T09:30:11.932Z"
+    "updatedAt": "2026-10-31T15:27:54.147Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1273,7 +1288,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-31T09:30:13.840Z"
+    "updatedAt": "2026-10-31T15:27:55.375Z"
   },
   "derived": {
     "usdMyrMid": 4.0571,
