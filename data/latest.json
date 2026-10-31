@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T15:27:59.028Z",
+  "updatedAt": "2026-10-31T19:26:21.542Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 3876.399902,
       "silver": 49.254002,
       "platinum": 1439,
-      "updatedAt": "2026-10-31T15:27:28Z"
+      "updatedAt": "2026-10-31T19:25:59Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-10-31T15:27:54.186Z"
+      "updatedAt": "2026-10-31T19:26:02.158Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -853,7 +853,7 @@
         "sell": 39.07
       }
     ],
-    "updatedAt": "2026-10-31T15:27:57.754Z"
+    "updatedAt": "2026-10-31T19:26:21.542Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-cross-of-christianity-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-10-31T15:27:54.147Z"
+    "updatedAt": "2026-10-31T19:26:02.439Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,7 +1288,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-10-31T15:27:55.375Z"
+    "updatedAt": "2026-10-31T19:26:03.727Z"
   },
   "derived": {
     "usdMyrMid": 4.0571,
