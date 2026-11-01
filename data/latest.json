@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T10:09:19.552Z",
+  "updatedAt": "2026-11-01T16:48:16.264Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 3876.399902,
       "silver": 49.254002,
       "platinum": 1439,
-      "updatedAt": "2026-11-01T10:09:03Z"
+      "updatedAt": "2026-11-01T16:47:05Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-11-01T10:09:15.125Z"
+      "updatedAt": "2026-11-01T16:47:23.074Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -848,13 +848,27 @@
         "sell": 39.14
       }
     ],
-    "updatedAt": "2026-11-01T10:09:18.888Z"
+    "updatedAt": "2026-11-01T16:47:23.411Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
     "source": "Aston & Sons",
     "sourceUrl": "https://www.astonandsons.com.my/product-category/gold-bars/",
     "products": [
+      {
+        "name": "PAMP Suisse Diwali Lakshmi & Sacred Cow – 5 Gram Gold Bar (Limited Edition)",
+        "category": "Gold Bars",
+        "price": 2930,
+        "currency": "MYR",
+        "url": "https://www.astonandsons.com.my/product/pamp-suisse-diwali-lakshmi-sacred-cow-5-gram-gold-bar-limited-edition/"
+      },
+      {
+        "name": "PAMP Suisse Lucky Pig – 1 Gram Gold Bar (Limited Edition)",
+        "category": "Gold Bars",
+        "price": 848,
+        "currency": "MYR",
+        "url": "https://www.astonandsons.com.my/product/pamp-suisse-lucky-pig-1-gram-gold-bar-limited-edition/"
+      },
       {
         "name": "PAMP Suisse The Nativity – 5 Gram Gold Bar (Limited Edition)",
         "category": "Gold Bars",
@@ -926,23 +940,16 @@
         "url": "https://www.astonandsons.com.my/product/germania-mint-ana-2026-1-gram-gold-bar-limited-edition/"
       },
       {
-        "name": "Diet Coke® 1 Gram Gold Bar (Limited Edition) (Made by PAMP)",
-        "category": "Gold Bars",
-        "price": 789,
+        "name": "PAMP Suisse Diwali Lakshmi & Sacred Cow – 1 oz Silver Bar (Limited Edition)",
+        "category": "Silver Bars",
+        "price": 460,
         "currency": "MYR",
-        "url": "https://www.astonandsons.com.my/product/diet-coke-1-gram-gold-bar-limited-edition-made-by-pamp/"
-      },
-      {
-        "name": "PAMP Suisse Fender® 80th Anniversary 1 Gram Gold Bar (Limited Edition)",
-        "category": "Gold Bars",
-        "price": 789,
-        "currency": "MYR",
-        "url": "https://www.astonandsons.com.my/product/pamp-suisse-fender-80th-anniversary-1-gram-gold-bar-limited-edition/"
+        "url": "https://www.astonandsons.com.my/product/pamp-suisse-diwali-lakshmi-sacred-cow-1-oz-silver-bar-limited-edition/"
       },
       {
         "name": "PAMP Suisse Good Luck Phoenix 1 oz Silver Bar (Limited Edition)",
         "category": "Silver Bars",
-        "price": 629,
+        "price": 550,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-good-luck-phoenix-1-oz-silver-bar-limited-edition/"
       },
@@ -1015,16 +1022,9 @@
         "price": 601,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-eid-mubarak-1-oz-silver-bar-limited-edition/"
-      },
-      {
-        "name": "PAMP Suisse Cross of Christianity 1 oz Silver Bar (Limited Edition)",
-        "category": "Silver Bars",
-        "price": 652,
-        "currency": "MYR",
-        "url": "https://www.astonandsons.com.my/product/pamp-suisse-cross-of-christianity-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-01T10:09:15.259Z"
+    "updatedAt": "2026-11-01T16:47:32.519Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1283,7 +1283,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-01T10:09:16.380Z"
+    "updatedAt": "2026-11-01T16:48:16.264Z"
   },
   "derived": {
     "usdMyrMid": 4.0572,
