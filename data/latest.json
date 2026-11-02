@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-02T10:55:22.411Z",
+  "updatedAt": "2026-11-02T20:34:03.929Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 3898.399902,
-      "silver": 50.347,
-      "platinum": 1444,
-      "updatedAt": "2026-11-02T10:54:53Z"
+      "gold": 3941.600098,
+      "silver": 50.646999,
+      "platinum": 1453,
+      "updatedAt": "2026-11-02T20:33:54Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.5904,
-        "BRL": 6.0692,
-        "CAD": 1.5606,
-        "CHF": 0.9194,
-        "CNY": 7.4326,
-        "CZK": 24.353,
-        "DKK": 7.4735,
-        "GBP": 0.8338,
-        "HKD": 8.7652,
-        "HUF": 366.33,
-        "IDR": 20275.17,
-        "ILS": 3.495,
-        "INR": 106.084,
-        "ISK": 136,
-        "JPY": 175.68,
-        "KRW": 1491.76,
-        "MXN": 21.1237,
-        "MYR": 4.5325,
-        "NOK": 10.312,
-        "NZD": 1.9823,
-        "PHP": 71.143,
-        "PLN": 4.4038,
-        "RON": 5.3447,
-        "SEK": 10.978,
-        "SGD": 1.4282,
-        "THB": 37.683,
-        "TRY": 55.8015,
-        "USD": 1.1172,
-        "ZAR": 18.6455
+        "AUD": 1.6004,
+        "BRL": 6.099,
+        "CAD": 1.5673,
+        "CHF": 0.9193,
+        "CNY": 7.4567,
+        "CZK": 24.351,
+        "DKK": 7.4737,
+        "GBP": 0.8358,
+        "HKD": 8.8002,
+        "HUF": 364.5,
+        "IDR": 20341.45,
+        "ILS": 3.521,
+        "INR": 106.4505,
+        "ISK": 136.2,
+        "JPY": 177.1,
+        "KRW": 1506.2,
+        "MXN": 20.9963,
+        "MYR": 4.5655,
+        "NOK": 10.3775,
+        "NZD": 1.9934,
+        "PHP": 71.274,
+        "PLN": 4.4185,
+        "RON": 5.3405,
+        "SEK": 10.9475,
+        "SGD": 1.4344,
+        "THB": 37.865,
+        "TRY": 56.0442,
+        "USD": 1.1216,
+        "ZAR": 18.6619
       },
-      "updatedAt": "2026-10-30"
+      "updatedAt": "2026-11-02"
     }
   },
   "myCashRates": {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-11-02T10:55:15.831Z"
+      "updatedAt": "2026-11-02T20:33:58.963Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -829,16 +829,31 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 49,
-        "sell": 9704
+        "buy": 143.75,
+        "sell": 144.25
       },
       {
         "code": "EUR",
-        "buy": 2026,
-        "sell": 10
+        "buy": 159,
+        "sell": 70
+      },
+      {
+        "code": "TRY",
+        "buy": 49,
+        "sell": 9702
+      },
+      {
+        "code": "SAR",
+        "buy": 37,
+        "sell": 80
+      },
+      {
+        "code": "AED",
+        "buy": 38.75,
+        "sell": 39.28
       }
     ],
-    "updatedAt": "2026-11-02T10:55:15.850Z"
+    "updatedAt": "2026-11-02T20:34:03.929Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1014,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-eid-mubarak-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-02T10:55:15.829Z"
+    "updatedAt": "2026-11-02T20:33:58.988Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1273,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-02T10:55:21.174Z"
+    "updatedAt": "2026-11-02T20:34:00.008Z"
   },
   "derived": {
     "usdMyrMid": 4.057,
-    "goldMyrPerGram": 508.5,
-    "silverMyrPerGram": 6.57,
-    "platinumMyrPerGram": 188.35
+    "goldMyrPerGram": 514.13,
+    "silverMyrPerGram": 6.61,
+    "platinumMyrPerGram": 189.52
   },
   "sourceStatus": [
     {
@@ -1310,7 +1325,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
