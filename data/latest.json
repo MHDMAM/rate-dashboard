@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-04T18:50:10.018Z",
+  "updatedAt": "2026-11-05T04:07:56.634Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4062.300049,
-      "silver": 52.299,
-      "platinum": 1502,
-      "updatedAt": "2026-11-04T18:49:59Z"
+      "gold": 4140.399902,
+      "silver": 53.285,
+      "platinum": 1538,
+      "updatedAt": "2026-11-05T04:02:01Z"
     },
     "goldPriceOrg": null
   },
@@ -20,172 +20,172 @@
       "rates": {
         "USD": 1,
         "AED": 3.6725,
-        "AFN": 65.087183,
-        "ALL": 81.344524,
-        "AMD": 360.236164,
+        "AFN": 64.833321,
+        "ALL": 81.081825,
+        "AMD": 360.862196,
         "ANG": 1.79,
-        "AOA": 917.302058,
-        "ARS": 1549.7194,
-        "AUD": 1.434205,
+        "AOA": 918.763512,
+        "ARS": 1548.4941,
+        "AUD": 1.427647,
         "AWG": 1.79,
-        "AZN": 1.700835,
-        "BAM": 1.747547,
+        "AZN": 1.70116,
+        "BAM": 1.740526,
         "BBD": 2,
-        "BDT": 124.496963,
-        "BGN": 1.747547,
+        "BDT": 124.454493,
+        "BGN": 1.740526,
         "BHD": 0.376,
-        "BIF": 3002.306789,
+        "BIF": 3000.94752,
         "BMD": 1,
-        "BND": 1.2812,
-        "BOB": 12.101634,
-        "BRL": 5.48609,
+        "BND": 1.278846,
+        "BOB": 12.113316,
+        "BRL": 5.468653,
         "BSD": 1,
-        "BTN": 94.831893,
-        "BWP": 14.093377,
-        "BYN": 2.974195,
+        "BTN": 94.621793,
+        "BWP": 13.860014,
+        "BYN": 2.981467,
         "BZD": 2,
-        "CAD": 1.399422,
-        "CDF": 2311.770652,
-        "CHF": 0.820009,
-        "CLF": 0.024746,
-        "CLP": 978.112665,
-        "CNH": 6.668931,
-        "CNY": 6.684036,
-        "COP": 3221.311219,
-        "CRC": 454.238941,
+        "CAD": 1.396719,
+        "CDF": 2286.544877,
+        "CHF": 0.817009,
+        "CLF": 0.024817,
+        "CLP": 980.908153,
+        "CNH": 6.673632,
+        "CNY": 6.685421,
+        "COP": 3245.015848,
+        "CRC": 454.296672,
         "CUP": 24,
-        "CVE": 98.522513,
-        "CZK": 21.757265,
+        "CVE": 98.126694,
+        "CZK": 21.609409,
         "DJF": 177.721,
-        "DKK": 6.680451,
-        "DOP": 60.357433,
-        "DZD": 135.980297,
-        "EGP": 55.370618,
+        "DKK": 6.642935,
+        "DOP": 60.445644,
+        "DZD": 136.028857,
+        "EGP": 54.769414,
         "ERN": 15,
-        "ETB": 161.660165,
-        "EUR": 0.893426,
-        "FJD": 2.249972,
-        "FKP": 0.745435,
-        "FOK": 6.678843,
-        "GBP": 0.745418,
-        "GEL": 2.595476,
-        "GGP": 0.745435,
-        "GHS": 11.67886,
-        "GIP": 0.745435,
-        "GMD": 74.672224,
-        "GNF": 8837.707387,
-        "GTQ": 7.648876,
-        "GYD": 209.553955,
-        "HKD": 7.845778,
-        "HNL": 26.894853,
-        "HRK": 6.732126,
-        "HTG": 131.032857,
-        "HUF": 325.892843,
-        "IDR": 18140.247665,
-        "ILS": 3.164114,
-        "IMP": 0.745435,
-        "INR": 94.834253,
-        "IQD": 1517.439548,
-        "IRR": 1778990.843571,
-        "ISK": 121.706697,
-        "JEP": 0.745435,
-        "JMD": 158.763334,
+        "ETB": 162.049137,
+        "EUR": 0.889912,
+        "FJD": 2.248484,
+        "FKP": 0.742324,
+        "FOK": 6.642915,
+        "GBP": 0.742316,
+        "GEL": 2.598513,
+        "GGP": 0.742324,
+        "GHS": 11.690671,
+        "GIP": 0.742324,
+        "GMD": 74.81092,
+        "GNF": 8854.641371,
+        "GTQ": 7.642056,
+        "GYD": 210.023595,
+        "HKD": 7.845344,
+        "HNL": 26.876078,
+        "HRK": 6.705079,
+        "HTG": 131.183443,
+        "HUF": 322.854146,
+        "IDR": 18132.167129,
+        "ILS": 3.157207,
+        "IMP": 0.742324,
+        "INR": 94.620171,
+        "IQD": 1519.811175,
+        "IRR": 1809617.709303,
+        "ISK": 121.357691,
+        "JEP": 0.742324,
+        "JMD": 158.468673,
         "JOD": 0.709,
-        "JPY": 158.39919,
-        "KES": 129.975909,
-        "KGS": 87.453978,
-        "KHR": 4106.921228,
-        "KID": 1.434319,
-        "KMF": 439.576464,
-        "KRW": 1343.930997,
-        "KWD": 0.311167,
+        "JPY": 158.377906,
+        "KES": 129.871619,
+        "KGS": 87.590474,
+        "KHR": 4088.086566,
+        "KID": 1.42769,
+        "KMF": 437.810447,
+        "KRW": 1340.311295,
+        "KWD": 0.310148,
         "KYD": 0.833333,
-        "KZT": 452.700572,
-        "LAK": 22329.604611,
+        "KZT": 452.103256,
+        "LAK": 22355.630156,
         "LBP": 89500,
-        "LKR": 332.444906,
-        "LRD": 169.78581,
-        "LSL": 16.617183,
-        "LYD": 6.415873,
-        "MAD": 9.822838,
-        "MDL": 18.02933,
-        "MGA": 4586.415602,
-        "MKD": 55.304824,
-        "MMK": 2099.818442,
-        "MNT": 3623.011805,
-        "MOP": 8.081192,
-        "MRU": 40.54197,
-        "MUR": 47.579002,
-        "MVR": 15.463868,
-        "MWK": 1743.262358,
-        "MXN": 18.737449,
-        "MYR": 4.076971,
-        "MZN": 63.75147,
-        "NAD": 16.617183,
-        "NGN": 1346.069771,
-        "NIO": 36.82044,
-        "NOK": 9.280833,
-        "NPR": 151.731029,
-        "NZD": 1.783786,
+        "LKR": 332.16056,
+        "LRD": 169.891696,
+        "LSL": 16.423454,
+        "LYD": 6.426693,
+        "MAD": 9.775216,
+        "MDL": 17.976113,
+        "MGA": 4558.7381,
+        "MKD": 54.928103,
+        "MMK": 2100.346477,
+        "MNT": 3621.472908,
+        "MOP": 8.080924,
+        "MRU": 40.439926,
+        "MUR": 47.246153,
+        "MVR": 15.452693,
+        "MWK": 1740.226194,
+        "MXN": 18.623318,
+        "MYR": 4.064713,
+        "MZN": 63.82381,
+        "NAD": 16.423454,
+        "NGN": 1346.474525,
+        "NIO": 36.79096,
+        "NOK": 9.285333,
+        "NPR": 151.394869,
+        "NZD": 1.777487,
         "OMR": 0.384497,
         "PAB": 1,
-        "PEN": 3.464766,
-        "PGK": 4.484133,
-        "PHP": 63.519923,
-        "PKR": 276.527777,
-        "PLN": 3.945126,
-        "PYG": 5921.440394,
+        "PEN": 3.449349,
+        "PGK": 4.480204,
+        "PHP": 63.47895,
+        "PKR": 276.620523,
+        "PLN": 3.909653,
+        "PYG": 6015.962029,
         "QAR": 3.64,
-        "RON": 4.772099,
-        "RSD": 105.127831,
-        "RUB": 81.415956,
-        "RWF": 1478.505259,
+        "RON": 4.75048,
+        "RSD": 104.62364,
+        "RUB": 81.746481,
+        "RWF": 1481.216323,
         "SAR": 3.75,
-        "SBD": 8.039129,
-        "SCR": 14.264838,
-        "SDG": 449.495398,
-        "SEK": 9.79114,
-        "SGD": 1.281123,
-        "SHP": 0.745435,
-        "SLE": 22.869551,
-        "SLL": 22869.551065,
-        "SOS": 571.509188,
-        "SRD": 37.640923,
-        "SSP": 6101.720331,
-        "STN": 21.890913,
-        "SYP": 121.78692,
-        "SZL": 16.617183,
-        "THB": 33.757532,
-        "TJS": 9.207997,
-        "TMT": 3.499979,
-        "TND": 3.004012,
-        "TOP": 2.390814,
-        "TRY": 50.042701,
-        "TTD": 6.741204,
-        "TVD": 1.434319,
-        "TWD": 32.770816,
-        "TZS": 2640.198891,
-        "UAH": 45.680667,
-        "UGX": 4092.234077,
-        "UYU": 40.228274,
-        "UZS": 11910.623586,
-        "VES": 893.2173,
-        "VND": 25769.065289,
-        "VUV": 119.156309,
-        "WST": 2.745239,
-        "XAF": 586.101952,
+        "SBD": 7.953344,
+        "SCR": 14.215675,
+        "SDG": 545.266744,
+        "SEK": 9.737319,
+        "SGD": 1.27882,
+        "SHP": 0.742324,
+        "SLE": 23.035655,
+        "SLL": 23035.654542,
+        "SOS": 572.661393,
+        "SRD": 37.682468,
+        "SSP": 5891.876608,
+        "STN": 21.802966,
+        "SYP": 121.977212,
+        "SZL": 16.423454,
+        "THB": 33.638409,
+        "TJS": 9.217742,
+        "TMT": 3.50504,
+        "TND": 2.999617,
+        "TOP": 2.388394,
+        "TRY": 50.032217,
+        "TTD": 6.752519,
+        "TVD": 1.42769,
+        "TWD": 32.824108,
+        "TZS": 2648.055462,
+        "UAH": 45.546835,
+        "UGX": 4068.444746,
+        "UYU": 40.181438,
+        "UZS": 11920.716348,
+        "VES": 894.8876,
+        "VND": 25701.376047,
+        "VUV": 120.190135,
+        "WST": 2.744861,
+        "XAF": 583.747262,
         "XCD": 2.7,
         "XCG": 1.79,
-        "XDR": 0.738442,
-        "XOF": 586.101952,
-        "XPF": 106.623938,
-        "YER": 236.378316,
-        "ZAR": 16.617144,
-        "ZMW": 20.263163,
-        "ZWG": 26.5638,
-        "ZWL": 26.5638
+        "XDR": 0.73523,
+        "XOF": 583.747262,
+        "XPF": 106.195571,
+        "YER": 236.344698,
+        "ZAR": 16.423516,
+        "ZMW": 20.370379,
+        "ZWG": 26.5412,
+        "ZWL": 26.5412
       },
-      "updatedAt": "Wed, 04 Nov 2026 00:02:31 +0000"
+      "updatedAt": "Thu, 05 Nov 2026 00:02:31 +0000"
     },
     "frankfurter": {
       "source": "frankfurter.app (ECB)",
@@ -236,174 +236,174 @@
           "name": "USD BIG (100,50)",
           "unit": "1",
           "buy": 4.0489,
-          "sell": 4.092
+          "sell": 4.088
         },
         {
           "code": "USD MEDIUM",
           "name": "USD MEDIUM (10,20)",
           "unit": "1",
-          "buy": 4.0089,
-          "sell": 4.069
+          "buy": 4.0189,
+          "sell": 4.088
         },
         {
           "code": "USD SMALL",
           "name": "USD SMALL (1,2,5)",
           "unit": "1",
-          "buy": 4.0089,
-          "sell": 4.069
+          "buy": 4.0189,
+          "sell": 4.088
         },
         {
           "code": "SGD BIG",
           "name": "SINGAPORE BIG (1000,500,100,50)",
           "unit": "1",
-          "buy": 3.1709,
-          "sell": 3.21
+          "buy": 3.1729,
+          "sell": 3.205
         },
         {
           "code": "SGD SMALL",
           "name": "SINGAPORE SMALL (20,10,5,2)",
           "unit": "1",
-          "buy": 3.1309,
-          "sell": 3.184
+          "buy": 3.1429,
+          "sell": 3.205
         },
         {
           "code": "BND",
           "name": "BRUNEI DOLLAR",
           "unit": "1",
-          "buy": 3.1309,
-          "sell": 3.184
+          "buy": 3.1429,
+          "sell": 3.205
         },
         {
           "code": "AUD",
           "name": "AUSTRALIAN DOLLAR",
           "unit": "1",
-          "buy": 2.8199,
-          "sell": 2.8846
+          "buy": 2.8359,
+          "sell": 2.8845
         },
         {
           "code": "GBP",
           "name": "GREAT BRITAIN POUND",
           "unit": "1",
           "buy": 5.4489,
-          "sell": 5.52
+          "sell": 5.485
         },
         {
           "code": "EUR",
           "name": "EURO",
           "unit": "1",
-          "buy": 4.5489,
-          "sell": 4.62
+          "buy": 4.5509,
+          "sell": 4.6
         },
         {
           "code": "CHF",
           "name": "SWISS FRANC",
           "unit": "1",
-          "buy": 4.9559,
-          "sell": 5.04
+          "buy": 4.9579,
+          "sell": 4.998
         },
         {
           "code": "CAD",
           "name": "CANADIAN DOLLAR",
           "unit": "1",
-          "buy": 2.8879,
-          "sell": 2.935
+          "buy": 2.8899,
+          "sell": 2.925
         },
         {
           "code": "NZD",
           "name": "NEW ZEALAND DOLLAR",
           "unit": "1",
-          "buy": 2.2789,
-          "sell": 2.35
+          "buy": 2.2959,
+          "sell": 2.355
         },
         {
           "code": "JPY",
           "name": "JAPANESE YEN",
           "unit": "100",
-          "buy": 2.5679,
+          "buy": 2.5659,
           "sell": 2.66
         },
         {
           "code": "HKD",
           "name": "HONG KONG DOLLAR",
           "unit": "100",
-          "buy": 51.8019,
+          "buy": 51.7599,
           "sell": 52.4
         },
         {
           "code": "CNY",
           "name": "CHINESE RENMINBI",
           "unit": "100",
-          "buy": 61.1209,
-          "sell": 61.8
+          "buy": 61.1199,
+          "sell": 61.55
         },
         {
           "code": "THB",
           "name": "THAI BAHT",
           "unit": "100",
-          "buy": 12.0859,
+          "buy": 12.1019,
           "sell": 12.288
         },
         {
           "code": "TWD",
           "name": "NEW TAIWAN DOLLAR",
           "unit": "100",
-          "buy": 12.4509,
-          "sell": 12.58
+          "buy": 12.4109,
+          "sell": 12.61
         },
         {
           "code": "IDR",
           "name": "INDONESIA RUPIAH",
           "unit": "1M",
-          "buy": 223.5,
-          "sell": 228.4
+          "buy": 224.2,
+          "sell": 227.2
         },
         {
           "code": "INR",
           "name": "INDIAN RUPEE",
           "unit": "100",
-          "buy": 4.0519,
-          "sell": 4.2212
+          "buy": 4.0529,
+          "sell": 4.2311
         },
         {
           "code": "KRW",
           "name": "SOUTH KOREAN WON",
           "unit": "1000",
-          "buy": 3.0319,
+          "buy": 3.0379,
           "sell": 3.099
         },
         {
           "code": "PHP",
           "name": "PHILIPPINE PESO",
           "unit": "100",
-          "buy": 6.3219,
+          "buy": 6.3239,
           "sell": 6.683
         },
         {
           "code": "VND",
           "name": "VIETNAMESE DONG",
           "unit": "1M",
-          "buy": 155.7,
-          "sell": 159.2
+          "buy": 156.2,
+          "sell": 159.1
         },
         {
           "code": "SAR SMALL",
           "name": "SAUDI SMALL(100, 50,10,5,1)",
           "unit": "100",
-          "buy": 106.7999,
+          "buy": 107.3999,
           "sell": 111.1
         },
         {
           "code": "SAR BIG",
           "name": "SAUDI BIG (500,200)",
           "unit": "100",
-          "buy": 106.7999,
-          "sell": 109.5
+          "buy": 106.3999,
+          "sell": 109.45
         },
         {
           "code": "AED",
           "name": "UAE DIRHAM",
           "unit": "100",
-          "buy": 109.1999,
+          "buy": 109.7999,
           "sell": 112.2
         },
         {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-11-04T18:50:05.041Z"
+      "updatedAt": "2026-11-05T04:02:15.709Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -771,56 +771,56 @@
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
       "sourceUrl": "https://www.bnm.gov.my/exchange-rates",
-      "session": "1700",
+      "session": "1130",
       "rateType": "SR",
       "rates": [
         {
           "code": "USD",
-          "buy": 4.069,
-          "sell": 4.069
+          "buy": 4.058,
+          "sell": 4.058
         },
         {
           "code": "GBP",
-          "buy": 5.4858,
-          "sell": 5.4858
+          "buy": 5.4787,
+          "sell": 5.4787
         },
         {
           "code": "EUR",
-          "buy": 4.5768,
-          "sell": 4.5768
+          "buy": 4.5752,
+          "sell": 4.5752
         },
         {
           "code": "JPY",
-          "buy": 2.5717,
-          "sell": 2.5717
+          "buy": 2.5819,
+          "sell": 2.5819
         },
         {
           "code": "CHF",
-          "buy": 4.9859,
-          "sell": 4.9859
+          "buy": 0,
+          "sell": 0
         },
         {
           "code": "AUD",
-          "buy": 2.8491,
-          "sell": 2.8491
+          "buy": 2.8597,
+          "sell": 2.8597
         },
         {
           "code": "CAD",
-          "buy": 2.9154,
-          "sell": 2.9154
+          "buy": 2.9201,
+          "sell": 2.9201
         },
         {
           "code": "SGD",
-          "buy": 3.1834,
-          "sell": 3.1834
+          "buy": 3.1897,
+          "sell": 3.1897
         },
         {
           "code": "HKD",
-          "buy": 51.8628,
-          "sell": 51.8628
+          "buy": 0,
+          "sell": 0
         }
       ],
-      "updatedAt": "2026-11-04T11:35:54.661Z"
+      "updatedAt": "2026-11-05T04:02:17.666Z"
     }
   },
   "spToday": {
@@ -830,15 +830,15 @@
       {
         "code": "USD",
         "buy": 50,
-        "sell": 194
+        "sell": 447
       },
       {
         "code": "TRY",
         "buy": 50,
-        "sell": 194
+        "sell": 447
       }
     ],
-    "updatedAt": "2026-11-04T18:50:05.205Z"
+    "updatedAt": "2026-11-05T04:02:15.865Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1014,22 +1014,11 @@
         "url": "https://www.astonandsons.com.my/product/royal-mint-great-britain-norse-gods-loki-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-04T18:50:05.064Z"
+    "updatedAt": "2026-11-05T04:03:37.763Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
     "products": [
-      {
-        "name": "Heraeus 1 kg (Kilogram) Gold Cast Bar – 999.9 Fine Gold",
-        "url": "https://www.astonandsons.com.my/product/heraeus-1-kg-kilogram-gold-cast-bar-999-9-fine-gold/",
-        "image": null,
-        "price": 534120,
-        "inStock": true,
-        "stockCount": null,
-        "weightGrams": 1000,
-        "weightLabel": "1kg",
-        "metal": "gold"
-      },
       {
         "name": "PAMP Silver 1 Kilobar Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/",
@@ -1050,28 +1039,6 @@
         "stockCount": null,
         "weightGrams": 500,
         "weightLabel": "500g",
-        "metal": "gold"
-      },
-      {
-        "name": "PAMP Fortuna 100 Grams Gold Bar",
-        "url": "https://www.astonandsons.com.my/product/pamp-fortuna-100-grams-gold-bar/",
-        "image": null,
-        "price": 54430,
-        "inStock": true,
-        "stockCount": 3,
-        "weightGrams": 100,
-        "weightLabel": "100g",
-        "metal": "gold"
-      },
-      {
-        "name": "PAMP Rosa 100 Grams Gold Bar",
-        "url": "https://www.astonandsons.com.my/product/pamp-rosa-100-grams-gold-bar/",
-        "image": null,
-        "price": 54430,
-        "inStock": true,
-        "stockCount": null,
-        "weightGrams": 100,
-        "weightLabel": "100g",
         "metal": "gold"
       },
       {
@@ -1273,13 +1240,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-04T18:50:06.624Z"
+    "updatedAt": "2026-11-05T04:07:56.634Z"
   },
   "derived": {
-    "usdMyrMid": 4.077,
-    "goldMyrPerGram": 532.48,
-    "silverMyrPerGram": 6.86,
-    "platinumMyrPerGram": 196.88
+    "usdMyrMid": 4.0647,
+    "goldMyrPerGram": 541.08,
+    "silverMyrPerGram": 6.96,
+    "platinumMyrPerGram": 200.99
   },
   "sourceStatus": [
     {
@@ -1310,8 +1277,7 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": false,
-      "error": "no rows parsed for today at session 0900"
+      "ok": true
     },
     {
       "name": "SP-Today",
