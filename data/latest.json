@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-06T04:00:01.917Z",
+  "updatedAt": "2026-11-06T11:53:44.633Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4045.100098,
-      "silver": 51.609001,
-      "platinum": 1520,
-      "updatedAt": "2026-11-06T03:59:34Z"
+      "gold": 4069.600098,
+      "silver": 52.307999,
+      "platinum": 1538,
+      "updatedAt": "2026-11-06T11:53:34Z"
     },
     "goldPriceOrg": null
   },
@@ -235,7 +235,7 @@
           "code": "USD BIG",
           "name": "USD BIG (100,50)",
           "unit": "1",
-          "buy": 4.0559,
+          "buy": 4.0479,
           "sell": 4.085
         },
         {
@@ -243,161 +243,161 @@
           "name": "USD MEDIUM (10,20)",
           "unit": "1",
           "buy": 4.0059,
-          "sell": 4.085
+          "sell": 4.063
         },
         {
           "code": "USD SMALL",
           "name": "USD SMALL (1,2,5)",
           "unit": "1",
           "buy": 4.0059,
-          "sell": 4.085
+          "sell": 4.063
         },
         {
           "code": "SGD BIG",
           "name": "SINGAPORE BIG (1000,500,100,50)",
           "unit": "1",
-          "buy": 3.1739,
-          "sell": 3.203
+          "buy": 3.1689,
+          "sell": 3.205
         },
         {
           "code": "SGD SMALL",
           "name": "SINGAPORE SMALL (20,10,5,2)",
           "unit": "1",
-          "buy": 3.1239,
-          "sell": 3.203
+          "buy": 3.1249,
+          "sell": 3.18
         },
         {
           "code": "BND",
           "name": "BRUNEI DOLLAR",
           "unit": "1",
-          "buy": 3.1239,
-          "sell": 3.203
+          "buy": 3.1249,
+          "sell": 3.18
         },
         {
           "code": "AUD",
           "name": "AUSTRALIAN DOLLAR",
           "unit": "1",
-          "buy": 2.8159,
-          "sell": 2.885
+          "buy": 2.8079,
+          "sell": 2.8825
         },
         {
           "code": "GBP",
           "name": "GREAT BRITAIN POUND",
           "unit": "1",
           "buy": 5.4459,
-          "sell": 5.485
+          "sell": 5.491
         },
         {
           "code": "EUR",
           "name": "EURO",
           "unit": "1",
-          "buy": 4.5459,
-          "sell": 4.605
+          "buy": 4.5469,
+          "sell": 4.598
         },
         {
           "code": "CHF",
           "name": "SWISS FRANC",
           "unit": "1",
-          "buy": 4.9659,
+          "buy": 4.9679,
           "sell": 4.999
         },
         {
           "code": "CAD",
           "name": "CANADIAN DOLLAR",
           "unit": "1",
-          "buy": 2.8859,
+          "buy": 2.8789,
           "sell": 2.925
         },
         {
           "code": "NZD",
           "name": "NEW ZEALAND DOLLAR",
           "unit": "1",
-          "buy": 2.2759,
-          "sell": 2.36
+          "buy": 2.2879,
+          "sell": 2.352
         },
         {
           "code": "JPY",
           "name": "JAPANESE YEN",
           "unit": "100",
-          "buy": 2.5569,
-          "sell": 2.669
+          "buy": 2.5729,
+          "sell": 2.6593
         },
         {
           "code": "HKD",
           "name": "HONG KONG DOLLAR",
           "unit": "100",
-          "buy": 51.8499,
+          "buy": 52,
           "sell": 52.45
         },
         {
           "code": "CNY",
           "name": "CHINESE RENMINBI",
           "unit": "100",
-          "buy": 61.1999,
-          "sell": 61.665
+          "buy": 61.2199,
+          "sell": 61.6
         },
         {
           "code": "THB",
           "name": "THAI BAHT",
           "unit": "100",
-          "buy": 12.1499,
-          "sell": 12.288
+          "buy": 12.1259,
+          "sell": 12.2822
         },
         {
           "code": "TWD",
           "name": "NEW TAIWAN DOLLAR",
           "unit": "100",
-          "buy": 12.4199,
-          "sell": 12.544
+          "buy": 12.4259,
+          "sell": 12.591
         },
         {
           "code": "IDR",
           "name": "INDONESIA RUPIAH",
           "unit": "1M",
-          "buy": 224.5,
+          "buy": 224.2,
           "sell": 228.8
         },
         {
           "code": "INR",
           "name": "INDIAN RUPEE",
           "unit": "100",
-          "buy": 4.0499,
-          "sell": 4.232
+          "buy": 4.0719,
+          "sell": 4.2312
         },
         {
           "code": "KRW",
           "name": "SOUTH KOREAN WON",
           "unit": "1000",
-          "buy": 3.0499,
-          "sell": 3.11
+          "buy": 3.0389,
+          "sell": 3.0888
         },
         {
           "code": "PHP",
           "name": "PHILIPPINE PESO",
           "unit": "100",
-          "buy": 6.3299,
-          "sell": 6.56
+          "buy": 6.3359,
+          "sell": 6.555
         },
         {
           "code": "VND",
           "name": "VIETNAMESE DONG",
           "unit": "1M",
-          "buy": 157,
-          "sell": 160.1
+          "buy": 157.3,
+          "sell": 161.1
         },
         {
           "code": "SAR SMALL",
           "name": "SAUDI SMALL(100, 50,10,5,1)",
           "unit": "100",
-          "buy": 107.5999,
-          "sell": 111.15
+          "buy": 108.1999,
+          "sell": 111.65
         },
         {
           "code": "SAR BIG",
           "name": "SAUDI BIG (500,200)",
           "unit": "100",
-          "buy": 106.5999,
-          "sell": 109.5
+          "buy": 106.1999,
+          "sell": 109.45
         },
         {
           "code": "AED",
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-11-06T03:59:56.095Z"
+      "updatedAt": "2026-11-06T11:53:39.147Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -771,56 +771,56 @@
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
       "sourceUrl": "https://www.bnm.gov.my/exchange-rates",
-      "session": "0900",
+      "session": "1700",
       "rateType": "SR",
       "rates": [
         {
           "code": "USD",
-          "buy": 4.055,
-          "sell": 4.055
+          "buy": 4.061,
+          "sell": 4.061
         },
         {
           "code": "GBP",
-          "buy": 5.456,
-          "sell": 5.456
+          "buy": 5.4393,
+          "sell": 5.4393
         },
         {
           "code": "EUR",
-          "buy": 4.5497,
-          "sell": 4.5497
+          "buy": 4.5402,
+          "sell": 4.5402
         },
         {
           "code": "JPY",
-          "buy": 2.5704,
-          "sell": 2.5704
+          "buy": 2.5678,
+          "sell": 2.5678
         },
         {
           "code": "CHF",
-          "buy": 4.9681,
-          "sell": 4.9681
+          "buy": 4.9633,
+          "sell": 4.9633
         },
         {
           "code": "AUD",
-          "buy": 2.813,
-          "sell": 2.813
+          "buy": 2.7932,
+          "sell": 2.7932
         },
         {
           "code": "CAD",
-          "buy": 2.8935,
-          "sell": 2.8935
+          "buy": 2.8859,
+          "sell": 2.8859
         },
         {
           "code": "SGD",
-          "buy": 3.1727,
-          "sell": 3.1727
+          "buy": 3.1714,
+          "sell": 3.1714
         },
         {
           "code": "HKD",
-          "buy": 51.7457,
-          "sell": 51.7457
+          "buy": 51.7952,
+          "sell": 51.7952
         }
       ],
-      "updatedAt": "2026-11-06T03:59:58.472Z"
+      "updatedAt": "2026-11-06T11:53:39.374Z"
     }
   },
   "spToday": {
@@ -853,7 +853,7 @@
         "sell": 39.28
       }
     ],
-    "updatedAt": "2026-11-06T03:59:56.328Z"
+    "updatedAt": "2026-11-06T11:53:39.290Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/royal-mint-great-britain-norse-gods-loki-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-06T03:59:56.356Z"
+    "updatedAt": "2026-11-06T11:53:39.414Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-06T03:59:58.282Z"
+    "updatedAt": "2026-11-06T11:53:41.013Z"
   },
   "derived": {
     "usdMyrMid": 4.0458,
-    "goldMyrPerGram": 526.17,
-    "silverMyrPerGram": 6.71,
-    "platinumMyrPerGram": 197.72
+    "goldMyrPerGram": 529.36,
+    "silverMyrPerGram": 6.8,
+    "platinumMyrPerGram": 200.06
   },
   "sourceStatus": [
     {
