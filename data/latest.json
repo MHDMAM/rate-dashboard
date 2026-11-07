@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T10:38:48.111Z",
+  "updatedAt": "2026-11-07T16:37:06.521Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 4072.100098,
       "silver": 52.070999,
       "platinum": 1544,
-      "updatedAt": "2026-11-07T10:38:06Z"
+      "updatedAt": "2026-11-07T16:36:37Z"
     },
     "goldPriceOrg": null
   },
@@ -277,7 +277,7 @@
           "code": "AUD",
           "name": "AUSTRALIAN DOLLAR",
           "unit": "1",
-          "buy": 2.8159,
+          "buy": 2.8179,
           "sell": 2.8841
         },
         {
@@ -319,7 +319,7 @@
           "code": "JPY",
           "name": "JAPANESE YEN",
           "unit": "100",
-          "buy": 2.5659,
+          "buy": 2.5679,
           "sell": 2.6595
         },
         {
@@ -333,7 +333,7 @@
           "code": "CNY",
           "name": "CHINESE RENMINBI",
           "unit": "100",
-          "buy": 61.3,
+          "buy": 61.3019,
           "sell": 61.6
         },
         {
@@ -341,7 +341,7 @@
           "name": "THAI BAHT",
           "unit": "100",
           "buy": 12.1259,
-          "sell": 12.288
+          "sell": 12.284
         },
         {
           "code": "TWD",
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-11-07T10:38:36.051Z"
+      "updatedAt": "2026-11-07T16:36:59.921Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -845,7 +845,7 @@
       {
         "code": "SAR",
         "buy": 38,
-        "sell": 10
+        "sell": 8
       },
       {
         "code": "AED",
@@ -853,7 +853,7 @@
         "sell": 39.55
       }
     ],
-    "updatedAt": "2026-11-07T10:38:48.111Z"
+    "updatedAt": "2026-11-07T16:37:00.086Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/royal-mint-great-britain-norse-gods-loki-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-07T10:38:36.105Z"
+    "updatedAt": "2026-11-07T16:36:59.940Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,7 +1288,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-07T10:38:37.250Z"
+    "updatedAt": "2026-11-07T16:37:00.801Z"
   },
   "derived": {
     "usdMyrMid": 4.0573,
