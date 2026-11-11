@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-11T03:36:47.197Z",
+  "updatedAt": "2026-11-11T11:25:02.860Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 4047.199951,
-      "silver": 52.456001,
-      "platinum": 1566,
-      "updatedAt": "2026-11-11T03:36:29Z"
+      "gold": 4055.199951,
+      "silver": 53.115002,
+      "platinum": 1573,
+      "updatedAt": "2026-11-11T11:24:29Z"
     },
     "goldPriceOrg": null
   },
@@ -235,176 +235,176 @@
           "code": "USD BIG",
           "name": "USD BIG (100,50)",
           "unit": "1",
-          "buy": 4.0659,
-          "sell": 4.099
+          "buy": 4.0259,
+          "sell": 4.096
         },
         {
           "code": "USD MEDIUM",
           "name": "USD MEDIUM (10,20)",
           "unit": "1",
-          "buy": 4.0259,
+          "buy": 4.0059,
           "sell": 4.077
         },
         {
           "code": "USD SMALL",
           "name": "USD SMALL (1,2,5)",
           "unit": "1",
-          "buy": 4.0159,
+          "buy": 4.0059,
           "sell": 4.077
         },
         {
           "code": "SGD BIG",
           "name": "SINGAPORE BIG (1000,500,100,50)",
           "unit": "1",
-          "buy": 3.1789,
+          "buy": 3.1439,
           "sell": 3.218
         },
         {
           "code": "SGD SMALL",
           "name": "SINGAPORE SMALL (20,10,5,2)",
           "unit": "1",
-          "buy": 3.1389,
+          "buy": 3.1239,
           "sell": 3.185
         },
         {
           "code": "BND",
           "name": "BRUNEI DOLLAR",
           "unit": "1",
-          "buy": 3.1389,
+          "buy": 3.1239,
           "sell": 3.185
         },
         {
           "code": "AUD",
           "name": "AUSTRALIAN DOLLAR",
           "unit": "1",
-          "buy": 2.8019,
-          "sell": 2.8835
+          "buy": 2.7639,
+          "sell": 2.8825
         },
         {
           "code": "GBP",
           "name": "GREAT BRITAIN POUND",
           "unit": "1",
-          "buy": 5.4419,
-          "sell": 5.4846
+          "buy": 5.3859,
+          "sell": 5.4853
         },
         {
           "code": "EUR",
           "name": "EURO",
           "unit": "1",
-          "buy": 4.5419,
-          "sell": 4.5856
+          "buy": 4.5019,
+          "sell": 4.5863
         },
         {
           "code": "CHF",
           "name": "SWISS FRANC",
           "unit": "1",
-          "buy": 4.9209,
+          "buy": 4.8759,
           "sell": 4.9967
         },
         {
           "code": "CAD",
           "name": "CANADIAN DOLLAR",
           "unit": "1",
-          "buy": 2.8519,
-          "sell": 2.9283
+          "buy": 2.8209,
+          "sell": 2.9288
         },
         {
           "code": "NZD",
           "name": "NEW ZEALAND DOLLAR",
           "unit": "1",
-          "buy": 2.2919,
-          "sell": 2.3515
+          "buy": 2.2509,
+          "sell": 2.3511
         },
         {
           "code": "JPY",
           "name": "JAPANESE YEN",
           "unit": "100",
-          "buy": 2.5729,
-          "sell": 2.6595
+          "buy": 2.5259,
+          "sell": 2.6585
         },
         {
           "code": "HKD",
           "name": "HONG KONG DOLLAR",
           "unit": "100",
-          "buy": 51.9019,
-          "sell": 52.38
+          "buy": 51.6509,
+          "sell": 52.36
         },
         {
           "code": "CNY",
           "name": "CHINESE RENMINBI",
           "unit": "100",
-          "buy": 61.3019,
-          "sell": 61.8355
+          "buy": 61.0199,
+          "sell": 61.855
         },
         {
           "code": "THB",
           "name": "THAI BAHT",
           "unit": "100",
-          "buy": 12.1529,
-          "sell": 12.3243
+          "buy": 12.1059,
+          "sell": 12.3215
         },
         {
           "code": "TWD",
           "name": "NEW TAIWAN DOLLAR",
           "unit": "100",
-          "buy": 12.5129,
-          "sell": 12.7563
+          "buy": 12.4159,
+          "sell": 12.757
         },
         {
           "code": "IDR",
           "name": "INDONESIA RUPIAH",
           "unit": "1M",
-          "buy": 224.2,
+          "buy": 221.2,
           "sell": 228.8
         },
         {
           "code": "INR",
           "name": "INDIAN RUPEE",
           "unit": "100",
-          "buy": 4.0199,
-          "sell": 4.2217
+          "buy": 4.0179,
+          "sell": 4.2175
         },
         {
           "code": "KRW",
           "name": "SOUTH KOREAN WON",
           "unit": "1000",
-          "buy": 3.0389,
-          "sell": 3.0996
+          "buy": 3.0089,
+          "sell": 3.0965
         },
         {
           "code": "PHP",
           "name": "PHILIPPINE PESO",
           "unit": "100",
-          "buy": 6.3289,
+          "buy": 6.3159,
           "sell": 6.62
         },
         {
           "code": "VND",
           "name": "VIETNAMESE DONG",
           "unit": "1M",
-          "buy": 157.6,
+          "buy": 154.6,
           "sell": 165.89
         },
         {
           "code": "SAR SMALL",
           "name": "SAUDI SMALL(100, 50,10,5,1)",
           "unit": "100",
-          "buy": 108.2599,
+          "buy": 106.3999,
           "sell": 112.66
         },
         {
           "code": "SAR BIG",
           "name": "SAUDI BIG (500,200)",
           "unit": "100",
-          "buy": 106.2599,
+          "buy": 106.3999,
           "sell": 109.55
         },
         {
           "code": "AED",
           "name": "UAE DIRHAM",
           "unit": "100",
-          "buy": 109.2999,
-          "sell": 114.4
+          "buy": 108.7999,
+          "sell": 114.1
         },
         {
           "code": "OMR",
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-11-11T03:36:37.131Z"
+      "updatedAt": "2026-11-11T11:24:34.796Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -771,56 +771,56 @@
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
       "sourceUrl": "https://www.bnm.gov.my/exchange-rates",
-      "session": "0900",
+      "session": "1700",
       "rateType": "SR",
       "rates": [
         {
           "code": "USD",
-          "buy": 4.07,
-          "sell": 4.07
+          "buy": 4.078,
+          "sell": 4.078
         },
         {
           "code": "GBP",
-          "buy": 5.4359,
-          "sell": 5.4359
+          "buy": 5.4331,
+          "sell": 5.4331
         },
         {
           "code": "EUR",
-          "buy": 4.545,
-          "sell": 4.545
+          "buy": 4.5466,
+          "sell": 4.5466
         },
         {
           "code": "JPY",
-          "buy": 2.5631,
-          "sell": 2.5631
+          "buy": 2.5669,
+          "sell": 2.5669
         },
         {
           "code": "CHF",
-          "buy": 4.9309,
-          "sell": 4.9309
+          "buy": 4.9257,
+          "sell": 4.9257
         },
         {
           "code": "AUD",
-          "buy": 2.7977,
-          "sell": 2.7977
+          "buy": 2.8028,
+          "sell": 2.8028
         },
         {
           "code": "CAD",
-          "buy": 2.8686,
-          "sell": 2.8686
+          "buy": 2.8694,
+          "sell": 2.8694
         },
         {
           "code": "SGD",
-          "buy": 3.1762,
-          "sell": 3.1762
+          "buy": 3.181,
+          "sell": 3.181
         },
         {
           "code": "HKD",
-          "buy": 51.8775,
-          "sell": 51.8775
+          "buy": 51.9795,
+          "sell": 51.9795
         }
       ],
-      "updatedAt": "2026-11-11T03:36:40.048Z"
+      "updatedAt": "2026-11-11T11:24:35.069Z"
     }
   },
   "spToday": {
@@ -829,16 +829,31 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 50,
-        "sell": 2315
+        "buy": 146.25,
+        "sell": 146.75
+      },
+      {
+        "code": "EUR",
+        "buy": 161,
+        "sell": 60
       },
       {
         "code": "TRY",
         "buy": 50,
-        "sell": 2315
+        "sell": 2324
+      },
+      {
+        "code": "SAR",
+        "buy": 38,
+        "sell": 54
+      },
+      {
+        "code": "AED",
+        "buy": 39.42,
+        "sell": 39.96
       }
     ],
-    "updatedAt": "2026-11-11T03:36:47.197Z"
+    "updatedAt": "2026-11-11T11:24:39.185Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -848,63 +863,63 @@
       {
         "name": "PAMP Coca-Cola® Polar Bear Hugs – 5 Gram Gold Bar (Limited Edition) (Version 3)",
         "category": "Gold Bars",
-        "price": 3071,
+        "price": 3026,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-coca-cola-polar-bear-hugs-5-gram-gold-bar-limited-edition-version-3/"
       },
       {
         "name": "Sprite® 65th Anniversary – 1 Gram Gold Bar (Limited Edition) (Made by Pamp)",
         "category": "Gold Bars",
-        "price": 775,
+        "price": 765,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/sprite-1-gram-gold-bar-limited-edition-made-by-pamp/"
       },
       {
         "name": "PAMP Fender® Guitar Pick – Telecaster 75th Anniversary – 5 Gram Gold Bar (Limited Edition)",
         "category": "Gold Bars",
-        "price": 3216,
+        "price": 3171,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-fender-guitar-pick-telecaster-75th-anniversary-5-gram-gold-bar-limited-edition/"
       },
       {
         "name": "Fanta® – 1 Gram Gold Bar (Limited Edition) (Made By Pamp)",
         "category": "Gold Bars",
-        "price": 775,
+        "price": 765,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/fanta-1-gram-gold-bar-limited-edition-made-by-pamp/"
       },
       {
         "name": "Peanuts – It’s the Great Pumpkin, Charlie Brown 60th Anniversary – 0.5 Gram Gold Bar (Limited Edition) (Made by Pamp)",
         "category": "Gold Bars",
-        "price": 454,
+        "price": 450,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/peanuts-its-the-great-pumpkin-charlie-brown-60th-anniversary-0-5-gram-gold-bar-limited-edition/"
       },
       {
         "name": "PAMP Suisse Good Luck Phoenix – 10 Gram Gold Bar (Colorized) (Limited Edition)",
         "category": "Gold Bars",
-        "price": 5886,
+        "price": 5796,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-good-luck-phoenix-10-gram-gold-bar-colorized-limited-edition/"
       },
       {
         "name": "PAMP Suisse Diwali Lakshmi & Sacred Cow – 5 Gram Gold Bar (Limited Edition)",
         "category": "Gold Bars",
-        "price": 3029,
+        "price": 3011,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-diwali-lakshmi-sacred-cow-5-gram-gold-bar-limited-edition/"
       },
       {
         "name": "PAMP Suisse Lucky Pig – 1 Gram Gold Bar (Limited Edition)",
         "category": "Gold Bars",
-        "price": 873,
+        "price": 870,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-lucky-pig-1-gram-gold-bar-limited-edition/"
       },
       {
         "name": "PAMP Suisse The Nativity – 5 Gram Gold Bar (Limited Edition)",
         "category": "Gold Bars",
-        "price": 3037,
+        "price": 3019,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-the-nativity-5-gram-gold-bar-limited-edition/"
       },
@@ -925,7 +940,7 @@
       {
         "name": "Sprite® Gold Bottle Cap – 1.2 Gram Gold Coin (with Box & COA) (Limited Edition)",
         "category": "Gold Bars",
-        "price": 1588,
+        "price": 1343,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/sprite-gold-bottle-cap-1-2-gram-gold-coin-with-box-coa-limited-edition/"
       },
@@ -939,7 +954,7 @@
       {
         "name": "PAMP Suisse Diwali Lakshmi & Sacred Cow – 1 oz Silver Bar (Limited Edition)",
         "category": "Silver Bars",
-        "price": 481,
+        "price": 477,
         "currency": "MYR",
         "url": "https://www.astonandsons.com.my/product/pamp-suisse-diwali-lakshmi-sacred-cow-1-oz-silver-bar-limited-edition/"
       },
@@ -1014,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/royal-mint-great-britain-norse-gods-loki-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-11T03:36:37.194Z"
+    "updatedAt": "2026-11-11T11:24:35.786Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1023,7 +1038,7 @@
         "name": "Heraeus 1 kg (Kilogram) Gold Cast Bar – 999.9 Fine Gold",
         "url": "https://www.astonandsons.com.my/product/heraeus-1-kg-kilogram-gold-cast-bar-999-9-fine-gold/",
         "image": null,
-        "price": 542675,
+        "price": 533855,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 1000,
@@ -1034,7 +1049,7 @@
         "name": "PAMP Silver 1 Kilobar Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-silver-1-kilobar-cast-bar/",
         "image": null,
-        "price": 7970,
+        "price": 7874,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 1000,
@@ -1045,7 +1060,7 @@
         "name": "PAMP 1/2 Kilobar Gold Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-1-2-kilobar-gold-cast-bar/",
         "image": null,
-        "price": 273435,
+        "price": 268995,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 500,
@@ -1056,7 +1071,7 @@
         "name": "PAMP Fortuna 100 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-100-grams-gold-bar/",
         "image": null,
-        "price": 55297,
+        "price": 54403,
         "inStock": true,
         "stockCount": 3,
         "weightGrams": 100,
@@ -1067,7 +1082,7 @@
         "name": "PAMP Rosa 100 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-100-grams-gold-bar/",
         "image": null,
-        "price": 55297,
+        "price": 54403,
         "inStock": true,
         "stockCount": 3,
         "weightGrams": 100,
@@ -1078,7 +1093,7 @@
         "name": "PAMP 100 Grams Gold Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-100-grams-gold-cast-bar/",
         "image": null,
-        "price": 55142,
+        "price": 54247,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 100,
@@ -1089,7 +1104,7 @@
         "name": "Heraeus 100 Gram Gold Cast Bar – 999.9 Fine Gold",
         "url": "https://www.astonandsons.com.my/product/heraeus-100-gram-gold-cast-bar-999-9-fine-gold/",
         "image": null,
-        "price": 54665,
+        "price": 53778,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 100,
@@ -1100,7 +1115,7 @@
         "name": "PAMP Fortuna 50 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-50-grams-gold-bar/",
         "image": null,
-        "price": 27795,
+        "price": 27347,
         "inStock": true,
         "stockCount": 3,
         "weightGrams": 50,
@@ -1111,7 +1126,7 @@
         "name": "PAMP Rosa 50 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-50-grams-gold-bar/",
         "image": null,
-        "price": 27727,
+        "price": 27280,
         "inStock": true,
         "stockCount": 3,
         "weightGrams": 50,
@@ -1122,7 +1137,7 @@
         "name": "PAMP 50 Grams Gold Cast Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-50-grams-gold-cast-bar/",
         "image": null,
-        "price": 27664,
+        "price": 27216,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 50,
@@ -1133,7 +1148,7 @@
         "name": "Heraeus 50 Gram Gold Cast Bar – 999.9 Fine Gold",
         "url": "https://www.astonandsons.com.my/product/heraeus-50-gram-gold-cast-bar-999-9-fine-gold/",
         "image": null,
-        "price": 27375,
+        "price": 26932,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 50,
@@ -1155,7 +1170,7 @@
         "name": "PAMP Suisse 999.9 Pure 1Oz Gold Bar",
         "url": "https://www.astonandsons.com.my/product/2023-pamp-suisse-999-9-pure-1oz-gold-bar/",
         "image": null,
-        "price": 17537,
+        "price": 17255,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 31.1034768,
@@ -1166,7 +1181,7 @@
         "name": "PAMP Rosa 20 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-20-grams-gold-bar/",
         "image": null,
-        "price": 11378,
+        "price": 11197,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 20,
@@ -1177,7 +1192,7 @@
         "name": "PAMP Fortuna 20 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-20-grams-gold-bar/",
         "image": null,
-        "price": 11378,
+        "price": 11197,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 20,
@@ -1188,7 +1203,7 @@
         "name": "Al Etihad - Mecca 10 Grams Gold Bar 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-mecca-10-grams-gold-bar-999-9/",
         "image": null,
-        "price": 5983,
+        "price": 5887,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 10,
@@ -1199,7 +1214,7 @@
         "name": "PAMP Fortuna 10 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-fortuna-10-grams-gold-bar/",
         "image": null,
-        "price": 5785,
+        "price": 5694,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 10,
@@ -1210,7 +1225,7 @@
         "name": "PAMP Rosa 10 Grams Gold Bar",
         "url": "https://www.astonandsons.com.my/product/pamp-rosa-10-grams-gold-bar/",
         "image": null,
-        "price": 5785,
+        "price": 5694,
         "inStock": true,
         "stockCount": null,
         "weightGrams": 10,
@@ -1221,7 +1236,7 @@
         "name": "Al Etihad - Sunflower 5 Grams Gold Hanger 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-sunflower-5-grams-gold-hanger-999-9/",
         "image": null,
-        "price": 2995,
+        "price": 2947,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1232,7 +1247,7 @@
         "name": "Al Etihad - Mecca 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-mecca-5-grams-gold-pendant-999-9/",
         "image": null,
-        "price": 2995,
+        "price": 2947,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1243,7 +1258,7 @@
         "name": "Al Etihad - Daffodils 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-daffodils-5-grams-gold-pendant-999-9/",
         "image": null,
-        "price": 2995,
+        "price": 2947,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1254,7 +1269,7 @@
         "name": "Al Etihad - Lily 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-lily-5-grams-gold-pendant-999-9/",
         "image": null,
-        "price": 2995,
+        "price": 2947,
         "inStock": false,
         "stockCount": null,
         "weightGrams": 5,
@@ -1265,7 +1280,7 @@
         "name": "Al Etihad - Lady Flower 5 Grams Gold Pendant 999.9",
         "url": "https://www.astonandsons.com.my/product/al-etihad-lady-flower-5-grams-gold-pendant-999-9/",
         "image": null,
-        "price": 2995,
+        "price": 2947,
         "inStock": true,
         "stockCount": 3,
         "weightGrams": 5,
@@ -1273,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-11T03:36:40.755Z"
+    "updatedAt": "2026-11-11T11:25:02.860Z"
   },
   "derived": {
     "usdMyrMid": 4.0555,
-    "goldMyrPerGram": 527.71,
-    "silverMyrPerGram": 6.84,
-    "platinumMyrPerGram": 204.19
+    "goldMyrPerGram": 528.75,
+    "silverMyrPerGram": 6.93,
+    "platinumMyrPerGram": 205.1
   },
   "sourceStatus": [
     {
