@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-13T11:45:36.714Z",
+  "updatedAt": "2026-11-13T18:47:15.172Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 3892.649902,
-      "silver": 49.875,
-      "platinum": 1513.900024,
-      "updatedAt": "2026-11-13T11:45:23Z"
+      "gold": 3886.300049,
+      "silver": 48.974998,
+      "platinum": 1492.300049,
+      "updatedAt": "2026-11-13T18:46:55Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.6246,
-        "BRL": 6.2241,
-        "CAD": 1.5789,
-        "CHF": 0.9232,
-        "CNY": 7.3891,
-        "CZK": 24.379,
-        "DKK": 7.4754,
-        "GBP": 0.83595,
-        "HKD": 8.6928,
-        "HUF": 364.98,
-        "IDR": 20225.76,
-        "ILS": 3.5495,
-        "INR": 104.2118,
+        "AUD": 1.6288,
+        "BRL": 6.2595,
+        "CAD": 1.5758,
+        "CHF": 0.9266,
+        "CNY": 7.3738,
+        "CZK": 24.424,
+        "DKK": 7.4756,
+        "GBP": 0.83559,
+        "HKD": 8.6714,
+        "HUF": 365.6,
+        "IDR": 20163.71,
+        "ILS": 3.5485,
+        "INR": 104.1575,
         "ISK": 136.6,
-        "JPY": 176.96,
-        "KRW": 1478.32,
-        "MXN": 20.7113,
-        "MYR": 4.5194,
-        "NOK": 10.563,
-        "NZD": 1.9942,
-        "PHP": 70.616,
-        "PLN": 4.4088,
-        "RON": 5.3473,
-        "SEK": 11.0628,
-        "SGD": 1.4249,
-        "THB": 37.47,
-        "TRY": 55.6906,
-        "USD": 1.1081,
-        "ZAR": 18.5219
+        "JPY": 176.83,
+        "KRW": 1477.8,
+        "MXN": 20.5491,
+        "MYR": 4.5175,
+        "NOK": 10.5695,
+        "NZD": 1.9978,
+        "PHP": 70.526,
+        "PLN": 4.4113,
+        "RON": 5.3494,
+        "SEK": 11.1075,
+        "SGD": 1.4236,
+        "THB": 37.483,
+        "TRY": 55.6667,
+        "USD": 1.1052,
+        "ZAR": 18.7481
       },
-      "updatedAt": "2026-11-12"
+      "updatedAt": "2026-11-13"
     }
   },
   "myCashRates": {
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-11-13T11:45:26.251Z"
+      "updatedAt": "2026-11-13T18:47:10.154Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -848,7 +848,7 @@
         "sell": 40.1
       }
     ],
-    "updatedAt": "2026-11-13T11:45:36.713Z"
+    "updatedAt": "2026-11-13T18:47:15.171Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1024,7 +1024,7 @@
         "url": "https://www.astonandsons.com.my/product/royal-mint-great-britain-norse-gods-loki-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-13T11:45:26.410Z"
+    "updatedAt": "2026-11-13T18:47:10.015Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1283,13 +1283,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-13T11:45:28.803Z"
+    "updatedAt": "2026-11-13T18:47:10.464Z"
   },
   "derived": {
     "usdMyrMid": 4.0788,
-    "goldMyrPerGram": 510.46,
-    "silverMyrPerGram": 6.54,
-    "platinumMyrPerGram": 198.53
+    "goldMyrPerGram": 509.63,
+    "silverMyrPerGram": 6.42,
+    "platinumMyrPerGram": 195.69
   },
   "sourceStatus": [
     {
@@ -1320,7 +1320,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
