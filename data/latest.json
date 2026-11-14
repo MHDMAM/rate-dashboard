@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T11:01:55.305Z",
+  "updatedAt": "2026-11-14T16:56:08.875Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 3887.600098,
       "silver": 48.650002,
       "platinum": 1492.199951,
-      "updatedAt": "2026-11-14T11:01:24Z"
+      "updatedAt": "2026-11-14T16:55:55Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-11-14T11:01:48.383Z"
+      "updatedAt": "2026-11-14T16:56:03.218Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -829,31 +829,16 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 148.5,
-        "sell": 149.25
-      },
-      {
-        "code": "EUR",
-        "buy": 162,
-        "sell": 90
+        "buy": 50,
+        "sell": 2549
       },
       {
         "code": "TRY",
         "buy": 50,
         "sell": 2549
-      },
-      {
-        "code": "SAR",
-        "buy": 38,
-        "sell": 95
-      },
-      {
-        "code": "AED",
-        "buy": 40.03,
-        "sell": 40.63
       }
     ],
-    "updatedAt": "2026-11-14T11:01:54.404Z"
+    "updatedAt": "2026-11-14T16:56:07.889Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1014,7 @@
         "url": "https://www.astonandsons.com.my/product/royal-mint-great-britain-norse-gods-loki-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-14T11:01:48.754Z"
+    "updatedAt": "2026-11-14T16:56:04.362Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,7 +1273,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-14T11:01:52.837Z"
+    "updatedAt": "2026-11-14T16:56:05.090Z"
   },
   "derived": {
     "usdMyrMid": 4.0865,
