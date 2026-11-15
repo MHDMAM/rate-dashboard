@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T11:28:22.754Z",
+  "updatedAt": "2026-11-15T17:54:33.836Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 3887.600098,
       "silver": 48.650002,
       "platinum": 1492.199951,
-      "updatedAt": "2026-11-15T03:38:26Z"
+      "updatedAt": "2026-11-15T17:53:57Z"
     },
     "goldPriceOrg": null
   },
@@ -519,7 +519,7 @@
           "sell": 1.75
         }
       ],
-      "updatedAt": "2026-11-15T11:28:12.651Z"
+      "updatedAt": "2026-11-15T17:54:23.205Z"
     },
     "myMoneyMaster": {
       "source": "My Money Master",
@@ -829,8 +829,13 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 149.5,
-        "sell": 150.25
+        "buy": 149.25,
+        "sell": 150
+      },
+      {
+        "code": "EUR",
+        "buy": 163,
+        "sell": 70
       },
       {
         "code": "TRY",
@@ -840,15 +845,15 @@
       {
         "code": "SAR",
         "buy": 39,
-        "sell": 21
+        "sell": 14
       },
       {
         "code": "AED",
-        "buy": 40.3,
-        "sell": 40.91
+        "buy": 40.23,
+        "sell": 40.84
       }
     ],
-    "updatedAt": "2026-11-15T11:28:17.116Z"
+    "updatedAt": "2026-11-15T17:54:33.836Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1024,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/royal-mint-great-britain-norse-gods-loki-1-oz-silver-bar-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-15T11:28:14.586Z"
+    "updatedAt": "2026-11-15T17:54:23.048Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1283,7 +1288,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-15T11:28:14.364Z"
+    "updatedAt": "2026-11-15T17:54:24.113Z"
   },
   "derived": {
     "usdMyrMid": 4.0858,
@@ -1294,8 +1299,7 @@
   "sourceStatus": [
     {
       "name": "gold-api.com",
-      "ok": false,
-      "error": "fetch failed"
+      "ok": true
     },
     {
       "name": "goldprice.org",
