@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T04:39:26.966Z",
+  "updatedAt": "2026-11-21T12:59:03.137Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 3539,
       "silver": 41.080002,
       "platinum": 1286,
-      "updatedAt": "2026-11-21T04:39:07Z"
+      "updatedAt": "2026-11-21T12:58:37Z"
     },
     "goldPriceOrg": null
   },
@@ -829,16 +829,31 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 50,
-        "sell": 5174
+        "buy": 150,
+        "sell": 150.5
+      },
+      {
+        "code": "EUR",
+        "buy": 163,
+        "sell": 20
       },
       {
         "code": "TRY",
         "buy": 50,
         "sell": 5174
+      },
+      {
+        "code": "SAR",
+        "buy": 39,
+        "sell": 58
+      },
+      {
+        "code": "AED",
+        "buy": 40.43,
+        "sell": 40.97
       }
     ],
-    "updatedAt": "2026-11-21T04:39:20.190Z"
+    "updatedAt": "2026-11-21T12:59:03.137Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1014,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/coca-cola-americana-1-oz-silver-colorized-round-tep-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-21T04:39:16.748Z"
+    "updatedAt": "2026-11-21T12:58:56.830Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1273,7 +1288,7 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-21T04:39:18.196Z"
+    "updatedAt": "2026-11-21T12:58:58.503Z"
   },
   "derived": {
     "usdMyrMid": 4.1127,
