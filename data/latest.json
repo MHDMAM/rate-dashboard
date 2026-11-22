@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T03:54:00.166Z",
+  "updatedAt": "2026-11-22T12:01:55.277Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
@@ -8,7 +8,7 @@
       "gold": 3539,
       "silver": 41.080002,
       "platinum": 1286,
-      "updatedAt": "2026-11-22T03:53:39Z"
+      "updatedAt": "2026-11-22T12:01:39Z"
     },
     "goldPriceOrg": null
   },
@@ -829,13 +829,8 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 150,
-        "sell": 150.5
-      },
-      {
-        "code": "EUR",
-        "buy": 163,
-        "sell": 20
+        "buy": 150.75,
+        "sell": 151.25
       },
       {
         "code": "TRY",
@@ -845,15 +840,15 @@
       {
         "code": "SAR",
         "buy": 39,
-        "sell": 58
+        "sell": 78
       },
       {
         "code": "AED",
-        "buy": 40.43,
-        "sell": 40.97
+        "buy": 40.63,
+        "sell": 41.18
       }
     ],
-    "updatedAt": "2026-11-22T03:54:00.166Z"
+    "updatedAt": "2026-11-22T12:01:52.871Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1340,11 +1335,13 @@
     },
     {
       "name": "Aston & Sons",
-      "ok": true
+      "ok": false,
+      "error": "fetch failed"
     },
     {
       "name": "Aston & Sons (featured)",
-      "ok": true
+      "ok": false,
+      "error": "no featured products parsed"
     }
   ]
 }
