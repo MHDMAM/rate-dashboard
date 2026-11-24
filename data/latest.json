@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-24T12:25:51.994Z",
+  "updatedAt": "2026-11-24T22:38:57.135Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 3623.550049,
-      "silver": 42.110001,
-      "platinum": 1284.099976,
-      "updatedAt": "2026-11-24T12:25:14Z"
+      "gold": 3554.899902,
+      "silver": 40.713001,
+      "platinum": 1257.5,
+      "updatedAt": "2026-11-24T22:38:45Z"
     },
     "goldPriceOrg": null
   },
@@ -192,37 +192,37 @@
       "sourceUrl": "https://www.frankfurter.app/",
       "base": "EUR",
       "rates": {
-        "AUD": 1.6532,
-        "BRL": 6.5611,
-        "CAD": 1.5711,
-        "CHF": 0.9186,
-        "CNY": 7.2905,
-        "CZK": 24.455,
-        "DKK": 7.4746,
-        "GBP": 0.83673,
-        "HKD": 8.5772,
-        "HUF": 372.28,
-        "IDR": 19932.94,
-        "ILS": 3.6643,
-        "INR": 101.6395,
+        "AUD": 1.6507,
+        "BRL": 6.4349,
+        "CAD": 1.5707,
+        "CHF": 0.9183,
+        "CNY": 7.3063,
+        "CZK": 24.428,
+        "DKK": 7.4744,
+        "GBP": 0.837,
+        "HKD": 8.597,
+        "HUF": 369.7,
+        "IDR": 19983.58,
+        "ILS": 3.6618,
+        "INR": 101.867,
         "ISK": 137.2,
-        "JPY": 174.01,
-        "KRW": 1475.51,
-        "MXN": 21.0528,
-        "MYR": 4.5101,
-        "NOK": 10.7285,
-        "NZD": 2.0079,
-        "PHP": 69.851,
-        "PLN": 4.4588,
-        "RON": 5.3483,
-        "SEK": 11.2375,
-        "SGD": 1.4124,
-        "THB": 37.242,
-        "TRY": 55.3405,
-        "USD": 1.0939,
-        "ZAR": 19.1513
+        "JPY": 174.39,
+        "KRW": 1473.99,
+        "MXN": 21.1238,
+        "MYR": 4.5118,
+        "NOK": 10.735,
+        "NZD": 2.0038,
+        "PHP": 69.929,
+        "PLN": 4.4599,
+        "RON": 5.3442,
+        "SEK": 11.221,
+        "SGD": 1.4141,
+        "THB": 37.197,
+        "TRY": 55.5029,
+        "USD": 1.0963,
+        "ZAR": 19.2333
       },
-      "updatedAt": "2026-11-23"
+      "updatedAt": "2026-11-24"
     }
   },
   "myCashRates": {
@@ -829,31 +829,16 @@
     "rates": [
       {
         "code": "USD",
-        "buy": 151.5,
-        "sell": 152
-      },
-      {
-        "code": "EUR",
-        "buy": 164,
-        "sell": 70
+        "buy": 50,
+        "sell": 6607
       },
       {
         "code": "TRY",
         "buy": 50,
-        "sell": 6274
-      },
-      {
-        "code": "SAR",
-        "buy": 39,
-        "sell": 97
-      },
-      {
-        "code": "AED",
-        "buy": 40.83,
-        "sell": 41.38
+        "sell": 6607
       }
     ],
-    "updatedAt": "2026-11-24T12:25:49.796Z"
+    "updatedAt": "2026-11-24T22:38:57.135Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1014,7 @@
         "url": "https://www.astonandsons.com.my/product/coca-cola-americana-1-oz-silver-colorized-round-tep-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-24T12:25:44.116Z"
+    "updatedAt": "2026-11-24T22:38:52.047Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,13 +1273,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-24T12:25:51.994Z"
+    "updatedAt": "2026-11-24T22:38:55.036Z"
   },
   "derived": {
     "usdMyrMid": 4.1228,
-    "goldMyrPerGram": 480.3,
-    "silverMyrPerGram": 5.58,
-    "platinumMyrPerGram": 170.21
+    "goldMyrPerGram": 471.2,
+    "silverMyrPerGram": 5.4,
+    "platinumMyrPerGram": 166.68
   },
   "sourceStatus": [
     {
@@ -1326,7 +1311,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
