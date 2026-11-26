@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-25T16:38:48.164Z",
+  "updatedAt": "2026-11-26T05:49:34.131Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 3460.899902,
-      "silver": 38.555,
-      "platinum": 1216.099976,
-      "updatedAt": "2026-11-25T16:37:16Z"
+      "gold": 3591.100098,
+      "silver": 41.748001,
+      "platinum": 1287,
+      "updatedAt": "2026-11-26T05:49:17Z"
     },
     "goldPriceOrg": null
   },
@@ -771,56 +771,56 @@
     "bnm": {
       "source": "Bank Negara Malaysia (BNM)",
       "sourceUrl": "https://www.bnm.gov.my/exchange-rates",
-      "session": "0900",
+      "session": "1200",
       "rateType": "SR",
       "rates": [
         {
           "code": "USD",
-          "buy": 4.112,
-          "sell": 4.112
+          "buy": 4.12,
+          "sell": 4.12
         },
         {
           "code": "GBP",
-          "buy": 5.3933,
-          "sell": 5.3933
+          "buy": 5.398,
+          "sell": 5.398
         },
         {
           "code": "EUR",
-          "buy": 4.5084,
-          "sell": 4.5084
+          "buy": 4.5163,
+          "sell": 4.5163
         },
         {
           "code": "JPY",
-          "buy": 2.5824,
-          "sell": 2.5824
+          "buy": 2.5889,
+          "sell": 2.5889
         },
         {
           "code": "CHF",
-          "buy": 4.9216,
-          "sell": 4.9216
+          "buy": 4.9537,
+          "sell": 4.9537
         },
         {
           "code": "AUD",
-          "buy": 2.7369,
-          "sell": 2.7369
+          "buy": 2.7361,
+          "sell": 2.7361
         },
         {
           "code": "CAD",
-          "buy": 2.8828,
-          "sell": 2.8828
+          "buy": 2.8973,
+          "sell": 2.8973
         },
         {
           "code": "SGD",
-          "buy": 3.1898,
-          "sell": 3.1898
+          "buy": 3.1938,
+          "sell": 3.1938
         },
         {
           "code": "HKD",
-          "buy": 52.4296,
-          "sell": 52.4296
+          "buy": 52.5651,
+          "sell": 52.5651
         }
       ],
-      "updatedAt": "2026-11-25T05:56:48.574Z"
+      "updatedAt": "2026-11-26T05:49:25.156Z"
     }
   },
   "spToday": {
@@ -1019,7 +1019,7 @@
         "url": "https://www.astonandsons.com.my/product/coca-cola-americana-1-oz-silver-colorized-round-tep-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-25T16:37:47.856Z"
+    "updatedAt": "2026-11-26T05:49:23.835Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1278,13 +1278,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-25T16:38:48.164Z"
+    "updatedAt": "2026-11-26T05:49:24.541Z"
   },
   "derived": {
     "usdMyrMid": 4.1155,
-    "goldMyrPerGram": 457.93,
-    "silverMyrPerGram": 5.1,
-    "platinumMyrPerGram": 160.91
+    "goldMyrPerGram": 475.16,
+    "silverMyrPerGram": 5.52,
+    "platinumMyrPerGram": 170.29
   },
   "sourceStatus": [
     {
@@ -1316,12 +1316,12 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": false,
-      "error": "no rows parsed for today at session 0900"
+      "ok": true
     },
     {
       "name": "SP-Today",
-      "ok": true
+      "ok": false,
+      "error": "no rates parsed - page structure may have changed"
     },
     {
       "name": "SP-Today Gold",
