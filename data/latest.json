@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-26T15:50:17.397Z",
+  "updatedAt": "2026-11-27T00:04:44.248Z",
   "metals": {
     "goldApi": {
       "source": "gold-api.com",
       "sourceUrl": "https://gold-api.com/",
       "unit": "USD/oz",
-      "gold": 3570.199951,
-      "silver": 41.310001,
-      "platinum": 1285.300049,
-      "updatedAt": "2026-11-26T15:49:48Z"
+      "gold": 3565.699951,
+      "silver": 41.299999,
+      "platinum": 1278.75,
+      "updatedAt": "2026-11-27T00:04:18Z"
     },
     "goldPriceOrg": null
   },
@@ -853,7 +853,7 @@
         "sell": 41.79
       }
     ],
-    "updatedAt": "2026-11-26T15:50:17.397Z"
+    "updatedAt": "2026-11-27T00:04:42.224Z"
   },
   "spTodayGold": null,
   "astonAndSons": {
@@ -1029,7 +1029,7 @@
         "url": "https://www.astonandsons.com.my/product/coca-cola-americana-1-oz-silver-colorized-round-tep-limited-edition/"
       }
     ],
-    "updatedAt": "2026-11-26T15:50:08.059Z"
+    "updatedAt": "2026-11-27T00:04:39.404Z"
   },
   "featuredProducts": {
     "source": "Aston & Sons (featured)",
@@ -1288,13 +1288,13 @@
         "metal": "gold"
       }
     ],
-    "updatedAt": "2026-11-26T15:50:10.241Z"
+    "updatedAt": "2026-11-27T00:04:40.370Z"
   },
   "derived": {
     "usdMyrMid": 4.1193,
-    "goldMyrPerGram": 472.83,
+    "goldMyrPerGram": 472.24,
     "silverMyrPerGram": 5.47,
-    "platinumMyrPerGram": 170.22
+    "platinumMyrPerGram": 169.36
   },
   "sourceStatus": [
     {
@@ -1326,7 +1326,8 @@
     },
     {
       "name": "Bank Negara Malaysia",
-      "ok": true
+      "ok": false,
+      "error": "no rows parsed for today at session 0900"
     },
     {
       "name": "SP-Today",
